@@ -1,0 +1,34 @@
+---
+type: moc
+topic: data-platform
+created: 2026-02-21
+tags: []
+---
+
+# DATA TRENDS
+
+[https://www.youtube.com/watch?v=Os0MO9SHS3M](https://www.youtube.com/watch?v=Os0MO9SHS3M)
+
+%% MOC START %%
+- [[30 WIKI/DATA PLATFORM/AI/AI]]
+- [[BEST PRACTICES]]
+- [[Board Miro]]
+- [[CARTOGRAFIA]]
+- [[DATA MESH]]
+- [[DATA QUALITY]]
+- [[DATAHUB]]
+- [[30 WIKI/DATA PLATFORM/DBT/DBT]]
+- [[DIAGRAMMA INFRASTRUTTURA]]
+- [[DIMENSIONAMENTO]]
+- [[DOCUMENTI LD]]
+- [[30 WIKI/DATA PLATFORM/DREMIO/DREMIO]]
+- [[DUCKDB]]
+- [[FORMATI E STANDARD]]
+- [[ICEBERG]]
+- [[INGESTION]]
+- [[MEETINGS]]
+- [[30 WIKI/DATA PLATFORM/OPENMETADATA/OPENMETADATA]]
+- [[PIANO DI PROGETTO]]
+- [[SCHEMI]]
+- [[WAP PATTERN]]
+%% MOC END %%

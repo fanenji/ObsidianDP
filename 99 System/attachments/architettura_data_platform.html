@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Platform Regionale — Architettura</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Syne:wght@400;600;700;800&display=swap');
+
+  :root {
+    --bg: #0d0f14;
+    --surface: #13161e;
+    --surface2: #1a1e28;
+    --border: #252a38;
+    --accent: #4f9cf9;
+    --accent2: #7c6af5;
+    --accent3: #3ecf8e;
+    --accent4: #f97b4f;
+    --accent5: #f7c948;
+    --text: #e2e6f0;
+    --text-muted: #6b7694;
+    --text-dim: #3d4460;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  header {
+    padding: 48px 60px 40px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .header-left h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+    color: #fff;
+  }
+  .header-left h1 span { color: var(--accent); }
+  .header-left p {
+    margin-top: 10px;
+    color: var(--text-muted);
+    font-size: 12px;
+    max-width: 480px;
+  }
+  .badge {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 6px 14px;
+    font-size: 11px;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+
+  /* ── LAYOUT ── */
+  main {
+    padding: 48px 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  /* ── SECTION TITLES ── */
+  .section-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* ── ARCH OVERVIEW DIAGRAM ── */
+  .arch-diagram {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 36px;
+  }
+
+  .arch-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .arch-layer {
+    border-radius: 6px;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .layer-header {
+    padding: 8px 20px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+  }
+
+  .layer-fruizione .layer-header { background: rgba(79,156,249,0.12); color: var(--accent); border-bottom: 1px solid rgba(79,156,249,0.2); }
+  .layer-core .layer-header { background: rgba(124,106,245,0.12); color: var(--accent2); border-bottom: 1px solid rgba(124,106,245,0.2); }
+  .layer-fonti .layer-header { background: rgba(62,207,142,0.12); color: var(--accent3); border-bottom: 1px solid rgba(62,207,142,0.2); }
+  .layer-trasversale .layer-header { background: rgba(247,201,72,0.10); color: var(--accent5); border-bottom: 1px solid rgba(247,201,72,0.18); }
+
+  .layer-fruizione { border: 1px solid rgba(79,156,249,0.2); }
+  .layer-core { border: 1px solid rgba(124,106,245,0.2); }
+  .layer-fonti { border: 1px solid rgba(62,207,142,0.2); }
+  .layer-trasversale { border: 1px solid rgba(247,201,72,0.18); }
+
+  .layer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 16px 20px;
+  }
+
+  .chip {
+    border-radius: 4px;
+    padding: 5px 12px;
+    font-size: 11px;
+    font-weight: 600;
+    white-space: nowrap;
+    border: 1px solid transparent;
+  }
+
+  .chip-blue { background: rgba(79,156,249,0.1); color: #90c4ff; border-color: rgba(79,156,249,0.25); }
+  .chip-purple { background: rgba(124,106,245,0.1); color: #b3a8ff; border-color: rgba(124,106,245,0.25); }
+  .chip-green { background: rgba(62,207,142,0.1); color: #6edcac; border-color: rgba(62,207,142,0.25); }
+  .chip-yellow { background: rgba(247,201,72,0.1); color: #f7d97a; border-color: rgba(247,201,72,0.22); }
+  .chip-orange { background: rgba(249,123,79,0.1); color: #ffaa88; border-color: rgba(249,123,79,0.25); }
+
+  .arrow-down {
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 18px;
+    line-height: 1;
+    padding: 2px 0;
+  }
+
+  /* ── DATA FLOW DIAGRAM ── */
+  .flow-diagram {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 36px;
+    overflow-x: auto;
+  }
+
+  .flow-row {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    min-width: 900px;
+  }
+
+  .flow-node {
+    flex: 1;
+    text-align: center;
+  }
+
+  .flow-box {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 14px 16px;
+    min-width: 110px;
+    min-height: 70px;
+    gap: 5px;
+    border: 1px solid;
+  }
+
+  .flow-box-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+
+  .flow-box-name {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  .fb-green { background: rgba(62,207,142,0.08); border-color: rgba(62,207,142,0.3); color: #6edcac; }
+  .fb-orange { background: rgba(249,123,79,0.08); border-color: rgba(249,123,79,0.3); color: #ffaa88; }
+  .fb-blue { background: rgba(79,156,249,0.08); border-color: rgba(79,156,249,0.3); color: #90c4ff; }
+  .fb-purple { background: rgba(124,106,245,0.08); border-color: rgba(124,106,245,0.3); color: #b3a8ff; }
+  .fb-yellow { background: rgba(247,201,72,0.08); border-color: rgba(247,201,72,0.3); color: #f7d97a; }
+  .fb-red { background: rgba(239,83,80,0.08); border-color: rgba(239,83,80,0.3); color: #ff9999; }
+
+  .flow-arrow {
+    color: var(--text-dim);
+    font-size: 20px;
+    padding: 0 4px;
+    flex-shrink: 0;
+  }
+
+  .flow-sub {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+  }
+
+  .flow-sub-chip {
+    font-size: 10px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 2px 8px;
+    color: var(--text-muted);
+  }
+
+  .catalog-bar {
+    margin-top: 20px;
+    background: rgba(247,201,72,0.06);
+    border: 1px dashed rgba(247,201,72,0.25);
+    border-radius: 6px;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-width: 900px;
+  }
+
+  .catalog-bar-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent5);
+    white-space: nowrap;
+  }
+
+  .catalog-bar-line {
+    flex: 1;
+    height: 1px;
+    background: repeating-linear-gradient(90deg, rgba(247,201,72,0.3) 0, rgba(247,201,72,0.3) 6px, transparent 6px, transparent 14px);
+  }
+
+  /* ── COMPONENT TABLE ── */
+  .comp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+  }
+
+  .comp-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 20px;
+    transition: border-color 0.2s;
+  }
+
+  .comp-card:hover { border-color: rgba(79,156,249,0.35); }
+
+  .comp-card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 8px;
+  }
+
+  .comp-name {
+    font-family: 'Syne', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .comp-tag {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 3px 8px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .tag-storage { background: rgba(62,207,142,0.12); color: #6edcac; }
+  .tag-query { background: rgba(79,156,249,0.12); color: #90c4ff; }
+  .tag-orchestration { background: rgba(249,123,79,0.12); color: #ffaa88; }
+  .tag-catalog { background: rgba(247,201,72,0.12); color: #f7d97a; }
+  .tag-analysis { background: rgba(124,106,245,0.12); color: #b3a8ff; }
+  .tag-visualization { background: rgba(239,83,80,0.12); color: #ff9999; }
+  .tag-monitoring { background: rgba(180,180,180,0.12); color: #ccc; }
+  .tag-geo { background: rgba(72,207,172,0.12); color: #72d9b8; }
+  .tag-distribution { background: rgba(200,130,255,0.12); color: #d8aaff; }
+  .tag-infra { background: rgba(252,100,61,0.12); color: #fc9070; }
+
+  .comp-desc {
+    font-size: 11.5px;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  .comp-features {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .feat-pill {
+    font-size: 10px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 2px 8px;
+    color: var(--text-dim);
+  }
+
+  /* ── INTEGRATION MATRIX ── */
+  .int-diagram {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 36px;
+    overflow-x: auto;
+  }
+
+  .int-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    min-width: 700px;
+    position: relative;
+  }
+
+  .int-hub {
+    background: rgba(79,156,249,0.12);
+    border: 2px solid rgba(79,156,249,0.4);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    box-shadow: 0 0 40px rgba(79,156,249,0.12);
+  }
+
+  .int-hub-name {
+    font-family: 'Syne', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--accent);
+  }
+
+  .int-hub-label {
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-top: 3px;
+  }
+
+  .int-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .int-node {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-align: center;
+    min-width: 130px;
+  }
+
+  .int-node.active {
+    border-color: rgba(124,106,245,0.4);
+    background: rgba(124,106,245,0.08);
+    color: #b3a8ff;
+  }
+
+  /* ── LEGEND ── */
+  .legend {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  .legend-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* ── NOTES BOX ── */
+  .notes-box {
+    background: rgba(79,156,249,0.05);
+    border: 1px solid rgba(79,156,249,0.2);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+    padding: 16px 20px;
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
+
+  .notes-box strong { color: var(--text); }
+
+  footer {
+    text-align: center;
+    padding: 32px;
+    border-top: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 11px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <h1>Data Platform <span>Regionale</span><br>Schema Architetturale</h1>
+    <p>Sintesi dell'architettura, elenco componenti e diagrammi di flusso — elaborato dal documento LD23GPS-PA7665-002 v1</p>
+  </div>
+  <div class="badge">Liguria Digitale · 2023 · v1</div>
+</header>
+
+<main>
+
+  <!-- ═══════════════════════════════════════════════
+       1. SCHEMA PER LIVELLI
+  ════════════════════════════════════════════════ -->
+  <section>
+    <div class="section-title">01 — Schema per livelli logici</div>
+
+    <div class="arch-diagram">
+      <div class="arch-stack">
+
+        <!-- TRASVERSALE -->
+        <div class="arch-layer layer-trasversale">
+          <div class="layer-header">⬡ Trasversale — Governance & Monitoraggio</div>
+          <div class="layer-content">
+            <span class="chip chip-yellow">OpenMetadata (Data Catalog)</span>
+            <span class="chip chip-yellow">OpenSearch (Log Aggregator)</span>
+            <span class="chip chip-yellow">GitLab (Source Control & CI/CD)</span>
+            <span class="chip chip-yellow">LDAP / Identity Management</span>
+          </div>
+        </div>
+
+        <div class="arrow-down">↕</div>
+
+        <!-- FRUIZIONE -->
+        <div class="arch-layer layer-fruizione">
+          <div class="layer-header">⬡ Fruizione — Utenti e Sistemi Esterni</div>
+          <div class="layer-content">
+            <span class="chip chip-blue">Apache Superset</span>
+            <span class="chip chip-blue">Power BI (integrazione)</span>
+            <span class="chip chip-blue">Open Data Portal CKAN</span>
+            <span class="chip chip-blue">API End-point (WSO2)</span>
+            <span class="chip chip-blue">OpenData Downloader</span>
+            <span class="chip chip-blue">Componenti Cartografiche</span>
+            <span class="chip chip-blue">Jupyter Notebooks</span>
+          </div>
+        </div>
+
+        <div class="arrow-down">↕</div>
+
+        <!-- CORE -->
+        <div class="arch-layer layer-core">
+          <div class="layer-header">⬡ Core — Elaborazione e Orchestrazione</div>
+          <div class="layer-content">
+            <span class="chip chip-purple">Kestra (Orchestrator)</span>
+            <span class="chip chip-purple">dbt (Transformation Repository)</span>
+            <span class="chip chip-purple">Dremio (Query Engine / Data Virtualization)</span>
+            <span class="chip chip-purple">Project Nessie (Table Catalog)</span>
+            <span class="chip chip-purple">Apache Iceberg (Table Format)</span>
+          </div>
+        </div>
+
+        <div class="arrow-down">↕</div>
+
+        <!-- FONTI -->
+        <div class="arch-layer layer-fonti">
+          <div class="layer-header">⬡ Fonti — Storage e Sorgenti</div>
+          <div class="layer-content">
+            <span class="chip chip-green">MinIO (Object Storage S3)</span>
+            <span class="chip chip-green">Oracle DB</span>
+            <span class="chip chip-green">SQL Server / Postgres / MySQL</span>
+            <span class="chip chip-green">API / FTP / File</span>
+            <span class="chip chip-green">Elastic / MongoDB / HDFS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       2. DIAGRAMMA FLUSSO DEL DATO
+  ════════════════════════════════════════════════ -->
+  <section>
+    <div class="section-title">02 — Ciclo di vita del dato (pipeline)</div>
+
+    <div class="flow-diagram">
+      <div class="flow-row">
+
+        <div class="flow-node">
+          <div class="flow-box fb-green">
+            <span class="flow-box-label">Fonti</span>
+            <span class="flow-box-name">Sorgenti<br>Dati</span>
+          </div>
+          <div class="flow-sub">
+            <span class="flow-sub-chip">Oracle</span>
+            <span class="flow-sub-chip">SQL Server</span>
+            <span class="flow-sub-chip">API</span>
+            <span class="flow-sub-chip">File</span>
+          </div>
+        </div>
+
+        <div class="flow-arrow">→</div>
+
+        <div class="flow-node">
+          <div class="flow-box fb-orange">
+            <span class="flow-box-label">Ingestion</span>
+            <span class="flow-box-name">ELT<br>Extraction</span>
+          </div>
+          <div class="flow-sub">
+            <span class="flow-sub-chip">Kestra</span>
+          </div>
+        </div>
+
+        <div class="flow-arrow">→</div>
+
+        <div class="flow-node">
+          <div class="flow-box fb-blue">
+            <span class="flow-box-label">Data Lake</span>
+            <span class="flow-box-name">MinIO<br>+ Iceberg</span>
+          </div>
+          <div class="flow-sub">
+            <span class="flow-sub-chip">Nessie</span>
+            <span class="flow-sub-chip">Parquet</span>
+            <span class="flow-sub-chip">RAW</span>
+          </div>
+        </div>
+
+        <div class="flow-arrow">→</div>
+
+        <div class="flow-node">
+          <div class="flow-box fb-purple">
+            <span class="flow-box-label">Transform</span>
+            <span class="flow-box-name">dbt<br>+ Dremio</span>
+          </div>
+          <div class="flow-sub">
+            <span class="flow-sub-chip">Bronze</span>
+            <span class="flow-sub-chip">Silver</span>
+            <span class="flow-sub-chip">Gold</span>
+          </div>
+        </div>
+
+        <div class="flow-arrow">→</div>
+
+        <div class="flow-node">
+          <div class="flow-box fb-yellow">
+            <span class="flow-box-label">Consumo</span>
+            <span class="flow-box-name">Fruizione<br>& API</span>
+          </div>
+          <div class="flow-sub">
+            <span class="flow-sub-chip">Superset</span>
+            <span class="flow-sub-chip">CKAN</span>
+            <span class="flow-sub-chip">REST</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Catalog bar spanning all -->
+      <div class="catalog-bar">
+        <span class="catalog-bar-label">OpenMetadata (Data Catalog)</span>
+        <div class="catalog-bar-line"></div>
+        <span style="font-size:10px; color: var(--text-muted)">Lineage · Metadati · Governance · Quality · Discovery</span>
+        <div class="catalog-bar-line"></div>
+        <span class="catalog-bar-label">OpenSearch (Logging)</span>
+      </div>
+    </div>
+
+    <div class="notes-box" style="margin-top:16px">
+      <strong>Pattern ELT:</strong> il dato viene estratto in formato grezzo e caricato nel Data Lake <em>prima</em> di essere trasformato. 
+      Le trasformazioni sono catalogate in <strong>dbt</strong> e versionate tramite <strong>Project Nessie</strong>, 
+      permettendo rollback e gestione di ambienti multipli (dev / prod). 
+      <strong>Kestra</strong> orchestra e monitora ogni fase della pipeline.
+      Tutto il codice (pipeline, trasformazioni, configurazioni infrastrutturali) è ospitato e versionato in <strong>GitLab</strong>, che gestisce anche i deployment via CI/CD.
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       3. ELENCO COMPONENTI
+  ════════════════════════════════════════════════ -->
+  <section>
+    <div class="section-title">03 — Componenti della piattaforma</div>
+    <div class="comp-grid">
+
+      <!-- MinIO -->
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">MinIO</div>
+          <span class="comp-tag tag-storage">Storage</span>
+        </div>
+        <div class="comp-desc">Object storage S3-compatible. Cuore fisico del Data Lake. Cluster da 4 nodi con erasure coding per ridondanza. ~32 TB utilizzabili.</div>
+        <div class="comp-features">
+          <span class="feat-pill">S3 API</span>
+          <span class="feat-pill">Erasure Set</span>
+          <span class="feat-pill">Bucket Notifications</span>
+          <span class="feat-pill">Versioning</span>
+          <span class="feat-pill">Data Tiering</span>
+          <span class="feat-pill">LDAP / OpenID</span>
+        </div>
+      </div>
+
+      <!-- Iceberg -->
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">Apache Iceberg</div>
+          <span class="comp-tag tag-storage">Table Format</span>
+        </div>
+        <div class="comp-desc">Table format open source per il Data Lake. Abilita transazioni ACID su object storage, schema evolution e time travel su Parquet/ORC.</div>
+        <div class="comp-features">
+          <span class="feat-pill">ACID</span>
+          <span class="feat-pill">Schema Evolution</span>
+          <span class="feat-pill">Time Travel</span>
+          <span class="feat-pill">Version Rollback</span>
+          <span class="feat-pill">Hidden Partitioning</span>
+        </div>
+      </div>
+
+      <!-- Nessie -->
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">Project Nessie</div>
+          <span class="comp-tag tag-storage">Table Catalog</span>
+        </div>
+        <div class="comp-desc">Catalogo transazionale open source con versionamento git-like del Data Lake. Gestisce branch e merge su insiemi di tabelle Iceberg.</div>
+        <div class="comp-features">
+          <span class="feat-pill">Git-like branching</span>
+          <span class="feat-pill">Multi-table versioning</span>
+          <span class="feat-pill">Metadata catalog</span>
+          <span class="feat-pill">S3 / MinIO backend</span>
+        </div>
+      </div>
+
+      <!-- Dremio -->
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">Dremio</div>
+          <span class="comp-tag tag-query">Query Engine</span>
+        </div>
+        <div class="comp-desc">Data virtualization layer. Espone interfaccia SQL unificata su fonti eterogenee. Cache in-memory (Reflections). Cluster coordinator + 3 executor.</div>
+        <div class="comp-features">
+          <span class="feat-pill">ANSI SQL</span>
+          <span class="feat-pill">Arrow Flight</span>
+          <span class="feat-pill">ODBC/JDBC</span>
+          <span class="feat-pill">VDS / PDS</span>
+          <span class="feat-pill">Row/Col Security</span>
+          <span class="feat-pill">Semantic Layer</span>
+          <span class="feat-pill">Data Lineage</span>
+        </div>
+      </div>
+
+      <!-- dbt -->
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">dbt</div>
+          <span class="comp-tag tag-analysis">Transformation</span>
+        </div>
+        <div class="comp-desc">Repository centralizzato di tutte le trasformazioni SQL/Python. Integrazione nativa con Dremio e Nessie. Abilita testing, documentazione automatica e version control delle pipeline di trasformazione.</div>
+        <div class="comp-features">
+          <span class="feat-pill">SQL + Python</span>
+          <span class="feat-pill">Macros</span>
+          <span class="feat-pill">Data Tests</span>
+          <span class="feat-pill">Auto-docs</span>
+          <span class="feat-pill">Nessie branching</span>
+        </div>
+      </div>
+
+      <!-- Kestra -->
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">Kestra</div>
+          <span class="comp-tag tag-orchestration">Orchestrator</span>
+        </div>
+        <div class="comp-desc">Piattaforma di orchestrazione scelta per il progetto (non nel documento originale). Gestisce scheduling, dipendenze, monitoring e alerting di tutte le pipeline ELT della piattaforma.</div>
+        <div class="comp-features">
+          <span class="feat-pill">DAG / Flow</span>
+          <span class="feat-pill">Scheduling</span>
+          <span class="feat-pill">Event triggers</span>
+          <span class="feat-pill">RBAC</span>
+          <span class="feat-pill">Alerting</span>
+          <span class="feat-pill">Web UI</span>
+        </div>
+      </div>
+
+      <!-- OpenMetadata -->
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">OpenMetadata</div>
+          <span class="comp-tag tag-catalog">Data Catalog</span>
+        </div>
+        <div class="comp-desc">Catalogo dati unico per tutto il patrimonio informativo regionale. Fonte di verità per metadati, lineage, qualità del dato e governance. Sostituisce DataHub nella configurazione adottata.</div>
+        <div class="comp-features">
+          <span class="feat-pill">Data Discovery</span>
+          <span class="feat-pill">Data Lineage</span>
+          <span class="feat-pill">Data Quality</span>
+          <span class="feat-pill">Ownership / RBAC</span>
+          <span class="feat-pill">Webhook notifiche</span>
+          <span class="feat-pill">dbt integration</span>
+          <span class="feat-pill">LDAP / SSO</span>
+          <span class="feat-pill">DCAT-AP</span>
+        </div>
+      </div>
+
+      <!-- Superset -->
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">Apache Superset</div>
+          <span class="comp-tag tag-visualization">Visualization</span>
+        </div>
+        <div class="comp-desc">Piattaforma BI open source. Affianca Power BI per la visualizzazione interattiva dei dati. Supporta embedding di dashboard in applicazioni gestionali. Connessione diretta a Dremio via sqlalchemy_dremio.</div>
+        <div class="comp-features">
+          <span class="feat-pill">Dashboard</span>
+          <span class="feat-pill">Chart Builder</span>
+          <span class="feat-pill">Row-level security</span>
+          <span class="feat-pill">Embedding React</span>
+          <span class="feat-pill">LDAP / OAuth</span>
+        </div>
+      </div>
+
+      <!-- Jupyter -->
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">Jupyter</div>
+          <span class="comp-tag tag-analysis">Exploration</span>
+        </div>
+        <div class="comp-desc">Ambiente notebook per data exploration, analisi interattiva e prototipazione. Accede a Dremio tramite SQL/Arrow Flight. Stack Python: Pandas, NumPy, GeoPandas, Leafmap, Seaborn.</div>
+        <div class="comp-features">
+          <span class="feat-pill">JupyterHub</span>
+          <span class="feat-pill">JupyterLab</span>
+          <span class="feat-pill">Python stack</span>
+          <span class="feat-pill">Geo analysis</span>
+          <span class="feat-pill">Leafmap</span>
+        </div>
+      </div>
+
+      <!-- OpenSearch -->
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">OpenSearch</div>
+          <span class="comp-tag tag-monitoring">Monitoring</span>
+        </div>
+        <div class="comp-desc">Log aggregator centralizzato per tutti i nodi e componenti. Raccoglie metriche via Metricbeat (agenti push). Fornisce dashboard, alerting e analisi dei pattern di sistema.</div>
+        <div class="comp-features">
+          <span class="feat-pill">Full-text search</span>
+          <span class="feat-pill">Metricbeat agents</span>
+          <span class="feat-pill">Alerting</span>
+          <span class="feat-pill">ML anomaly detection</span>
+          <span class="feat-pill">Free on-prem</span>
+        </div>
+      </div>
+
+      <!-- Componenti Geo -->
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">Stack Cartografico</div>
+          <span class="comp-tag tag-geo">Geo</span>
+        </div>
+        <div class="comp-desc">Insieme di librerie per l'analisi e la visualizzazione geospaziale integrata nella piattaforma.</div>
+        <div class="comp-features">
+          <span class="feat-pill">GDAL (conversione)</span>
+          <span class="feat-pill">DuckDB Spatial</span>
+          <span class="feat-pill">GeoPandas</span>
+          <span class="feat-pill">Leafmap</span>
+          <span class="feat-pill">deck.gl</span>
+          <span class="feat-pill">PBI-Carto</span>
+          <span class="feat-pill">WMS / GeoParquet</span>
+        </div>
+      </div>
+
+      <!-- Open Data -->
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">Distribuzione Open Data</div>
+          <span class="comp-tag tag-distribution">Distribution</span>
+        </div>
+        <div class="comp-desc">Insieme di componenti per la pubblicazione e distribuzione dei dati aperti ai cittadini e ai sistemi nazionali (PDND).</div>
+        <div class="comp-features">
+          <span class="feat-pill">CKAN Portal</span>
+          <span class="feat-pill">OpenData Downloader</span>
+          <span class="feat-pill">API REST (WSO2)</span>
+          <span class="feat-pill">PDND compliance</span>
+          <span class="feat-pill">DCAT-AP</span>
+          <span class="feat-pill">AGID guidelines</span>
+        </div>
+      </div>
+
+      <div class="comp-card">
+        <div class="comp-card-header">
+          <div class="comp-name">GitLab</div>
+          <span class="comp-tag tag-infra">Infrastruttura</span>
+        </div>
+        <div class="comp-desc">Sistema centrale di source control, CI/CD e container registry. Istanza unica che governa tutti gli ambienti della data platform (dev, test, prod). Ospita sia il codice infrastrutturale (Helm charts) che applicativo (progetti dbt, script di pipeline).</div>
+        <div class="comp-features">
+          <span class="feat-pill">Git repository hosting</span>
+          <span class="feat-pill">Branching & versioning</span>
+          <span class="feat-pill">CI/CD pipelines</span>
+          <span class="feat-pill">Docker Registry</span>
+          <span class="feat-pill">Helm charts</span>
+          <span class="feat-pill">Multi-environment (dev/test/prod)</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  ════════════════════════════════════════════════ -->
+  <section>
+    <div class="section-title">04 — Dremio come hub di accesso al dato</div>
+
+    <div class="int-diagram">
+      <div class="int-center">
+
+        <!-- INPUT -->
+        <div class="int-column">
+          <div class="int-node">MinIO / Iceberg</div>
+          <div class="int-node">Nessie Catalog</div>
+          <div class="int-node">Oracle / SQL Server</div>
+          <div class="int-node">Altri DB / File</div>
+        </div>
+
+        <!-- arrows -->
+        <div style="display:flex; flex-direction:column; align-items:center; gap:6px">
+          <span style="font-size:22px; color: var(--text-dim)">→</span>
+          <span style="font-size:10px; color: var(--text-dim); letter-spacing:1px; text-transform:uppercase">Sources</span>
+        </div>
+
+        <!-- HUB -->
+        <div class="int-hub">
+          <span class="int-hub-name">Dremio</span>
+          <span class="int-hub-label">Query Engine<br>Data Virtualiz.</span>
+        </div>
+
+        <!-- arrows -->
+        <div style="display:flex; flex-direction:column; align-items:center; gap:6px">
+          <span style="font-size:22px; color: var(--text-dim)">→</span>
+          <span style="font-size:10px; color: var(--text-dim); letter-spacing:1px; text-transform:uppercase">Consumers</span>
+        </div>
+
+        <!-- OUTPUT -->
+        <div class="int-column">
+          <div class="int-node active">dbt (trasformazioni)</div>
+          <div class="int-node active">Apache Superset</div>
+          <div class="int-node active">Power BI</div>
+          <div class="int-node active">Jupyter Notebooks</div>
+          <div class="int-node active">API REST end-point</div>
+        </div>
+
+      </div>
+
+      <div class="legend">
+        <div class="legend-item"><div class="legend-dot" style="background: var(--accent3)"></div>Interfacce esposte: SQL · ODBC · JDBC · Arrow Flight · REST</div>
+        <div class="legend-item"><div class="legend-dot" style="background: var(--accent2)"></div>Security: Row-level · Column-level · Space-based RBAC</div>
+        <div class="legend-item"><div class="legend-dot" style="background: var(--accent5)"></div>Cache in-memory (Reflections) per query ad alta frequenza</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════
+       5. NOTE SCELTE ADOTTATE
+  ════════════════════════════════════════════════ -->
+  <section>
+    <div class="section-title">05 — Scelte adottate rispetto al documento originale</div>
+
+    <div class="notes-box">
+      <strong>Data Catalog:</strong> scelto <strong>OpenMetadata</strong> (DataHub escluso). Motivazione: architettura più semplice, pull-based ingestion, integrazione nativa con dbt, supporto LDAP/SSO/SAML.<br><br>
+      <strong>Orchestratore:</strong> scelto <strong>Kestra</strong> (non presente nel documento originale) in sostituzione delle alternative valutate (Airflow, Mage, NiFi). Kestra copre orchestrazione, ELT management, scheduling e monitoraggio in un unico strumento con UI moderna e paradigma dichiarativo YAML.<br><br>
+      <strong>Source Control & CI/CD:</strong> aggiunto <strong>GitLab</strong> come componente trasversale. Unica istanza per tutti gli ambienti (dev, test, prod). Ospita repository infrastrutturali (Helm charts) e applicativi (progetti dbt). Gestisce pipeline CI/CD e Docker Registry per le immagini dei componenti.<br><br>
+      <strong>Componente Kafka:</strong> <em>non implementato</em>. L'ingestion avviene direttamente tramite Kestra senza message broker intermedio.<br><br>
+      <strong>Componente Spark:</strong> <em>non implementato</em>. Il processing è delegato al motore interno di Dremio (con reflections) e alle trasformazioni dbt.<br><br>
+      <strong>Notebook:</strong> scelto <strong>Jupyter</strong> (Zeppelin escluso) come ambiente di data exploration interattiva.
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Data Platform Regionale · Liguria Digitale · Documento LD23GPS-PA7665-002 · Schema sintetico
+</footer>
+
+</body>
+</html>

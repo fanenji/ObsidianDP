@@ -1,0 +1,253 @@
+---
+tags: ["config-details"]
+---
+
+# DATAHUB / DBT
+
+[https://docs.datahub.com/docs/1.3.0/generated/ingestion/sources/dbtconfig-details](https://docs.datahub.com/docs/1.3.0/generated/ingestion/sources/dbtconfig-details)
+
+# CONCEPT MAPPING
+
+| **Source Concept** | **DataHub Concept**                                                                                         | **Notes**          |
+| ------------------ | ----------------------------------------------------------------------------------------------------------- | ------------------ |
+| Source             | [Dataset](https://docs.datahub.com/docs/1.3.0/generated/metamodel/entities/dataset)                         | Subtype `Source`   |
+| Seed               | [Dataset](https://docs.datahub.com/docs/1.3.0/generated/metamodel/entities/dataset)                         | Subtype `Seed`     |
+| Model              | [Dataset](https://docs.datahub.com/docs/1.3.0/generated/metamodel/entities/dataset)                         | Subtype `Model`    |
+| Snapshot           | [Dataset](https://docs.datahub.com/docs/1.3.0/generated/metamodel/entities/dataset)                         | Subtype `Snapshot` |
+| Test               | [Assertion](https://docs.datahub.com/docs/1.3.0/generated/metamodel/entities/assertion)                     |                    |
+| Test Result        | [Assertion Run Result](https://docs.datahub.com/docs/1.3.0/generated/metamodel/entities/assertion)          |                    |
+| Model Runs         | [DataProcessInstance](https://docs.datahub.com/docs/1.3.0/generated/metamodel/entities/dataprocessinstance) |                    |
+
+# DBT ARTIFACTS
+
+The artifacts used by this source are:
+
+- [dbt manifest file](https://docs.getdbt.com/reference/artifacts/manifest-json)
+    - This file contains model, source, tests and lineage data.
+- [dbt catalog file](https://docs.getdbt.com/reference/artifacts/catalog-json)
+    - This file contains schema data.
+    - dbt does not record schema data for Ephemeral models, as such datahub will show Ephemeral models in the lineage, however there will be no associated schema for Ephemeral models
+- [dbt sources file](https://docs.getdbt.com/reference/artifacts/sources-json)
+    - This file contains metadata for sources with freshness checks.
+    - We transfer dbt's freshness checks to DataHub's last-modified fields.
+    - Note that this file is optional – if not specified, we'll use time of ingestion instead as a proxy for time last-modified.
+- [dbt run_results file](https://docs.getdbt.com/reference/artifacts/run-results-json)
+    - This file contains metadata from the result of a dbt run, e.g. dbt test
+    - When provided, we transfer dbt test run results into assertion run events to see a timeline of test runs on the dataset
+
+# DBT WORKFLOW
+
+To generate these files, we recommend this workflow for dbt build and datahub ingestion.
+
+```bash
+dbt source snapshot-freshness
+dbt build
+cp target/run_results.json target/run_results_backup.json
+dbt docs generate
+cp target/run_results_backup.json target/run_results.json
+
+# Run datahub ingestion, pointing at the files in the target/ directory
+```
+
+# RECIPE: dbt-datahub.yml
+
+```yaml
+source:
+  type: dbt
+  config:
+    manifest_path: /home/jovyan/CookieCutter_Test/Kady_Test/testscriptvenv/target/manifest.json
+    catalog_path: /home/jovyan/CookieCutter_Test/Kady_Test/testscriptvenv/target/catalog.json
+    include_column_lineage: true
+    infer_dbt_schemas: true
+    enable_meta_mapping: true
+    target_platform: dremio
+    column_meta_mapping:
+      aria:
+        match: True
+        operation: "add_term"
+        config:
+          term: "aria"
+      is_sensitive:
+        match: True
+        operation: "add_tag"
+        config:
+          tag: "sensitive"
+
+sink:
+  type: datahub-rest
+  config:
+    server: http://datahub-datahub-gms.datahub.svc.cluster.local:8080
+    token: eyJhbGciOiJIUzI1NiJ9.eyJhY3RvclR5cGUiOiJVU0VSIiwiYWN0b3JJZCI6ImRhdGFodWIiLCJ0eXBlIjoiUEVSU09OQUwiLCJ2ZXJzaW9uIjoiMiIsImp0aSI6ImQyZGVmNjYxLTllMDMtNDk3OC1iZmI3LWFlZDE3M2FlZjdiZiIsInN1YiI6ImRhdGFodWIiLCJpc3MiOiJkYXRhaHViLW1ldGFkYXRhLXNlcnZpY2UifQ.CewNRnPtYi7lp_8womUwCq94OjkPnZzED5uhozY0Fsc
+```
+
+# CONFIG PARAMS
+
+**meta_mapping**
+
+- mapping rules that will be executed against dbt meta properties. Refer to the section below on dbt meta automated mappings.
+Default: {}
+
+**owner_extraction_pattern**
+
+- Regex string to extract owner from the dbt node
+
+    Default: None
+
+**query_tag_mapping**
+
+- mapping rules that will be executed against dbt query_tag meta properties. Refer to the section below on dbt meta automated mappings.
+Default: {}
+
+# META
+
+## dbt
+
+dbt meta: [https://docs.getdbt.com/reference/resource-configs/meta](https://docs.getdbt.com/reference/resource-configs/meta)
+
+The `meta` field can be used to set metadata for a resource and accepts any key-value pairs. This metadata is compiled into the `manifest.json` file generated by dbt, and is viewable in the auto-generated documentation.
+
+```yaml
+models:
+  - name: users
+    config:
+      **meta:
+        owner: "@alice"
+        model_maturity: in dev**
+        
+
+sources:
+  - name: salesforce
+    tables:
+      - name: account
+        config:
+          **meta:
+            has_pii: true**
+        columns:
+          - name: email
+            config:
+              **meta: # changed to config in v1.10 and backported to 1.9
+                has_pii: true**
+```
+
+## Datahub meta_mapping
+
+DataHub dbt source allows users to define actions such as add a tag, term or owner. For example if a dbt model has a meta config `"has_pii": True`, we can define an action that evaluates if the property is set to true and add, lets say, a `pii` tag. To leverage this feature we require users to define mappings as part of the recipe.
+
+```yaml
+meta_mapping:
+  business_owner:
+    match: ".*"
+    operation: "add_owner"
+    config:
+      owner_type: user
+      owner_category: BUSINESS_OWNER
+  has_pii:
+    match: True
+    operation: "add_tag"
+    config:
+      tag: "has_pii"
+  int_property:
+    match: 1
+    operation: "add_tag"
+    config:
+      tag: "int_meta_property"
+  double_property:
+    match: 2.5
+    operation: "add_term"
+    config:
+      term: "double_meta_property"
+  data_governance.team_owner:
+    match: "Finance"
+    operation: "add_term"
+    config:
+      term: "Finance_test"
+  terms_list:
+    match: ".*"
+    operation: "add_terms"
+    config:
+      separator: ","
+  documentation_link:
+    match: "(?:https?)?\:\/\/\w*[^#]*"
+    operation: "add_doc_link"
+    config:
+      link: {{ $match }}
+      description: "Documentation Link"
+column_meta_mapping:
+  terms_list:
+    match: ".*"
+    operation: "add_terms"
+    config:
+      separator: ","
+  is_sensitive:
+    match: True
+    operation: "add_tag"
+    config:
+      tag: "sensitive"
+  gdpr.pii:
+    match: true
+    operation: "add_tag"
+    config:
+      tag: "pii"
+```
+
+We support the following operations:
+
+1. add_tag - Requires `tag` property in config.
+2. add_term - Requires `term` property in config.
+3. add_terms - Accepts an optional `separator` property in config.
+4. add_owner - Requires `owner_type` property in config which can be either `user` or `group`. Optionally accepts the `owner_category` config property which can be set to either a [custom ownership type](https://docs.datahub.com/docs/1.3.0/ownership/ownership-types) urn like `urn:li:ownershipType:architect` or one of `['TECHNICAL_OWNER', 'BUSINESS_OWNER', 'DATA_STEWARD', 'DATAOWNER'` (defaults to `DATAOWNER`).
+    - The `owner_type` property will be ignored if the owner is a fully qualified urn.
+    - You can use commas to specify multiple owners - e.g. `business_owner: "jane,john,urn:li:corpGroup:data-team"`.
+1. add_doc_link - Requires `link` and `description` properties in config. Upon ingestion run, this will overwrite current links in the institutional knowledge section with this new link. The anchor text is defined here in the meta_mappings as `description`.
+
+Note:
+
+1. The dbt `meta_mapping` config works at the model level, while  the  `column_meta_mapping`  config works at the column level. The `add_owner` operation is not supported at the column level.
+2. For string meta properties we support regex matching.
+3. **List support**: YAML lists are now supported in meta properties. Each item in the list that matches the regex pattern will be processed.
+
+With regex matching, you can also use the matched value to customize how you populate the tag, term or owner fields.
+
+# **Integrating with dbt test**
+
+To integrate with dbt tests, the `dbt` source needs access to the `run_results.json` file generated after a `dbt test` or `dbt build` execution. Typically, this is written to the `target` directory. A common pattern you can follow is:
+
+1. Run `dbt build`
+2. Copy the `target/run_results.json` file to a separate location. This is important, because otherwise subsequent `dbt` commands will overwrite the run results.
+3. Run `dbt docs generate` to generate the `manifest.json` and `catalog.json` files
+4. The dbt source makes use of the manifest, catalog, and run results file, and hence will need to be moved to a location accessible to the `dbt` source (e.g. s3 or local file system). In the ingestion recipe, the `run_results_paths` config must be set to the location of the `run_results.json` file from the `dbt build`or `dbt test` run.
+
+The connector will produce the following things:
+
+- Assertion definitions that are attached to the dataset (or datasets)
+- Results from running the tests attached to the timeline of the dataset
+
+# Multiple dbt projects
+
+In more complex dbt setups, you may have multiple dbt projects, where models from one project are used as sources in another project. DataHub supports this setup natively.
+
+Each dbt project should have its own dbt ingestion recipe, and the `platform_instance` field in the recipe should be set to the dbt project name.
+
+```yaml
+# Analytics dbt project
+source:
+  type: dbt
+  config:
+    platform_instance: analytics
+    target_platform: postgres
+    manifest_path: analytics/target/manifest.json
+    catalog_path: analytics/target/catalog.json
+    # ... other configs
+```
+
+```yaml
+# Data Mart dbt project
+source:
+  type: dbt
+  config:
+    platform_instance: data_mart
+    target_platform: postgres
+    manifest_path: data_mart/target/manifest.json
+    catalog_path: data_mart/target/catalog.json
+    # ... other configs
+```
