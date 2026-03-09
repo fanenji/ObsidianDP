@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Documento Architettura",
-      "path": "20 PROJECTS/DATA PLATFORM/Documento Architettura.md"
+      "basename": "01 INBOX",
+      "path": "01 INBOX/01 INBOX.md"
     },
     {
-      "basename": "DATA PLATFORM",
-      "path": "20 PROJECTS/DATA PLATFORM/DATA PLATFORM.canvas"
+      "basename": "03 WIKI",
+      "path": "03 WIKI/03 WIKI.md"
+    },
+    {
+      "basename": "02 PROJECT",
+      "path": "02 PROJECT/02 PROJECT.canvas"
+    },
+    {
+      "basename": "Board Miro",
+      "path": "02 PROJECT/Board Miro.md"
+    },
+    {
+      "basename": "Citazioni",
+      "path": "02 PROJECT/Citazioni.md"
+    },
+    {
+      "basename": "DIAGRAMMA INFRASTRUTTURA",
+      "path": "02 PROJECT/DIAGRAMMA INFRASTRUTTURA.md"
+    },
+    {
+      "basename": "DIMENSIONAMENTO",
+      "path": "02 PROJECT/DIMENSIONAMENTO.md"
+    },
+    {
+      "basename": "Divisione Ingestion e Analisi",
+      "path": "02 PROJECT/Divisione Ingestion e Analisi.md"
+    },
+    {
+      "basename": "Documento Architettura",
+      "path": "02 PROJECT/Documento Architettura.md"
     },
     {
       "basename": "00 TODO",
@@ -38,11 +66,11 @@
     },
     {
       "basename": "CI-CD GIT FLOW",
-      "path": "20 PROJECTS/DATA PLATFORM/PROCESSO/CI-CD GIT FLOW.md"
+      "path": "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md"
     },
     {
       "basename": "Architettura (Claude Sintesi)",
-      "path": "30 WIKI/DATA PLATFORM/Architettura (Claude Sintesi).md"
+      "path": "03 WIKI/Architettura (Claude Sintesi).md"
     },
     {
       "basename": "LD23GPS-PA7665-002_Documento_Architettura_DataPlatform_v01_03",
@@ -62,11 +90,7 @@
     },
     {
       "basename": "ARCHITETTURA",
-      "path": "30 WIKI/DATA PLATFORM/CARTOGRAFIA/EVOLUZIONE IDT/ARCHITETTURA.md"
-    },
-    {
-      "basename": "DATA PLATFORM",
-      "path": "30 WIKI/DATA PLATFORM/DATA PLATFORM.md"
+      "path": "03 WIKI/CARTOGRAFIA/EVOLUZIONE IDT/ARCHITETTURA.md"
     },
     {
       "basename": "LD23GPS-PA7665-001-DataPlatform_v01_03_pdf_preview",
@@ -122,59 +146,43 @@
     },
     {
       "basename": "SINTESI",
-      "path": "30 WIKI/DATA PLATFORM/CARTOGRAFIA/INGESTION DATI GEO/ETL VETTORIALI/SINTESI.md"
+      "path": "03 WIKI/CARTOGRAFIA/INGESTION DATI GEO/ETL VETTORIALI/SINTESI.md"
     },
     {
       "basename": "GEOPARQUET",
-      "path": "30 WIKI/DATA PLATFORM/CARTOGRAFIA/EVOLUZIONE IDT/GEOPARQUET.md"
+      "path": "03 WIKI/CARTOGRAFIA/EVOLUZIONE IDT/GEOPARQUET.md"
     },
     {
       "basename": "WAP PATTERN",
-      "path": "30 WIKI/DATA PLATFORM/WAP PATTERN.md"
+      "path": "03 WIKI/WAP PATTERN.md"
     },
     {
       "basename": "SCHEMI",
-      "path": "30 WIKI/DATA PLATFORM/SCHEMI.md"
+      "path": "03 WIKI/SCHEMI.md"
     },
     {
       "basename": "ICEBERG",
-      "path": "30 WIKI/DATA PLATFORM/ICEBERG.md"
+      "path": "03 WIKI/ICEBERG.md"
     },
     {
       "basename": "PIANO DI PROGETTO",
-      "path": "20 PROJECTS/DATA PLATFORM/PIANO DI PROGETTO.md"
+      "path": "02 PROJECT/PIANO DI PROGETTO.md"
     },
     {
       "basename": "How to Build a Data Agent in 2026",
-      "path": "30 WIKI/DATA PLATFORM/How to Build a Data Agent in 2026.md"
-    },
-    {
-      "basename": "DIMENSIONAMENTO",
-      "path": "20 PROJECTS/DATA PLATFORM/DIMENSIONAMENTO.md"
+      "path": "03 WIKI/How to Build a Data Agent in 2026.md"
     },
     {
       "basename": "DATA MESH",
-      "path": "30 WIKI/DATA PLATFORM/DATA MESH.md"
+      "path": "03 WIKI/DATA MESH.md"
     },
     {
       "basename": "CI-CD",
-      "path": "30 WIKI/DATA PLATFORM/CI-CD.md"
-    },
-    {
-      "basename": "Board Miro",
-      "path": "20 PROJECTS/DATA PLATFORM/Board Miro.md"
-    },
-    {
-      "basename": "DIAGRAMMA INFRASTRUTTURA",
-      "path": "20 PROJECTS/DATA PLATFORM/DIAGRAMMA INFRASTRUTTURA.md"
+      "path": "03 WIKI/CI-CD.md"
     },
     {
       "basename": "Diagramma Infrastruttura",
       "path": "99 System/attachments/Diagramma Infrastruttura.png"
-    },
-    {
-      "basename": "Citazioni",
-      "path": "20 PROJECTS/DATA PLATFORM/Citazioni.md"
     },
     {
       "basename": "_KANBAN",
@@ -191,10 +199,6 @@
     {
       "basename": "CLAUDE.md - Be careful with init",
       "path": "30 WIKI/AI/CLAUDE CODE/CLAUDE.md - Be careful with init.md"
-    },
-    {
-      "basename": "claude-mem",
-      "path": "30 WIKI/AI/CLAUDE CODE/claude-mem.md"
     }
   ],
   "omittedPaths": [],
