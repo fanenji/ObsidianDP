@@ -24,8 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Untitled/Untitled.md",
-      "timestamp": 1773000880254
+      "filepath": "00 TODO/00 TODO.md",
+      "timestamp": 1773042295314
+    },
+    {
+      "filepath": "Templates/Bases/Bases.md",
+      "timestamp": 1773042193452
+    },
+    {
+      "filepath": "Templates/Templates.md",
+      "timestamp": 1773042193395
+    },
+    {
+      "filepath": "01 INBOX/Journal/Journal.md",
+      "timestamp": 1773042161205
+    },
+    {
+      "filepath": "03 WIKI/WAP PATTERN.md",
+      "timestamp": 1773041990689
     }
   ],
   "bookmarkedFileStore": [],

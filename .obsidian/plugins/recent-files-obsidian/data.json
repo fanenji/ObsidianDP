@@ -1,6 +1,122 @@
 {
   "recentFiles": [
     {
+      "basename": "00 TODO",
+      "path": "00 TODO/00 TODO.md"
+    },
+    {
+      "basename": "Bases",
+      "path": "Templates/Bases/Bases.md"
+    },
+    {
+      "basename": "Templates",
+      "path": "Templates/Templates.md"
+    },
+    {
+      "basename": "Journal",
+      "path": "01 INBOX/Journal/Journal.md"
+    },
+    {
+      "basename": "WAP PATTERN",
+      "path": "03 WIKI/WAP PATTERN.md"
+    },
+    {
+      "basename": "SCHEMI",
+      "path": "03 WIKI/SCHEMI.md"
+    },
+    {
+      "basename": "ICEBERG",
+      "path": "03 WIKI/ICEBERG.md"
+    },
+    {
+      "basename": "How to Build a Data Agent in 2026",
+      "path": "03 WIKI/How to Build a Data Agent in 2026.md"
+    },
+    {
+      "basename": "FORMATI E STANDARD",
+      "path": "03 WIKI/FORMATI E STANDARD.md"
+    },
+    {
+      "basename": "DATA MESH",
+      "path": "03 WIKI/DATA MESH.md"
+    },
+    {
+      "basename": "CI-CD",
+      "path": "03 WIKI/CI-CD.md"
+    },
+    {
+      "basename": "BEST PRACTICES",
+      "path": "03 WIKI/BEST PRACTICES.md"
+    },
+    {
+      "basename": "Architettura (Claude Sintesi)",
+      "path": "03 WIKI/Architettura (Claude Sintesi).md"
+    },
+    {
+      "basename": "BRAINSTORMING GEMINI",
+      "path": "03 WIKI/BRAINSTORMING GEMINI.md"
+    },
+    {
+      "basename": "AI & DataScience",
+      "path": "03 WIKI/AI/AI & DataScience.md"
+    },
+    {
+      "basename": "Problema PDS - VDS (Anastasia)",
+      "path": "02 PROJECT/Problema PDS - VDS (Anastasia).md"
+    },
+    {
+      "basename": "PIANO GENERALE ATTIVITA’",
+      "path": "02 PROJECT/PIANO GENERALE ATTIVITA’.md"
+    },
+    {
+      "basename": "PIANO DI PROGETTO",
+      "path": "02 PROJECT/PIANO DI PROGETTO.md"
+    },
+    {
+      "basename": "INSTALLAZIONE AMBIENTE TEST",
+      "path": "02 PROJECT/INSTALLAZIONE AMBIENTE TEST.md"
+    },
+    {
+      "basename": "GESTIONE SECRETS",
+      "path": "02 PROJECT/GESTIONE SECRETS.md"
+    },
+    {
+      "basename": "Gestione Cataloghi Nessie",
+      "path": "02 PROJECT/Gestione Cataloghi Nessie.md"
+    },
+    {
+      "basename": "Documento Architettura",
+      "path": "02 PROJECT/Documento Architettura.md"
+    },
+    {
+      "basename": "Divisione Ingestion e Analisi",
+      "path": "02 PROJECT/Divisione Ingestion e Analisi.md"
+    },
+    {
+      "basename": "90 ARCHIVE",
+      "path": "90 ARCHIVE/90 ARCHIVE.md"
+    },
+    {
+      "basename": "E4",
+      "path": "90 ARCHIVE/E4.md"
+    },
+    {
+      "basename": "DIMENSIONAMENTO",
+      "path": "02 PROJECT/DIMENSIONAMENTO.md"
+    },
+    {
+      "basename": "DIAGRAMMA INFRASTRUTTURA",
+      "path": "02 PROJECT/DIAGRAMMA INFRASTRUTTURA.md"
+    },
+    {
+      "basename": "Citazioni",
+      "path": "02 PROJECT/Citazioni.md"
+    },
+    {
+      "basename": "Board Miro",
+      "path": "02 PROJECT/Board Miro.md"
+    },
+    {
       "basename": "01 INBOX",
       "path": "01 INBOX/01 INBOX.md"
     },
@@ -11,34 +127,6 @@
     {
       "basename": "02 PROJECT",
       "path": "02 PROJECT/02 PROJECT.canvas"
-    },
-    {
-      "basename": "Board Miro",
-      "path": "02 PROJECT/Board Miro.md"
-    },
-    {
-      "basename": "Citazioni",
-      "path": "02 PROJECT/Citazioni.md"
-    },
-    {
-      "basename": "DIAGRAMMA INFRASTRUTTURA",
-      "path": "02 PROJECT/DIAGRAMMA INFRASTRUTTURA.md"
-    },
-    {
-      "basename": "DIMENSIONAMENTO",
-      "path": "02 PROJECT/DIMENSIONAMENTO.md"
-    },
-    {
-      "basename": "Divisione Ingestion e Analisi",
-      "path": "02 PROJECT/Divisione Ingestion e Analisi.md"
-    },
-    {
-      "basename": "Documento Architettura",
-      "path": "02 PROJECT/Documento Architettura.md"
-    },
-    {
-      "basename": "00 TODO",
-      "path": "00 TODO/00 TODO.md"
     },
     {
       "basename": "CLAUDE CODE",
@@ -67,10 +155,6 @@
     {
       "basename": "CI-CD GIT FLOW",
       "path": "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md"
-    },
-    {
-      "basename": "Architettura (Claude Sintesi)",
-      "path": "03 WIKI/Architettura (Claude Sintesi).md"
     },
     {
       "basename": "LD23GPS-PA7665-002_Documento_Architettura_DataPlatform_v01_03",
@@ -115,90 +199,6 @@
     {
       "basename": "LD23GPS-PA7665-001-DataPlatform_v01_03",
       "path": "99 System/attachments/LD23GPS-PA7665-001-DataPlatform_v01_03.pdf"
-    },
-    {
-      "basename": "Anthropic Hackaton Winner",
-      "path": "30 WIKI/AI/CLAUDE CODE/Anthropic Hackaton Winner.md"
-    },
-    {
-      "basename": "Templates",
-      "path": "Templates/Bases/Templates.base"
-    },
-    {
-      "basename": "Meetings",
-      "path": "Templates/Bases/Meetings.base"
-    },
-    {
-      "basename": "Daily",
-      "path": "Templates/Bases/Daily.base"
-    },
-    {
-      "basename": "Clippings",
-      "path": "Templates/Bases/Clippings.base"
-    },
-    {
-      "basename": "Ricerca Note",
-      "path": "99 System/Ricerca Note.base"
-    },
-    {
-      "basename": "CC-2026-02-22-Vault-Analysis",
-      "path": "30 WIKI/AI/SESSIONS/CC-2026-02-22-Vault-Analysis.md"
-    },
-    {
-      "basename": "SINTESI",
-      "path": "03 WIKI/CARTOGRAFIA/INGESTION DATI GEO/ETL VETTORIALI/SINTESI.md"
-    },
-    {
-      "basename": "GEOPARQUET",
-      "path": "03 WIKI/CARTOGRAFIA/EVOLUZIONE IDT/GEOPARQUET.md"
-    },
-    {
-      "basename": "WAP PATTERN",
-      "path": "03 WIKI/WAP PATTERN.md"
-    },
-    {
-      "basename": "SCHEMI",
-      "path": "03 WIKI/SCHEMI.md"
-    },
-    {
-      "basename": "ICEBERG",
-      "path": "03 WIKI/ICEBERG.md"
-    },
-    {
-      "basename": "PIANO DI PROGETTO",
-      "path": "02 PROJECT/PIANO DI PROGETTO.md"
-    },
-    {
-      "basename": "How to Build a Data Agent in 2026",
-      "path": "03 WIKI/How to Build a Data Agent in 2026.md"
-    },
-    {
-      "basename": "DATA MESH",
-      "path": "03 WIKI/DATA MESH.md"
-    },
-    {
-      "basename": "CI-CD",
-      "path": "03 WIKI/CI-CD.md"
-    },
-    {
-      "basename": "Diagramma Infrastruttura",
-      "path": "99 System/attachments/Diagramma Infrastruttura.png"
-    },
-    {
-      "basename": "_KANBAN",
-      "path": "00 TODO/_KANBAN.md"
-    },
-    {
-      "basename": "CUSTOM COMMANDS",
-      "path": "30 WIKI/AI/CLAUDE CODE/CUSTOM COMMANDS.md"
-    },
-    {
-      "basename": "COMANDI",
-      "path": "30 WIKI/AI/CLAUDE CODE/COMANDI.md"
-    },
-    {
-      "basename": "CLAUDE.md - Be careful with init",
-      "path": "30 WIKI/AI/CLAUDE CODE/CLAUDE.md - Be careful with init.md"
     }
   ],
   "omittedPaths": [],

@@ -12,11 +12,11 @@ tags:
 
 [GeoAI](GeoAI.md)
 
-[[BRAINSTORMING]]
+[[BRAINSTORMING GEMINI]]
 
 %% MOC START %%
 - [[AI & DataScience]]
-- [[BRAINSTORMING]]
+- [[BRAINSTORMING GEMINI]]
 - [[03 WIKI/AI/DuckDB]]
 - [[GeoAI]]
 %% MOC END %%
