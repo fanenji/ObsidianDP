@@ -1,12 +1,112 @@
 {
   "recentFiles": [
     {
+      "basename": "INSTALLAZIONE AMBIENTE TEST",
+      "path": "02 PROJECT/INSTALLAZIONE AMBIENTE TEST.md"
+    },
+    {
+      "basename": "CI-CD GIT FLOW",
+      "path": "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md"
+    },
+    {
+      "basename": "SCRIPT ESECUZIONE DBT",
+      "path": "02 PROJECT/PROCESSO/SCRIPT ESECUZIONE DBT.md"
+    },
+    {
+      "basename": "AMBIENTI",
+      "path": "02 PROJECT/PROCESSO/AMBIENTI.md"
+    },
+    {
       "basename": "00 TODO",
       "path": "00 TODO/00 TODO.md"
     },
     {
+      "basename": "_KANBAN",
+      "path": "00 TODO/_KANBAN.md"
+    },
+    {
+      "basename": "2026-03-09 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md"
+    },
+    {
+      "basename": "Integrating LLMs and AI Agents into Data Engineering Workflows",
+      "path": "01 INBOX/Clippings/Integrating LLMs and AI Agents into Data Engineering Workflows.md"
+    },
+    {
+      "basename": "2026-03-03 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-03-03 Meeting Interno.md"
+    },
+    {
+      "basename": "PIANO GENERALE ATTIVITA’",
+      "path": "02 PROJECT/PIANO GENERALE ATTIVITA’.md"
+    },
+    {
+      "basename": "MEETING",
+      "path": "02 PROJECT/MEETING/MEETING.md"
+    },
+    {
+      "basename": "GEOSCRIPTS - REST API",
+      "path": "02 PROJECT/ETL CARTO/GEOSCRIPTS - REST API.md"
+    },
+    {
+      "basename": "KUBERNETES",
+      "path": "02 PROJECT/ETL CARTO/KUBERNETES.md"
+    },
+    {
+      "basename": "GEOSCRIPTS - DEPLOY KUBERNETS",
+      "path": "02 PROJECT/ETL CARTO/GEOSCRIPTS - DEPLOY KUBERNETS.md"
+    },
+    {
+      "basename": "CONVERSIONI GROOVY -> PYTHON",
+      "path": "02 PROJECT/ETL CARTO/CONVERSIONI GROOVY -> PYTHON.md"
+    },
+    {
+      "basename": "CONVERSAZIONI LLM",
+      "path": "02 PROJECT/ETL CARTO/CONVERSAZIONI LLM.md"
+    },
+    {
+      "basename": "Problema PDS - VDS (Anastasia)",
+      "path": "02 PROJECT/PROCESSO/Problema PDS - VDS (Anastasia).md"
+    },
+    {
+      "basename": "DIMENSIONAMENTO",
+      "path": "02 PROJECT/DIMENSIONAMENTO.md"
+    },
+    {
+      "basename": "GESTIONE SECRETS",
+      "path": "02 PROJECT/GESTIONE SECRETS.md"
+    },
+    {
+      "basename": "Gestione Cataloghi Nessie",
+      "path": "02 PROJECT/Gestione Cataloghi Nessie.md"
+    },
+    {
+      "basename": "Board Miro",
+      "path": "02 PROJECT/Board Miro.md"
+    },
+    {
+      "basename": "02 PROJECT",
+      "path": "02 PROJECT/02 PROJECT.canvas"
+    },
+    {
+      "basename": "Citazioni",
+      "path": "02 PROJECT/Citazioni.md"
+    },
+    {
+      "basename": "Diagramma Infrastruttura",
+      "path": "99 System/attachments/Diagramma Infrastruttura.png"
+    },
+    {
+      "basename": "Documento Architettura",
+      "path": "02 PROJECT/Documento Architettura.md"
+    },
+    {
       "basename": "Bases",
       "path": "Templates/Bases/Bases.md"
+    },
+    {
+      "basename": "Divisione Ingestion e Analisi",
+      "path": "00 TODO/Divisione Ingestion e Analisi.md"
     },
     {
       "basename": "Templates",
@@ -61,38 +161,6 @@
       "path": "03 WIKI/AI/AI & DataScience.md"
     },
     {
-      "basename": "Problema PDS - VDS (Anastasia)",
-      "path": "02 PROJECT/Problema PDS - VDS (Anastasia).md"
-    },
-    {
-      "basename": "PIANO GENERALE ATTIVITA’",
-      "path": "02 PROJECT/PIANO GENERALE ATTIVITA’.md"
-    },
-    {
-      "basename": "PIANO DI PROGETTO",
-      "path": "02 PROJECT/PIANO DI PROGETTO.md"
-    },
-    {
-      "basename": "INSTALLAZIONE AMBIENTE TEST",
-      "path": "02 PROJECT/INSTALLAZIONE AMBIENTE TEST.md"
-    },
-    {
-      "basename": "GESTIONE SECRETS",
-      "path": "02 PROJECT/GESTIONE SECRETS.md"
-    },
-    {
-      "basename": "Gestione Cataloghi Nessie",
-      "path": "02 PROJECT/Gestione Cataloghi Nessie.md"
-    },
-    {
-      "basename": "Documento Architettura",
-      "path": "02 PROJECT/Documento Architettura.md"
-    },
-    {
-      "basename": "Divisione Ingestion e Analisi",
-      "path": "02 PROJECT/Divisione Ingestion e Analisi.md"
-    },
-    {
       "basename": "90 ARCHIVE",
       "path": "90 ARCHIVE/90 ARCHIVE.md"
     },
@@ -101,32 +169,12 @@
       "path": "90 ARCHIVE/E4.md"
     },
     {
-      "basename": "DIMENSIONAMENTO",
-      "path": "02 PROJECT/DIMENSIONAMENTO.md"
-    },
-    {
-      "basename": "DIAGRAMMA INFRASTRUTTURA",
-      "path": "02 PROJECT/DIAGRAMMA INFRASTRUTTURA.md"
-    },
-    {
-      "basename": "Citazioni",
-      "path": "02 PROJECT/Citazioni.md"
-    },
-    {
-      "basename": "Board Miro",
-      "path": "02 PROJECT/Board Miro.md"
-    },
-    {
       "basename": "01 INBOX",
       "path": "01 INBOX/01 INBOX.md"
     },
     {
       "basename": "03 WIKI",
       "path": "03 WIKI/03 WIKI.md"
-    },
-    {
-      "basename": "02 PROJECT",
-      "path": "02 PROJECT/02 PROJECT.canvas"
     },
     {
       "basename": "CLAUDE CODE",
@@ -151,54 +199,6 @@
     {
       "basename": "How I Structure Obsidian & Claude (Full Walkthrough)",
       "path": "30 WIKI/OBSIDIAN/How I Structure Obsidian & Claude (Full Walkthrough).md"
-    },
-    {
-      "basename": "CI-CD GIT FLOW",
-      "path": "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md"
-    },
-    {
-      "basename": "LD23GPS-PA7665-002_Documento_Architettura_DataPlatform_v01_03",
-      "path": "99 System/attachments/LD23GPS-PA7665-002_Documento_Architettura_DataPlatform_v01_03.pdf"
-    },
-    {
-      "basename": "desk",
-      "path": "01 INBOX/desk.md"
-    },
-    {
-      "basename": "2026-03-05 OPZIONI LLM (3 tier)",
-      "path": "20 PROJECTS/AI/2026-03-05 OPZIONI LLM (3 tier).md"
-    },
-    {
-      "basename": "2026-03-05",
-      "path": "01 INBOX/Journal/2026-03-05.md"
-    },
-    {
-      "basename": "ARCHITETTURA",
-      "path": "03 WIKI/CARTOGRAFIA/EVOLUZIONE IDT/ARCHITETTURA.md"
-    },
-    {
-      "basename": "LD23GPS-PA7665-001-DataPlatform_v01_03_pdf_preview",
-      "path": "99 System/attachments/DATA PLATFORM (DP)/LD23GPS-PA7665-001-DataPlatform_v01_03_pdf_preview.png"
-    },
-    {
-      "basename": "LD23GPS-PA7665-001-DataPlatform_v01_03",
-      "path": "99 System/attachments/DATA PLATFORM (DP)/LD23GPS-PA7665-001-DataPlatform_v01_03.pdf"
-    },
-    {
-      "basename": "2026-03-05 FineTuning",
-      "path": "01 INBOX/Journal/2026-03-05 FineTuning.md"
-    },
-    {
-      "basename": "Scrape CC sessions",
-      "path": "00 TODO/Scrape CC sessions.md"
-    },
-    {
-      "basename": "LD23GPS-PA7665-001-DataPlatform_v01_03 1",
-      "path": "99 System/attachments/LD23GPS-PA7665-001-DataPlatform_v01_03 1.pdf"
-    },
-    {
-      "basename": "LD23GPS-PA7665-001-DataPlatform_v01_03",
-      "path": "99 System/attachments/LD23GPS-PA7665-001-DataPlatform_v01_03.pdf"
     }
   ],
   "omittedPaths": [],

@@ -3,7 +3,6 @@ type: note
 topic: data-platform
 created: 2026-02-23
 tags:
-  - dp
   - security
 ---
 

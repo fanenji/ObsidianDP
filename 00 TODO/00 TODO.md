@@ -6,40 +6,45 @@ updated: 2026-02-22
 
 ## DATA PLATFORM
 
-### Macro attività
-- [ ] #dp dbt
-- [ ] #dp OpenMetadata
-- [ ] #dp Data Modelling — schema e relazioni tra modelli
-- [ ] #dp Data Quality
-- [ ] #dp [[20 PROJECTS/DATA PLATFORM/PROCESSO/AMBIENTI]] — documentazione CI/CD
+
+### OBSIDIAN
+- [ ] #obsidian Riorganizzare note tra wiki e project
+- [ ] #obsidian Riorganizzare WIKI 
+- [ ] #obsidian Raindrop Links DataPlatform -> Obsidian Web Clipper -> Wiki
+
 
 ### Varie
-- [ ] #dp OMD: ricerca su colonna limitata
-- [ ] #dp dbt-workbench — gestione workspace in ambiente k8s
-- [ ] #dp dbt-osmosis synthesis — progetto + test
-- [ ] #dp OpenMetadata Ingestion
-- [ ] #dp dbt docs serve
-- [ ] #dp dbt-checkpoint — decidere quali test effettuare
-- [ ] #dp Dremio OPTIMIZE — compaction iceberg table
-- [ ] #dp Ingestion da sorgenti non relazionali (API, file) — kestra / dlt
-- [ ] #dp Reverse ETL (write back)
-- [ ] #dp ROW/COLUMN level security/access
+- [ ] #ci-cd Documento CI-CD GIT FLOW + AMBIENTI + Sintesi architettura -> Claude Code 
+- [ ] #ci-cd Documento CI-CD GIT FLOW: Nomenclatura
+ #ci-cd  [[AMBIENTI]] — documentazione CI/CD
+- [ ] #openmetadata  OpenMetadata Ingestion
+- [ ] #openmetadata  OMD: ricerca su colonna limitata ???
+20 PROJECTS/DATA PLATFORM/PROCESSO/AMBIENTI- [ ] #dbt dbt-workbench — gestione workspace in ambiente k8s
+- [ ] #dbt dbt-osmosis synthesis — progetto + test
+- [ ] #dbt dbt docs serve
+- [ ] #dbt dbt-checkpoint — decidere quali test effettuare
+- [ ] #dremio Dremio OPTIMIZE — compaction iceberg table
+- [ ] #varie Ingestion da sorgenti non relazionali (API, file) — kestra / dlt
+- [ ] #varie Reverse ETL (write back)
+- [ ] #dremio ROW/COLUMN level security/access
+- [ ] #data-modelling Data Modelling — schema e relazioni tra modelli
+- [ ] #data-quality Data Quality
+- [ ] #processo Divisione ingestion/analisi
 
 
-### dbt — packages da valutare
-- [ ] #dp dbt_expectations
-- [ ] #dp dbt_project_evaluator
-- [ ] #dp dbt_artifacts
-- [ ] #dp dbt_privacy
-- [ ] #dp dbt_profiler
-- [ ] #dp dbt_meta_audit
+### dbt packages
+- [ ] #dbt dbt_expectations
+- [ ] #dbt dbt_project_evaluator
+- [ ] #dbt dbt_artifacts
+- [ ] #dbt dbt_privacy
+- [ ] #dbt dbt_profiler
+- [ ] #dbt dbt_meta_audit
 
 ### Esperimenti
-- [ ] #dp OpenMetadata + ontologia — integrazione DCAT/OpenData + AI via OMD MCP
-- [ ] #dp Metadata Copilot
-- [ ] #dp [OpenMetadata MCP](https://open-metadata.org/mcp)
-- [ ] #dp [Dremio MCP](https://docs.dremio.com/current/developer/mcp-server/)
-- [ ] #dp [dbt MCP](https://github.com/dbt-labs/dbt-mcp)
+- [ ] #esperimenti #openmetadata #opendata OpenMetadata + ontologia — integrazione DCAT/OpenData + AI via OMD MCP
+- [ ] #esperimenti #openmetadata [OpenMetadata MCP](https://open-metadata.org/mcp)
+- [ ] #esperimenti #dremio [Dremio MCP](https://docs.dremio.com/current/developer/mcp-server/)
+- [ ] #esperimenti #dbt [dbt MCP](https://github.com/dbt-labs/dbt-mcp)
 
 
 

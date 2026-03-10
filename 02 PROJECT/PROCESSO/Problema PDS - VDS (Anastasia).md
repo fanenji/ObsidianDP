@@ -3,13 +3,14 @@ type: note
 topic: data-platform
 created: 2026-01-30
 tags:
-  - dp
-  - schema
+  - data-quality
+  - ci-cd
 ---
 
 - Vengono fatte modifiche problematiche alla fonte che non sono bloccate dai test sulla fonte -> la PDS viene creata
 - Le modifiche sulla fonte provocano problemi alle VDS -> le VDS sono rotte
 
+NOTA: Studiare il problema. E' veramente importante?
 
 **SOLUZIONI**
 - 1) in prod doppia pipeline

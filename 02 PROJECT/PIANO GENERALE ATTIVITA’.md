@@ -3,10 +3,11 @@ type: note
 topic: data-platform
 created: 2026-01-15
 tags:
-  - data-platform
+  - "#pianificazione"
 ---
 
-5.1
+# 5.1
+
 - **Sviluppo integrazioni**
     *Sviluppo di middleware di integrazione ed interoperabilità tra le componenti della Data Platform*
     - Orchestration e data analysis
@@ -19,10 +20,10 @@ tags:
 	- rqa
 	- ingestion dati geo
 
-5.2
+# 5.2
 - **Migrazione workload**
 
-5.3 / 5.4
+# 5.3 / 5.4
 
 - **Integrazione Data Catalog con Catalogo OD**
 - **Download Dinamico**
@@ -30,3 +31,4 @@ tags:
 - **Sistema reportistica**
 - **Componenti cartografiche per Data Exploration**
 - **Migrazione OD su DP**
+

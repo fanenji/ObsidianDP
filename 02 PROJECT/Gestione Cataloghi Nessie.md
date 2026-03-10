@@ -3,8 +3,8 @@ type: note
 topic: data-platform
 created: 2026-01-26
 tags:
-  - dp
   - nessie
+  - iceberg
 ---
 
 Creazione nuovo catalogo

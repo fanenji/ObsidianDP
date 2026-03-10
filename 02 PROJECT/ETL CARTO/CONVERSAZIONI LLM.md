@@ -1,7 +1,6 @@
 
-# CONVERSIONI
+# PROMPT RQA
 
-## RQA
 
 ```other
 Convert this groovy script to a python script with the same name.

@@ -4,7 +4,6 @@ topic: data-platform
 created: 2026-02-17
 tags:
   - architettura
-  - miro
 ---
 
 ## SCHEMA
