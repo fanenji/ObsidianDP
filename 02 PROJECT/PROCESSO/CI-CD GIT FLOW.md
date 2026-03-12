@@ -10,6 +10,16 @@ tags:
 **Regole e flusso per promozione dei progetti dbt e delle pipeline di orchestrazione tra i vari ambienti**
 
 
+GESTIONE SEQUENZIALE PUSH e SYNC
+- su singolo progetto (approfondire progetti con + flow)
+GESTIONE STATO FLOW KESTRA su istanza DEV / namespace dev
+- attualmente vive solo su Kestra
+- deve essere l'unica modificabile
+- deve essere salvata su git (come prima operazione della MR dev->test)
+GESTIONE NOTIFICHE DELL'AVVENUTO AVANZAMENTO FASE
+
+==**
+
 
 # DIAGRAMMA SEQUENCE
 
@@ -19,50 +29,6 @@ tags:
 ![[04_09_56.jpg]]
 
 
-
-```mermaid
-sequenceDiagram
-    actor User
-    participant DEV_ENV as DEV ENV
-    participant Gitlab
-    participant Kestra_DEV as Kestra DEV
-    participant Kestra_PROD as Kestra PROD
-
-    User->>DEV_ENV: dbt-creator progetto
-    DEV_ENV->>Gitlab: dbt-creator progetto
-    Gitlab-->>Kestra_DEV: dev.kestra.progetto.yaml
-    Gitlab-->>DEV_ENV: dbt progetto repo
-    DEV_ENV-->>User: git switch git.progetto.dev
-
-    User->>Gitlab: git push git.progetto.dev
-
-    rect rgb(255, 255, 230)
-        Note left of Gitlab: pre-prod
-        User->>Gitlab: MergeRequest: git.progetto.dev -> git.progetto.pre-prod
-
-        rect rgb(255, 240, 200)
-            Note over Gitlab: stage: deploy_preprod
-            Gitlab->>Kestra_DEV: fetch dev.kestra.progetto.yaml
-            Kestra_DEV-->>Gitlab: return dev.kestra.progetto.yaml
-            Gitlab->>Gitlab: rename dev.kestra.progetto.yaml -> test.kestra.progetto.yaml
-            Gitlab-->>Kestra_DEV: copy test.kestra.progetto.yaml
-        end
-
-        Kestra_DEV-->>Gitlab: kestra.sync.push_flows > git.KestraFlow.test
-    end
-
-    rect rgb(240, 255, 240)
-        Note left of Gitlab: prod
-        User->>Gitlab: MergeRequest: git.progetto.pre-prod -> git.progetto.main
-        Gitlab->>Kestra_DEV: exec kestra.sync.merge-request
-        Kestra_DEV-->>Gitlab: git merge git.KestraFlow.test -> git.KestraFlow.main
-
-        Note over Kestra_PROD: stage: deploy_prod
-    end
-
-    Kestra_PROD->>Gitlab: exec kestra-sync.sync-flows git.KestraFlow.main
-    Gitlab-->>Kestra_PROD: git.KestraFlow.main/flows/kestra/progetto.yaml
-```
 
 ## AMBIENTI
 

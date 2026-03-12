@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "INSTALLAZIONE AMBIENTE TEST",
-      "path": "02 PROJECT/INSTALLAZIONE AMBIENTE TEST.md"
-    },
-    {
-      "basename": "CI-CD GIT FLOW",
-      "path": "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md"
+      "basename": "dbt-osmosis synthesize",
+      "path": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md"
     },
     {
       "basename": "SCRIPT ESECUZIONE DBT",
       "path": "02 PROJECT/PROCESSO/SCRIPT ESECUZIONE DBT.md"
+    },
+    {
+      "basename": "2026-03-09 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md"
+    },
+    {
+      "basename": "CI-CD GIT FLOW v2",
+      "path": "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md"
     },
     {
       "basename": "AMBIENTI",
@@ -21,16 +25,44 @@
       "path": "00 TODO/00 TODO.md"
     },
     {
+      "basename": "CI-CD GIT FLOW",
+      "path": "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md"
+    },
+    {
       "basename": "_KANBAN",
       "path": "00 TODO/_KANBAN.md"
     },
     {
-      "basename": "2026-03-09 Meeting Interno",
-      "path": "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md"
+      "basename": "DBT-WORKBENCH",
+      "path": "02 PROJECT/SOFTWARE/DBT-WORKBENCH.md"
+    },
+    {
+      "basename": "2026-03-10 Meeting interno",
+      "path": "02 PROJECT/MEETING/2026-03-10 Meeting interno.md"
+    },
+    {
+      "basename": "2026-03-06 Meeting SEACOM",
+      "path": "02 PROJECT/MEETING/2026-03-06 Meeting SEACOM.md"
+    },
+    {
+      "basename": "PROCESSO",
+      "path": "02 PROJECT/PROCESSO/PROCESSO.md"
+    },
+    {
+      "basename": "DBT",
+      "path": "03 WIKI/DBT/DBT.md"
+    },
+    {
+      "basename": "DBT-OSMOSIS",
+      "path": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/DBT-OSMOSIS.md"
+    },
+    {
+      "basename": "INSTALLAZIONE AMBIENTE TEST",
+      "path": "02 PROJECT/INSTALLAZIONE AMBIENTE TEST.md"
     },
     {
       "basename": "Integrating LLMs and AI Agents into Data Engineering Workflows",
-      "path": "01 INBOX/Clippings/Integrating LLMs and AI Agents into Data Engineering Workflows.md"
+      "path": "03 WIKI/AI/Integrating LLMs and AI Agents into Data Engineering Workflows.md"
     },
     {
       "basename": "2026-03-03 Meeting Interno",
@@ -167,38 +199,6 @@
     {
       "basename": "E4",
       "path": "90 ARCHIVE/E4.md"
-    },
-    {
-      "basename": "01 INBOX",
-      "path": "01 INBOX/01 INBOX.md"
-    },
-    {
-      "basename": "03 WIKI",
-      "path": "03 WIKI/03 WIKI.md"
-    },
-    {
-      "basename": "CLAUDE CODE",
-      "path": "30 WIKI/AI/CLAUDE CODE/CLAUDE CODE.md"
-    },
-    {
-      "basename": "Claude Code",
-      "path": "20 PROJECTS/AI/Claude Code.md"
-    },
-    {
-      "basename": "Capture Workflow - Daily Notes",
-      "path": "30 WIKI/OBSIDIAN/Capture Workflow - Daily Notes.md"
-    },
-    {
-      "basename": "Kepano Obsidian Skill",
-      "path": "30 WIKI/OBSIDIAN/Kepano Obsidian Skill.md"
-    },
-    {
-      "basename": "Kepano - How I use Obsidian",
-      "path": "30 WIKI/OBSIDIAN/Kepano - How I use Obsidian.md"
-    },
-    {
-      "basename": "How I Structure Obsidian & Claude (Full Walkthrough)",
-      "path": "30 WIKI/OBSIDIAN/How I Structure Obsidian & Claude (Full Walkthrough).md"
     }
   ],
   "omittedPaths": [],

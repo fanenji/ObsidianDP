@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "02 PROJECT/INSTALLAZIONE AMBIENTE TEST.md",
-      "timestamp": 1773132128288
-    },
-    {
-      "filepath": "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md",
-      "timestamp": 1773067284556
+      "filepath": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md",
+      "timestamp": 1773305973313
     },
     {
       "filepath": "02 PROJECT/PROCESSO/SCRIPT ESECUZIONE DBT.md",
-      "timestamp": 1773067265823
+      "timestamp": 1773305932356
+    },
+    {
+      "filepath": "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md",
+      "timestamp": 1773305905795
+    },
+    {
+      "filepath": "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md",
+      "timestamp": 1773305883207
     },
     {
       "filepath": "02 PROJECT/PROCESSO/AMBIENTI.md",
-      "timestamp": 1773067250400
-    },
-    {
-      "filepath": "00 TODO/00 TODO.md",
-      "timestamp": 1773067129973
+      "timestamp": 1773305874945
     }
   ],
   "bookmarkedFileStore": [],

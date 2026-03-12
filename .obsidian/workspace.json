@@ -38,18 +38,6 @@
             }
           },
           {
-            "id": "94094fb9b4d6897e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "home-tab-view",
-              "state": {},
-              "pinned": true,
-              "icon": "search",
-              "title": "Home tab"
-            }
-          },
-          {
             "id": "60e18d21a6ccec74",
             "type": "leaf",
             "pinned": true,
@@ -82,53 +70,39 @@
             }
           },
           {
-            "id": "69de3c26df8ceaca",
+            "id": "099c6825aa1d00f9",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 PROJECT/PROCESSO/AMBIENTI.md",
+                "file": "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "AMBIENTI"
+              "title": "CI-CD GIT FLOW v2"
             }
           },
           {
-            "id": "591c546623e575ea",
+            "id": "5934f79431fdf9e9",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md",
+                "file": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "CI-CD GIT FLOW"
-            }
-          },
-          {
-            "id": "57306287ada62f73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 PROJECT/INSTALLAZIONE AMBIENTE TEST.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "INSTALLAZIONE AMBIENTE TEST"
+              "title": "dbt-osmosis synthesize"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -225,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 385.5
   },
   "right": {
     "id": "45ad9902070877bf",
@@ -303,13 +277,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 PROJECT/INSTALLAZIONE AMBIENTE TEST.md",
+                "file": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of INSTALLAZIONE AMBIENTE TEST"
+              "title": "Outline of dbt-osmosis synthesize"
             }
           },
           {
@@ -356,16 +330,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "57306287ada62f73",
+  "active": "5934f79431fdf9e9",
   "lastOpenFiles": [
-    "02 PROJECT/INSTALLAZIONE AMBIENTE TEST.md",
-    "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md",
     "02 PROJECT/PROCESSO/SCRIPT ESECUZIONE DBT.md",
-    "02 PROJECT/PROCESSO/AMBIENTI.md",
-    "00 TODO/00 TODO.md",
-    "00 TODO/_KANBAN.md",
     "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md",
-    "01 INBOX/Clippings/Integrating LLMs and AI Agents into Data Engineering Workflows.md",
+    "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md",
+    "02 PROJECT/PROCESSO/AMBIENTI.md",
+    "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md",
+    "00 TODO/00 TODO.md",
+    "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md",
+    "00 TODO/_KANBAN.md",
+    "02 PROJECT/SOFTWARE/DBT-WORKBENCH.md",
+    "02 PROJECT/MEETING/2026-03-10 Meeting interno.md",
+    "02 PROJECT/MEETING/2026-03-06 Meeting SEACOM.md",
+    "02 PROJECT/PROCESSO/PROCESSO.md",
+    "03 WIKI/DBT/DBT.md",
+    "02 PROJECT/SOFTWARE/DBT-OSMOSIS/DBT-OSMOSIS.md",
+    "02 PROJECT/INSTALLAZIONE AMBIENTE TEST.md",
+    "03 WIKI/AI/Integrating LLMs and AI Agents into Data Engineering Workflows.md",
     "99 System/attachments/Pasted image 20260309115452.png",
     "02 PROJECT/MEETING/2026-03-03 Meeting Interno.md",
     "02 PROJECT/PIANO GENERALE ATTIVITA’.md",
@@ -377,15 +359,7 @@
     "02 PROJECT/ETL CARTO/CONVERSAZIONI LLM.md",
     "02 PROJECT/PROCESSO/Problema PDS - VDS (Anastasia).md",
     "02 PROJECT/DIMENSIONAMENTO.md",
-    "02 PROJECT/GESTIONE SECRETS.md",
-    "02 PROJECT/Gestione Cataloghi Nessie.md",
-    "02 PROJECT/Board Miro.md",
     "02 PROJECT/02 PROJECT.canvas",
-    "02 PROJECT/PIANO DI PROGETTO.md",
-    "02 PROJECT/Citazioni.md",
-    "02 PROJECT/Documento Architettura.md",
-    "Templates/Bases/Bases.md",
-    "00 TODO/Divisione Ingestion e Analisi.md",
     "00 TODO",
     "Templates/Bases/Templates.base",
     "Templates/Bases/Meetings.base",

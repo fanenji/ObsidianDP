@@ -9,7 +9,7 @@ topic:
 
 Script/pacchetto per esecuzione progetti dbt
 
-- Fare pacchetto python (tipo dbt-creator): **dbt-run**
+- Fare pacchetto python (tipo dbt-creator): **dbt-workflow**
 - Analisi pacchetti dbt-creator per convergenza -> questionary
 - 
 

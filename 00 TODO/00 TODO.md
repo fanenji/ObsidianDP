@@ -14,20 +14,21 @@ updated: 2026-02-22
 
 
 ### Varie
-- [ ] #ci-cd Documento CI-CD GIT FLOW + AMBIENTI + Sintesi architettura -> Claude Code 
-- [ ] #ci-cd Documento CI-CD GIT FLOW: Nomenclatura
- #ci-cd  [[AMBIENTI]] — documentazione CI/CD
+- [ ] #ci-cd [[CI-CD GIT FLOW v2]] + [[Architettura (Claude Sintesi)]] -> Claude Code 
+- [ ] #dbt osmosis synthesize brainstorm claude (scelta modello + tuning prompt + descrizione completa)
+- [ ] #dbt Definire progetto dbt iniziale creato da dbt-creator (es: examples)
+- [ ] #ci-cd  [[AMBIENTI]] — documentazione CI/CD
 - [ ] #openmetadata  OpenMetadata Ingestion
-- [ ] #openmetadata  OMD: ricerca su colonna limitata ???
-20 PROJECTS/DATA PLATFORM/PROCESSO/AMBIENTI- [ ] #dbt dbt-workbench — gestione workspace in ambiente k8s
+- [ ] #openmetadata  OMD: ricerca su colonna limitata problematica
+- [ ] #data-modelling Data Modelling — schema e relazioni tra modelli
 - [ ] #dbt dbt-osmosis synthesis — progetto + test
 - [ ] #dbt dbt docs serve
+- [ ] #dbt dbt-workbench — gestione workspace in ambiente k8s
 - [ ] #dbt dbt-checkpoint — decidere quali test effettuare
 - [ ] #dremio Dremio OPTIMIZE — compaction iceberg table
 - [ ] #varie Ingestion da sorgenti non relazionali (API, file) — kestra / dlt
 - [ ] #varie Reverse ETL (write back)
 - [ ] #dremio ROW/COLUMN level security/access
-- [ ] #data-modelling Data Modelling — schema e relazioni tra modelli
 - [ ] #data-quality Data Quality
 - [ ] #processo Divisione ingestion/analisi
 

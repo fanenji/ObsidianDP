@@ -9,7 +9,7 @@ tags:
 # PACKAGE PYTHON
 
 
-Comando: **dbt-run**
+Comando: **dbt-workflow**
 
 Script python 
 - Utilizzare pacchetto [questionary](https://pypi.org/project/questionary/) per TUI
