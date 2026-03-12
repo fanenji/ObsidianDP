@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md",
-      "timestamp": 1773305973313
+      "filepath": "CLAUDE.md",
+      "timestamp": 1773306312757
     },
     {
-      "filepath": "02 PROJECT/PROCESSO/SCRIPT ESECUZIONE DBT.md",
-      "timestamp": 1773305932356
-    },
-    {
-      "filepath": "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md",
-      "timestamp": 1773305905795
+      "filepath": "03 WIKI/Architettura (Claude Sintesi).md",
+      "timestamp": 1773306079228
     },
     {
       "filepath": "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md",
-      "timestamp": 1773305883207
+      "timestamp": 1773306069241
     },
     {
-      "filepath": "02 PROJECT/PROCESSO/AMBIENTI.md",
-      "timestamp": 1773305874945
+      "filepath": "00 TODO/00 TODO.md",
+      "timestamp": 1773306030366
+    },
+    {
+      "filepath": "02 PROJECT/PROCESSO/SCRIPT ESECUZIONE DBT.md",
+      "timestamp": 1773305999078
     }
   ],
   "bookmarkedFileStore": [],

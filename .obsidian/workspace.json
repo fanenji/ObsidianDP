@@ -38,22 +38,6 @@
             }
           },
           {
-            "id": "60e18d21a6ccec74",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "2026-03-09 Meeting Interno"
-            }
-          },
-          {
             "id": "b88c3d4de60313c0",
             "type": "leaf",
             "pinned": true,
@@ -67,6 +51,38 @@
               "pinned": true,
               "icon": "lucide-file",
               "title": "SCRIPT ESECUZIONE DBT"
+            }
+          },
+          {
+            "id": "5934f79431fdf9e9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "dbt-osmosis synthesize"
+            }
+          },
+          {
+            "id": "b062b0351b9c5b10",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 WIKI/Architettura (Claude Sintesi).md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Architettura (Claude Sintesi)"
             }
           },
           {
@@ -86,23 +102,21 @@
             }
           },
           {
-            "id": "5934f79431fdf9e9",
+            "id": "9ef2b22ebe0e572e",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "dbt-osmosis synthesize"
+              "title": "CLAUDE"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -277,13 +291,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md",
+                "file": "CLAUDE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of dbt-osmosis synthesize"
+              "title": "Outline of CLAUDE"
             }
           },
           {
@@ -330,14 +344,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5934f79431fdf9e9",
+  "active": "9ef2b22ebe0e572e",
   "lastOpenFiles": [
+    "03 WIKI/Architettura (Claude Sintesi).md",
+    "CLAUDE.md",
+    "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md",
+    "00 TODO/00 TODO.md",
     "02 PROJECT/PROCESSO/SCRIPT ESECUZIONE DBT.md",
     "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md",
-    "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md",
-    "02 PROJECT/PROCESSO/AMBIENTI.md",
     "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md",
-    "00 TODO/00 TODO.md",
+    "02 PROJECT/PROCESSO/AMBIENTI.md",
     "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md",
     "00 TODO/_KANBAN.md",
     "02 PROJECT/SOFTWARE/DBT-WORKBENCH.md",
@@ -357,8 +373,6 @@
     "02 PROJECT/ETL CARTO/GEOSCRIPTS - DEPLOY KUBERNETS.md",
     "02 PROJECT/ETL CARTO/CONVERSIONI GROOVY -> PYTHON.md",
     "02 PROJECT/ETL CARTO/CONVERSAZIONI LLM.md",
-    "02 PROJECT/PROCESSO/Problema PDS - VDS (Anastasia).md",
-    "02 PROJECT/DIMENSIONAMENTO.md",
     "02 PROJECT/02 PROJECT.canvas",
     "00 TODO",
     "Templates/Bases/Templates.base",

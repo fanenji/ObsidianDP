@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "dbt-osmosis synthesize",
-      "path": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md"
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "Architettura (Claude Sintesi)",
+      "path": "03 WIKI/Architettura (Claude Sintesi).md"
+    },
+    {
+      "basename": "CI-CD GIT FLOW v2",
+      "path": "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md"
+    },
+    {
+      "basename": "00 TODO",
+      "path": "00 TODO/00 TODO.md"
     },
     {
       "basename": "SCRIPT ESECUZIONE DBT",
@@ -13,16 +25,12 @@
       "path": "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md"
     },
     {
-      "basename": "CI-CD GIT FLOW v2",
-      "path": "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md"
+      "basename": "dbt-osmosis synthesize",
+      "path": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md"
     },
     {
       "basename": "AMBIENTI",
       "path": "02 PROJECT/PROCESSO/AMBIENTI.md"
-    },
-    {
-      "basename": "00 TODO",
-      "path": "00 TODO/00 TODO.md"
     },
     {
       "basename": "CI-CD GIT FLOW",
@@ -181,10 +189,6 @@
       "path": "03 WIKI/BEST PRACTICES.md"
     },
     {
-      "basename": "Architettura (Claude Sintesi)",
-      "path": "03 WIKI/Architettura (Claude Sintesi).md"
-    },
-    {
       "basename": "BRAINSTORMING GEMINI",
       "path": "03 WIKI/BRAINSTORMING GEMINI.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "90 ARCHIVE",
       "path": "90 ARCHIVE/90 ARCHIVE.md"
-    },
-    {
-      "basename": "E4",
-      "path": "90 ARCHIVE/E4.md"
     }
   ],
   "omittedPaths": [],
