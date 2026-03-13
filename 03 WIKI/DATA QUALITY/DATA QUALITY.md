@@ -15,5 +15,5 @@ tags:
 
 %% MOC START %%
 - [[ANALISI LLM]]
-- [[TOOLS]]
+- [[03 WIKI/DATA QUALITY/TOOLS]]
 %% MOC END %%

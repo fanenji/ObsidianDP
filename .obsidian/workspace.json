@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 PROJECT/PROCESSO/SCRIPT ESECUZIONE DBT.md",
+                "file": "02 PROJECT/PROCESS/SCRIPT ESECUZIONE DBT.md",
                 "mode": "source",
                 "source": false
               },
@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md",
+                "file": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthesize.md",
                 "mode": "source",
                 "source": false
               },
@@ -76,47 +76,71 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 WIKI/Architettura (Claude Sintesi).md",
+                "file": "03 WIKI/Architettura (Sintesi).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Architettura (Claude Sintesi)"
+              "title": "Architettura (Sintesi)"
             }
           },
           {
             "id": "099c6825aa1d00f9",
             "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CI-CD GIT FLOW v2.1"
+            }
+          },
+          {
+            "id": "1a0adb2a8032c822",
+            "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md",
+                "file": "02 PROJECT/MEETING/2026-03-12 Meeting interno.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "CI-CD GIT FLOW v2"
+              "title": "2026-03-12 Meeting interno"
             }
           },
           {
-            "id": "9ef2b22ebe0e572e",
+            "id": "79733c1683db38ac",
+            "type": "leaf",
+            "state": {
+              "type": "home-tab-view",
+              "state": {},
+              "icon": "search",
+              "title": "Home tab"
+            }
+          },
+          {
+            "id": "829e9cdb27264a73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "2026-03-13 Meeting SEACOM"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -213,7 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 319.5024719238281
   },
   "right": {
     "id": "45ad9902070877bf",
@@ -291,13 +315,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CLAUDE"
+              "title": "Outline of 2026-03-13 Meeting SEACOM"
             }
           },
           {
@@ -325,8 +349,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 278.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -344,36 +367,38 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9ef2b22ebe0e572e",
+  "active": "829e9cdb27264a73",
   "lastOpenFiles": [
-    "03 WIKI/Architettura (Claude Sintesi).md",
-    "CLAUDE.md",
-    "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md",
+    "02 PROJECT/MEETING/2026-03-12 Meeting interno.md",
+    "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md",
+    "00 TODO/dbt-osmosis syntesis conversation.md",
     "00 TODO/00 TODO.md",
-    "02 PROJECT/PROCESSO/SCRIPT ESECUZIONE DBT.md",
-    "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md",
-    "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md",
-    "02 PROJECT/PROCESSO/AMBIENTI.md",
-    "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md",
-    "00 TODO/_KANBAN.md",
-    "02 PROJECT/SOFTWARE/DBT-WORKBENCH.md",
-    "02 PROJECT/MEETING/2026-03-10 Meeting interno.md",
+    "03 WIKI/Architettura (Sintesi).md",
+    "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md",
+    "02 PROJECT/PROCESS/CI-CD Claude Conversation.md",
+    "02 PROJECT/Gestione Cataloghi Nessie.md",
     "02 PROJECT/MEETING/2026-03-06 Meeting SEACOM.md",
-    "02 PROJECT/PROCESSO/PROCESSO.md",
-    "03 WIKI/DBT/DBT.md",
-    "02 PROJECT/SOFTWARE/DBT-OSMOSIS/DBT-OSMOSIS.md",
-    "02 PROJECT/INSTALLAZIONE AMBIENTE TEST.md",
-    "03 WIKI/AI/Integrating LLMs and AI Agents into Data Engineering Workflows.md",
-    "99 System/attachments/Pasted image 20260309115452.png",
-    "02 PROJECT/MEETING/2026-03-03 Meeting Interno.md",
-    "02 PROJECT/PIANO GENERALE ATTIVITA’.md",
-    "02 PROJECT/MEETING/MEETING.md",
-    "02 PROJECT/ETL CARTO/GEOSCRIPTS - REST API.md",
-    "02 PROJECT/ETL CARTO/KUBERNETES.md",
-    "02 PROJECT/ETL CARTO/GEOSCRIPTS - DEPLOY KUBERNETS.md",
-    "02 PROJECT/ETL CARTO/CONVERSIONI GROOVY -> PYTHON.md",
-    "02 PROJECT/ETL CARTO/CONVERSAZIONI LLM.md",
+    "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md",
+    "02 PROJECT/MEETING/2026-03-10 Meeting Interno.md",
+    "00 TODO/_KANBAN.md",
+    "02 PROJECT/PROCESS/CI-CD GIT FLOW v1.md",
+    "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.0.md",
+    "02 PROJECT/PROCESS/SCRIPT ESECUZIONE DBT.md",
+    "99 System/scripts/scripts.md",
+    "CLAUDE.md",
+    "99 System/scripts",
+    "02 PROJECT/MAPPING/ETL - CONVERSAZIONI LLM.md",
+    "03 WIKI/TOOLS/TOOLS.md",
+    "03 WIKI/TOOLS",
+    "02 PROJECT/PROCESS/PROCESS.md",
+    "03 WIKI/MAPPING/MAPPING.md",
+    "02 PROJECT/PROCESS/AMBIENTI.md",
     "02 PROJECT/02 PROJECT.canvas",
+    "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthesize.md",
+    "02 PROJECT/TOOLS/DBT-WORKBENCH.md",
+    "03 WIKI/TOOLS/DBT/DBT.md",
+    "02 PROJECT/TOOLS/DBT-OSMOSIS/DBT-OSMOSIS.md",
+    "99 System/attachments/Pasted image 20260309115452.png",
     "00 TODO",
     "Templates/Bases/Templates.base",
     "Templates/Bases/Meetings.base",
@@ -382,8 +407,6 @@
     "Templates/Bases",
     "Templates",
     "01 INBOX/Journal",
-    "01 INBOX/Clippings",
-    "90 ARCHIVE",
     "99 System/attachments/Diagramma Infrastruttura.png",
     "99 System/attachments/Pasted image 20260308180034.png",
     "99 System/attachments/Pasted image 20260308175952.png",

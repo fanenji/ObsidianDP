@@ -1,68 +1,108 @@
 {
   "recentFiles": [
     {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
+      "basename": "2026-03-13 Meeting SEACOM",
+      "path": "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md"
     },
     {
-      "basename": "Architettura (Claude Sintesi)",
-      "path": "03 WIKI/Architettura (Claude Sintesi).md"
+      "basename": "2026-03-12 Meeting interno",
+      "path": "02 PROJECT/MEETING/2026-03-12 Meeting interno.md"
     },
     {
-      "basename": "CI-CD GIT FLOW v2",
-      "path": "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md"
+      "basename": "dbt-osmosis syntesis conversation",
+      "path": "00 TODO/dbt-osmosis syntesis conversation.md"
     },
     {
       "basename": "00 TODO",
       "path": "00 TODO/00 TODO.md"
     },
     {
-      "basename": "SCRIPT ESECUZIONE DBT",
-      "path": "02 PROJECT/PROCESSO/SCRIPT ESECUZIONE DBT.md"
+      "basename": "Architettura (Sintesi)",
+      "path": "03 WIKI/Architettura (Sintesi).md"
     },
     {
-      "basename": "2026-03-09 Meeting Interno",
-      "path": "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md"
+      "basename": "CI-CD GIT FLOW v2.1",
+      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md"
     },
     {
-      "basename": "dbt-osmosis synthesize",
-      "path": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/dbt-osmosis synthesize.md"
-    },
-    {
-      "basename": "AMBIENTI",
-      "path": "02 PROJECT/PROCESSO/AMBIENTI.md"
-    },
-    {
-      "basename": "CI-CD GIT FLOW",
-      "path": "02 PROJECT/PROCESSO/CI-CD GIT FLOW.md"
-    },
-    {
-      "basename": "_KANBAN",
-      "path": "00 TODO/_KANBAN.md"
-    },
-    {
-      "basename": "DBT-WORKBENCH",
-      "path": "02 PROJECT/SOFTWARE/DBT-WORKBENCH.md"
-    },
-    {
-      "basename": "2026-03-10 Meeting interno",
-      "path": "02 PROJECT/MEETING/2026-03-10 Meeting interno.md"
+      "basename": "Gestione Cataloghi Nessie",
+      "path": "02 PROJECT/Gestione Cataloghi Nessie.md"
     },
     {
       "basename": "2026-03-06 Meeting SEACOM",
       "path": "02 PROJECT/MEETING/2026-03-06 Meeting SEACOM.md"
     },
     {
-      "basename": "PROCESSO",
-      "path": "02 PROJECT/PROCESSO/PROCESSO.md"
+      "basename": "2026-03-09 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md"
+    },
+    {
+      "basename": "2026-03-10 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-03-10 Meeting Interno.md"
+    },
+    {
+      "basename": "_KANBAN",
+      "path": "00 TODO/_KANBAN.md"
+    },
+    {
+      "basename": "CI-CD GIT FLOW v1",
+      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v1.md"
+    },
+    {
+      "basename": "CI-CD GIT FLOW v2.0",
+      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.0.md"
+    },
+    {
+      "basename": "SCRIPT ESECUZIONE DBT",
+      "path": "02 PROJECT/PROCESS/SCRIPT ESECUZIONE DBT.md"
+    },
+    {
+      "basename": "scripts",
+      "path": "99 System/scripts/scripts.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "ETL - CONVERSAZIONI LLM",
+      "path": "02 PROJECT/MAPPING/ETL - CONVERSAZIONI LLM.md"
+    },
+    {
+      "basename": "TOOLS",
+      "path": "03 WIKI/TOOLS/TOOLS.md"
+    },
+    {
+      "basename": "PROCESS",
+      "path": "02 PROJECT/PROCESS/PROCESS.md"
+    },
+    {
+      "basename": "MAPPING",
+      "path": "03 WIKI/MAPPING/MAPPING.md"
+    },
+    {
+      "basename": "AMBIENTI",
+      "path": "02 PROJECT/PROCESS/AMBIENTI.md"
+    },
+    {
+      "basename": "02 PROJECT",
+      "path": "02 PROJECT/02 PROJECT.canvas"
+    },
+    {
+      "basename": "dbt-osmosis synthesize",
+      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthesize.md"
+    },
+    {
+      "basename": "DBT-WORKBENCH",
+      "path": "02 PROJECT/TOOLS/DBT-WORKBENCH.md"
     },
     {
       "basename": "DBT",
-      "path": "03 WIKI/DBT/DBT.md"
+      "path": "03 WIKI/TOOLS/DBT/DBT.md"
     },
     {
       "basename": "DBT-OSMOSIS",
-      "path": "02 PROJECT/SOFTWARE/DBT-OSMOSIS/DBT-OSMOSIS.md"
+      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/DBT-OSMOSIS.md"
     },
     {
       "basename": "INSTALLAZIONE AMBIENTE TEST",
@@ -86,27 +126,23 @@
     },
     {
       "basename": "GEOSCRIPTS - REST API",
-      "path": "02 PROJECT/ETL CARTO/GEOSCRIPTS - REST API.md"
+      "path": "02 PROJECT/MAPPING/GEOSCRIPTS - REST API.md"
     },
     {
       "basename": "KUBERNETES",
-      "path": "02 PROJECT/ETL CARTO/KUBERNETES.md"
+      "path": "02 PROJECT/MAPPING/KUBERNETES.md"
     },
     {
       "basename": "GEOSCRIPTS - DEPLOY KUBERNETS",
-      "path": "02 PROJECT/ETL CARTO/GEOSCRIPTS - DEPLOY KUBERNETS.md"
+      "path": "02 PROJECT/MAPPING/GEOSCRIPTS - DEPLOY KUBERNETS.md"
     },
     {
       "basename": "CONVERSIONI GROOVY -> PYTHON",
-      "path": "02 PROJECT/ETL CARTO/CONVERSIONI GROOVY -> PYTHON.md"
-    },
-    {
-      "basename": "CONVERSAZIONI LLM",
-      "path": "02 PROJECT/ETL CARTO/CONVERSAZIONI LLM.md"
+      "path": "02 PROJECT/MAPPING/CONVERSIONI GROOVY -> PYTHON.md"
     },
     {
       "basename": "Problema PDS - VDS (Anastasia)",
-      "path": "02 PROJECT/PROCESSO/Problema PDS - VDS (Anastasia).md"
+      "path": "02 PROJECT/PROCESS/Problema PDS - VDS (Anastasia).md"
     },
     {
       "basename": "DIMENSIONAMENTO",
@@ -117,16 +153,8 @@
       "path": "02 PROJECT/GESTIONE SECRETS.md"
     },
     {
-      "basename": "Gestione Cataloghi Nessie",
-      "path": "02 PROJECT/Gestione Cataloghi Nessie.md"
-    },
-    {
       "basename": "Board Miro",
       "path": "02 PROJECT/Board Miro.md"
-    },
-    {
-      "basename": "02 PROJECT",
-      "path": "02 PROJECT/02 PROJECT.canvas"
     },
     {
       "basename": "Citazioni",
@@ -171,34 +199,6 @@
     {
       "basename": "How to Build a Data Agent in 2026",
       "path": "03 WIKI/How to Build a Data Agent in 2026.md"
-    },
-    {
-      "basename": "FORMATI E STANDARD",
-      "path": "03 WIKI/FORMATI E STANDARD.md"
-    },
-    {
-      "basename": "DATA MESH",
-      "path": "03 WIKI/DATA MESH.md"
-    },
-    {
-      "basename": "CI-CD",
-      "path": "03 WIKI/CI-CD.md"
-    },
-    {
-      "basename": "BEST PRACTICES",
-      "path": "03 WIKI/BEST PRACTICES.md"
-    },
-    {
-      "basename": "BRAINSTORMING GEMINI",
-      "path": "03 WIKI/BRAINSTORMING GEMINI.md"
-    },
-    {
-      "basename": "AI & DataScience",
-      "path": "03 WIKI/AI/AI & DataScience.md"
-    },
-    {
-      "basename": "90 ARCHIVE",
-      "path": "90 ARCHIVE/90 ARCHIVE.md"
     }
   ],
   "omittedPaths": [],

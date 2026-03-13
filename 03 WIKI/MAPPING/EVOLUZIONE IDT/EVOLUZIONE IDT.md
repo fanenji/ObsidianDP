@@ -94,10 +94,10 @@ I vantaggi della integrazione della componente cartografica possono essere sinte
 - [[ETL ATTUALE]]
 - [[MODERN GIS STACK]]
 - [[ARCHITETTURA]]
-- [[03 WIKI/CARTOGRAFIA/EVOLUZIONE IDT/SOFTWARE]]
+- [[SOFTWARE]]
 - [[GEOPARQUET]]
 - [ARCHITETTURA](1%20-%20LAVORO/1%20-%20PROGETTI/DATA%20PLATFORM%20(DP)/CARTOGRAFIA/ARCHITETTURA.md)
-- [SOFTWARE](03%20WIKI/CARTOGRAFIA/EVOLUZIONE%20IDT/SOFTWARE.md)
+- [SOFTWARE](SOFTWARE.md)
 - [PMTILES](obsidian://open?vault=Vault&file=30%20WIKI%2F00%20BOOKMARKS%2FLavoro%2FGEO%2FPMTiles%20Concepts%20%20Protomaps%20Docs)
 - [[RICADUTE SU IDT]]
 - [[INTEGRAZIONE SDI DP]]
@@ -112,5 +112,5 @@ I vantaggi della integrazione della componente cartografica possono essere sinte
 - [[NOTE]]
 - [[RICADUTE SU IDT]]
 - [[RQA PIPELINE CARTO]]
-- [[03 WIKI/CARTOGRAFIA/EVOLUZIONE IDT/SOFTWARE]]
+- [[SOFTWARE]]
 %% MOC END %%

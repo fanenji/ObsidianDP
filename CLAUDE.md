@@ -13,7 +13,11 @@ This is an Obsidian vault. Key conventions:
 
 ## What This Repository Is
 
-This is an Obsidian personal knowledge management vault synced via iCloud and backed up to GitHub (`git@github.com:fanenji/Obsidian.git`). It is not a software project — there are no build steps, tests, or package managers.
+This is an Obsidian personal knowledge management vault synced via iCloud and backed up to GitHub (`git@github.com:fanenji/ObsidianDP.git`). 
+The vault contains the knowledge regarding a Data Engineering project called "Data Platform".
+Data Platform is a Data Lakehouse based on the "Modern Data Stack" paradigm.
+The architecture is brefly described in the document: [[Architettura (Sintesi)]]
+It is not a software project — there are no build steps, tests, or package managers.
 
 ## Git Workflow
 
@@ -27,22 +31,20 @@ The vault uses a numbered prefix hierarchy:
 - `01 INBOX/` — Inbox for new, unsorted items
   - 'Clippings' - Clipping from web pages via Obsidian Web Clipper
   - 'Journal' - Temporary location for daily and journal notes
-- `20 PROJECTS/` — Project folders (geographic/infrastructure projects)
-  - `AI/` — AI-related projects (Claude Code, LocalAI, OpenCode, etc.)
-  - `OBSIDIAN/` — Obsidian meta-notes
-- `30 WIKI/` — Reference and knowledge base notes
-  - `AI/` — AI tools and references
-  - `OBSIDIAN/` — Obsidian reference docs
-  - `TOOLS/` — Notes and docs gor various tools
-- `40 NOTE/` — Work and operational notes
-  - `MAC/` — macOS-related notes
-  - `STEFANO/` — Personal notes (hardware, backups, home lab, etc.)
-- `50 IDEE/` — Ideas and exploratory notes (geospatial, ML, tooling)
-- `90 ARCHIVE/` — Archived work projects no longer actively used
+- `02 PROJECT/` — Raccoglie le note relative al progetto Data Platform
+  - `MAPPING/` — Note relative alle procedure di ingestion dei dati cartografici
+  - `MEETING/` — Note riassuntive dei meeting effettuati
+  - `OPENDATA/` — Note relative all'integrazione della DP con il sistema OpenData
+  - `PROCESS/` — Note relative al processo di ELT e alla sua gestione (CI/CD)
+  - `TOOLS/` — Note relative agli strumenti software utilizzati (dbt, OpenMetadata, ecc.)
+- `03 WIKI/` — Reference and knowledge base notes
+  - `AI/` — Documentazione sull'uso di strumenti AI in ambito data platforms
+  - `DATA QUALITY/` — Documentazione su Data Quality (strumenti e pratiche) 
+  - `MAPPING/` — Documentazione relativa all'integrazione della DP con l'infrastruttura di gestione dei dati cartografici 
+  - `TOOLS/` — Documentazione relativa a vari strumenti software utilizzati (dbt, Dremio, ecc.)
+- `90 ARCHIVE/` — Archived notes no longer actively used
 - `99 System/` — System config, attachments, canvas files
-  - `agents/` — Claude Code agents and skills
   - `attachments/` — All binary attachments (images, PDFs, Postman collections, etc.)
-  - `canvas/` — Canvas files
   - `scripts/` — Scripting files
 - `Templates/` — Note templates (canonical location)
   - `Bases/` — Bases templates

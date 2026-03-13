@@ -6,8 +6,8 @@
   "trashOption": "local",
   "pdfExportSettings": {
     "includeName": true,
-    "pageSize": "A4",
-    "landscape": false,
+    "pageSize": "A3",
+    "landscape": true,
     "margin": "0",
     "downscalePercent": 100
   },

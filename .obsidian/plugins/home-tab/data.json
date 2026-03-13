@@ -24,24 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "CLAUDE.md",
-      "timestamp": 1773306312757
+      "filepath": "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md",
+      "timestamp": 1773393007254
     },
     {
-      "filepath": "03 WIKI/Architettura (Claude Sintesi).md",
-      "timestamp": 1773306079228
+      "filepath": "02 PROJECT/MEETING/2026-03-12 Meeting interno.md",
+      "timestamp": 1773393001001
     },
     {
-      "filepath": "02 PROJECT/PROCESSO/CI-CD GIT FLOW v2.md",
-      "timestamp": 1773306069241
+      "filepath": "00 TODO/dbt-osmosis syntesis conversation.md",
+      "timestamp": 1773391860817
     },
     {
       "filepath": "00 TODO/00 TODO.md",
-      "timestamp": 1773306030366
+      "timestamp": 1773391840970
     },
     {
-      "filepath": "02 PROJECT/PROCESSO/SCRIPT ESECUZIONE DBT.md",
-      "timestamp": 1773305999078
+      "filepath": "03 WIKI/Architettura (Sintesi).md",
+      "timestamp": 1773390656017
     }
   ],
   "bookmarkedFileStore": [],

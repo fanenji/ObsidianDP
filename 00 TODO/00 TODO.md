@@ -14,7 +14,7 @@ updated: 2026-02-22
 
 
 ### Varie
-- [ ] #ci-cd [[CI-CD GIT FLOW v2]] + [[Architettura (Claude Sintesi)]] -> Claude Code 
+- [ ] #ci-cd [[CI-CD GIT FLOW v2.1]] + [[Architettura (Sintesi)]] -> Claude Code 
 - [ ] #dbt osmosis synthesize brainstorm claude (scelta modello + tuning prompt + descrizione completa)
 - [ ] #dbt Definire progetto dbt iniziale creato da dbt-creator (es: examples)
 - [ ] #ci-cd  [[AMBIENTI]] — documentazione CI/CD

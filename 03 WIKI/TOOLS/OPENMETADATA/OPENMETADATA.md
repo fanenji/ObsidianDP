@@ -45,7 +45,7 @@ tags: []
 %% MOC START %%
 - [[ai-sdk Bring Semantics to your AI Agents via the OpenMetadata & Collate AI SDK]]
 - [[Announcing OpenMetadata 1.12]]
-- [[03 WIKI/OPENMETADATA/DREMIO]]
+- [[03 WIKI/TOOLS/OPENMETADATA/DREMIO]]
 - [[MCP]]
 - [[OPENMETADATA 1]]
 %% MOC END %%
