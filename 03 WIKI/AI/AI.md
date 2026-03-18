@@ -12,11 +12,11 @@ tags:
 
 [GeoAI](GeoAI.md)
 
-[[BRAINSTORMING GEMINI]]
+[[Analisi Architettura (Gemini)]]
 
 %% MOC START %%
 - [[AI & DataScience]]
-- [[BRAINSTORMING GEMINI]]
+- [[Analisi Architettura (Gemini)]]
 - [[03 WIKI/AI/DuckDB]]
 - [[GeoAI]]
 %% MOC END %%

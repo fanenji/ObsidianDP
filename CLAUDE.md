@@ -16,7 +16,7 @@ This is an Obsidian vault. Key conventions:
 This is an Obsidian personal knowledge management vault synced via iCloud and backed up to GitHub (`git@github.com:fanenji/ObsidianDP.git`). 
 The vault contains the knowledge regarding a Data Engineering project called "Data Platform".
 Data Platform is a Data Lakehouse based on the "Modern Data Stack" paradigm.
-The architecture is brefly described in the document: [[Architettura (Sintesi)]]
+The architecture is brefly described in the document: [[Sintesi Architettura (Claude)]]
 It is not a software project — there are no build steps, tests, or package managers.
 
 ## Git Workflow

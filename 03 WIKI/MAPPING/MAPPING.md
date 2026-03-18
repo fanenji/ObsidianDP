@@ -7,6 +7,6 @@ tags: []
 
 
 %% MOC START %%
-- [[EVOLUZIONE IDT]]
-- [[INGESTION DATI GEO]]
+- [[Evoluzionw IDT]]
+- [[Ingestion Dati Geo]]
 %% MOC END %%

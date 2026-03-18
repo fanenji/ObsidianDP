@@ -6,16 +6,42 @@ tags:
 type: note
 topic:
 ---
-Scaletta
+**Scaletta**
 - presentazione dbt-workflow
 - omd ingestion con python
 - omd credenziali nascoste in dremio custom connector
+- checklist secrets
 - git merge cookiecutter-template
-- creare repo per issue
+- creata repo per issue
 - gitflow: nomi e convenzioni
 - gitflow: sincrono / asincrono
 - data-modelling (fonte -> dbt -> lineage)
 - pre-commit in ci/cd 
-- checklist secrets
 - organizzazione gruppi/organizzazioni GitLab
 - gestione autenticazioni 
+
+
+**Seacom**
+
+Iniziato sviluppo OpenMetadata Ingestion
+- aggiunta pacchetto in requirements
+- aggiunta openmetadata-recipe 
+- utente esegue comando di ingestion che esegue 2 step
+	- ingestion dremio
+	- ingestion dbt
+Gestione secrets in fase di creazione di progetto
+- problema: dopo push su git sono visibile nella repo
+- utilizzo di bitwarden (come?)
+- utilizzo di file .env locale non pushato su git (usa dbt env_var)
+
+
+
+**LD**
+Pacchetto dbt-workflow
+Discussione su syntetize e condivisione progetti
+
+
+**TODO**
+- finire omd
+- verificare push-flow singolo
+- secrets

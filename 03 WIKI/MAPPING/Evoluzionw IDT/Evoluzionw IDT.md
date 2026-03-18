@@ -101,7 +101,7 @@ I vantaggi della integrazione della componente cartografica possono essere sinte
 - [PMTILES](obsidian://open?vault=Vault&file=30%20WIKI%2F00%20BOOKMARKS%2FLavoro%2FGEO%2FPMTiles%20Concepts%20%20Protomaps%20Docs)
 - [[RICADUTE SU IDT]]
 - [[INTEGRAZIONE SDI DP]]
-- [[INGESTION DATI GEO]]
+- [[Ingestion Dati Geo]]
 
 %% MOC START %%
 - [[ARCHITETTURA]]

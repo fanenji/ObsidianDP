@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "2026-03-13 Meeting SEACOM",
-      "path": "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md"
+      "basename": "CI-CD GIT FLOW v2.1",
+      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md"
     },
     {
-      "basename": "2026-03-12 Meeting interno",
-      "path": "02 PROJECT/MEETING/2026-03-12 Meeting interno.md"
+      "basename": "2026-03-16 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-03-16 Meeting Interno.md"
     },
     {
       "basename": "dbt-osmosis syntesis conversation",
@@ -17,12 +17,168 @@
       "path": "00 TODO/00 TODO.md"
     },
     {
-      "basename": "Architettura (Sintesi)",
-      "path": "03 WIKI/Architettura (Sintesi).md"
+      "basename": "Data Engineering After AI",
+      "path": "03 WIKI/Data Engineering After AI.md"
     },
     {
-      "basename": "CI-CD GIT FLOW v2.1",
-      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md"
+      "basename": "NOTE DATAHUB",
+      "path": "90 ARCHIVE/DataHub/NOTE DATAHUB.md"
+    },
+    {
+      "basename": "DataHub",
+      "path": "90 ARCHIVE/DataHub/DataHub.md"
+    },
+    {
+      "basename": "Gestione Secrets",
+      "path": "02 PROJECT/Gestione Secrets.md"
+    },
+    {
+      "basename": "WAP Pattern",
+      "path": "03 WIKI/WAP Pattern.md"
+    },
+    {
+      "basename": "Modern Data Stack",
+      "path": "03 WIKI/Modern Data Stack.md"
+    },
+    {
+      "basename": "Formati e Standard",
+      "path": "03 WIKI/Formati e Standard.md"
+    },
+    {
+      "basename": "DATA MESH",
+      "path": "03 WIKI/DATA MESH.md"
+    },
+    {
+      "basename": "CI-CD",
+      "path": "03 WIKI/CI-CD.md"
+    },
+    {
+      "basename": "Sintesi Architettura (Claude)",
+      "path": "03 WIKI/Sintesi Architettura (Claude).md"
+    },
+    {
+      "basename": "Analisi Architettura (Gemini)",
+      "path": "03 WIKI/Analisi Architettura (Gemini).md"
+    },
+    {
+      "basename": "OpenMetadata MCP",
+      "path": "03 WIKI/TOOLS/OpenMetadata/OpenMetadata MCP.md"
+    },
+    {
+      "basename": "Kestra",
+      "path": "03 WIKI/TOOLS/Kestra/Kestra.md"
+    },
+    {
+      "basename": "CI-CD GIT FLOW v1",
+      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v1.md"
+    },
+    {
+      "basename": "DuckDb",
+      "path": "03 WIKI/TOOLS/DuckDb/DuckDb.md"
+    },
+    {
+      "basename": "Dremio",
+      "path": "03 WIKI/TOOLS/Dremio/Dremio.md"
+    },
+    {
+      "basename": "dbt",
+      "path": "03 WIKI/TOOLS/dbt/dbt.md"
+    },
+    {
+      "basename": "Ingestion Dati Geo",
+      "path": "03 WIKI/MAPPING/Ingestion Dati Geo/Ingestion Dati Geo.md"
+    },
+    {
+      "basename": "Evoluzionw IDT",
+      "path": "03 WIKI/MAPPING/Evoluzionw IDT/Evoluzionw IDT.md"
+    },
+    {
+      "basename": "Tools",
+      "path": "03 WIKI/DATA QUALITY/Tools.md"
+    },
+    {
+      "basename": "Gemini Analysis",
+      "path": "03 WIKI/DATA QUALITY/Gemini Analysis.md"
+    },
+    {
+      "basename": "dbt-osmosis synthesize",
+      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthesize.md"
+    },
+    {
+      "basename": "SCRIPT ESECUZIONE DBT",
+      "path": "02 PROJECT/PROCESS/SCRIPT ESECUZIONE DBT.md"
+    },
+    {
+      "basename": "2026-03-12 Meeting interno",
+      "path": "02 PROJECT/MEETING/2026-03-12 Meeting interno.md"
+    },
+    {
+      "basename": "OpenMetadata",
+      "path": "03 WIKI/TOOLS/OpenMetadata/OpenMetadata.md"
+    },
+    {
+      "basename": "2026-03-13 Meeting SEACOM",
+      "path": "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md"
+    },
+    {
+      "basename": "Report dettagliato su dbt software",
+      "path": "03 WIKI/TOOLS/dbt/Report dettagliato su dbt software.md"
+    },
+    {
+      "basename": "Orchestrazione Data Platform - Analisi Comparativa",
+      "path": "03 WIKI/Orchestrazione Data Platform - Analisi Comparativa.md"
+    },
+    {
+      "basename": "ArcKit — AI Toolkit for Solution & Enterprise Architects",
+      "path": "03 WIKI/ArcKit — AI Toolkit for Solution & Enterprise Architects.md"
+    },
+    {
+      "basename": "Kubernetes Development on macOS Guide",
+      "path": "03 WIKI/Kubernetes Development on macOS Guide.md"
+    },
+    {
+      "basename": "Iceberg e GeoParquet - Strumenti per Integrazione",
+      "path": "03 WIKI/MAPPING/Iceberg e GeoParquet - Strumenti per Integrazione.md"
+    },
+    {
+      "basename": "Sedona e file grigliati GSB",
+      "path": "03 WIKI/MAPPING/Sedona e file grigliati GSB.md"
+    },
+    {
+      "basename": "Integrazione SDI e Data Platform",
+      "path": "03 WIKI/MAPPING/Integrazione SDI e Data Platform.md"
+    },
+    {
+      "basename": "Ingestione dati cartografici_ analisi alternative",
+      "path": "03 WIKI/MAPPING/Ingestione dati cartografici_ analisi alternative.md"
+    },
+    {
+      "basename": "Dati Geo con Dremio e Nessie",
+      "path": "03 WIKI/MAPPING/Dati Geo con Dremio e Nessie.md"
+    },
+    {
+      "basename": "_KANBAN",
+      "path": "00 TODO/_KANBAN.md"
+    },
+    {
+      "basename": "Dremio Connector",
+      "path": "03 WIKI/TOOLS/OpenMetadata/Dremio Connector.md"
+    },
+    {
+      "basename": "Data Catalog - A Broken Promise",
+      "path": "03 WIKI/TOOLS/OpenMetadata/Data Catalog - A Broken Promise.md"
+    },
+    {
+      "basename": "DBT-OSMOSIS",
+      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/DBT-OSMOSIS.md"
+    },
+    {
+      "basename": "2026-03-10 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-03-10 Meeting Interno.md"
+    },
+    {
+      "basename": "04_09_56",
+      "path": "99 System/attachments/04_09_56.jpg"
     },
     {
       "basename": "Gestione Cataloghi Nessie",
@@ -37,168 +193,8 @@
       "path": "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md"
     },
     {
-      "basename": "2026-03-10 Meeting Interno",
-      "path": "02 PROJECT/MEETING/2026-03-10 Meeting Interno.md"
-    },
-    {
-      "basename": "_KANBAN",
-      "path": "00 TODO/_KANBAN.md"
-    },
-    {
-      "basename": "CI-CD GIT FLOW v1",
-      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v1.md"
-    },
-    {
       "basename": "CI-CD GIT FLOW v2.0",
       "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.0.md"
-    },
-    {
-      "basename": "SCRIPT ESECUZIONE DBT",
-      "path": "02 PROJECT/PROCESS/SCRIPT ESECUZIONE DBT.md"
-    },
-    {
-      "basename": "scripts",
-      "path": "99 System/scripts/scripts.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
-      "basename": "ETL - CONVERSAZIONI LLM",
-      "path": "02 PROJECT/MAPPING/ETL - CONVERSAZIONI LLM.md"
-    },
-    {
-      "basename": "TOOLS",
-      "path": "03 WIKI/TOOLS/TOOLS.md"
-    },
-    {
-      "basename": "PROCESS",
-      "path": "02 PROJECT/PROCESS/PROCESS.md"
-    },
-    {
-      "basename": "MAPPING",
-      "path": "03 WIKI/MAPPING/MAPPING.md"
-    },
-    {
-      "basename": "AMBIENTI",
-      "path": "02 PROJECT/PROCESS/AMBIENTI.md"
-    },
-    {
-      "basename": "02 PROJECT",
-      "path": "02 PROJECT/02 PROJECT.canvas"
-    },
-    {
-      "basename": "dbt-osmosis synthesize",
-      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthesize.md"
-    },
-    {
-      "basename": "DBT-WORKBENCH",
-      "path": "02 PROJECT/TOOLS/DBT-WORKBENCH.md"
-    },
-    {
-      "basename": "DBT",
-      "path": "03 WIKI/TOOLS/DBT/DBT.md"
-    },
-    {
-      "basename": "DBT-OSMOSIS",
-      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/DBT-OSMOSIS.md"
-    },
-    {
-      "basename": "INSTALLAZIONE AMBIENTE TEST",
-      "path": "02 PROJECT/INSTALLAZIONE AMBIENTE TEST.md"
-    },
-    {
-      "basename": "Integrating LLMs and AI Agents into Data Engineering Workflows",
-      "path": "03 WIKI/AI/Integrating LLMs and AI Agents into Data Engineering Workflows.md"
-    },
-    {
-      "basename": "2026-03-03 Meeting Interno",
-      "path": "02 PROJECT/MEETING/2026-03-03 Meeting Interno.md"
-    },
-    {
-      "basename": "PIANO GENERALE ATTIVITA’",
-      "path": "02 PROJECT/PIANO GENERALE ATTIVITA’.md"
-    },
-    {
-      "basename": "MEETING",
-      "path": "02 PROJECT/MEETING/MEETING.md"
-    },
-    {
-      "basename": "GEOSCRIPTS - REST API",
-      "path": "02 PROJECT/MAPPING/GEOSCRIPTS - REST API.md"
-    },
-    {
-      "basename": "KUBERNETES",
-      "path": "02 PROJECT/MAPPING/KUBERNETES.md"
-    },
-    {
-      "basename": "GEOSCRIPTS - DEPLOY KUBERNETS",
-      "path": "02 PROJECT/MAPPING/GEOSCRIPTS - DEPLOY KUBERNETS.md"
-    },
-    {
-      "basename": "CONVERSIONI GROOVY -> PYTHON",
-      "path": "02 PROJECT/MAPPING/CONVERSIONI GROOVY -> PYTHON.md"
-    },
-    {
-      "basename": "Problema PDS - VDS (Anastasia)",
-      "path": "02 PROJECT/PROCESS/Problema PDS - VDS (Anastasia).md"
-    },
-    {
-      "basename": "DIMENSIONAMENTO",
-      "path": "02 PROJECT/DIMENSIONAMENTO.md"
-    },
-    {
-      "basename": "GESTIONE SECRETS",
-      "path": "02 PROJECT/GESTIONE SECRETS.md"
-    },
-    {
-      "basename": "Board Miro",
-      "path": "02 PROJECT/Board Miro.md"
-    },
-    {
-      "basename": "Citazioni",
-      "path": "02 PROJECT/Citazioni.md"
-    },
-    {
-      "basename": "Diagramma Infrastruttura",
-      "path": "99 System/attachments/Diagramma Infrastruttura.png"
-    },
-    {
-      "basename": "Documento Architettura",
-      "path": "02 PROJECT/Documento Architettura.md"
-    },
-    {
-      "basename": "Bases",
-      "path": "Templates/Bases/Bases.md"
-    },
-    {
-      "basename": "Divisione Ingestion e Analisi",
-      "path": "00 TODO/Divisione Ingestion e Analisi.md"
-    },
-    {
-      "basename": "Templates",
-      "path": "Templates/Templates.md"
-    },
-    {
-      "basename": "Journal",
-      "path": "01 INBOX/Journal/Journal.md"
-    },
-    {
-      "basename": "WAP PATTERN",
-      "path": "03 WIKI/WAP PATTERN.md"
-    },
-    {
-      "basename": "SCHEMI",
-      "path": "03 WIKI/SCHEMI.md"
-    },
-    {
-      "basename": "ICEBERG",
-      "path": "03 WIKI/ICEBERG.md"
-    },
-    {
-      "basename": "How to Build a Data Agent in 2026",
-      "path": "03 WIKI/How to Build a Data Agent in 2026.md"
     }
   ],
   "omittedPaths": [],

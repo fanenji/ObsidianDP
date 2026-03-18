@@ -4,6 +4,7 @@ topic:
 created: 2026-03-13
 tags: []
 ---
+- Clone repo [GitLab](https://gitlab-test.dataliguria.it/data-platform/dbt/models/dbt-osmosis-1.2.2) 
 - Analisi codice per capire come viene utilizzato modello in llm.py
 - Scelta modelli e test comparativo 
 - Analisi e miglioramento prompt 
