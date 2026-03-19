@@ -2,6 +2,7 @@
 updated: 2026-02-22
 ---
 - [ ] #dbt #brs [[dbt-osmosis syntesis conversation]]
+- [ ] #varie spostare conversazioni su DP da /Users/S.Parodi/Library/Mobile Documents/com~apple~CloudDocs/Obsidian/Vault/30 WIKI/AI/CONVERSATIONS
 
 
 # Obsidian
@@ -18,8 +19,7 @@ updated: 2026-02-22
 - [ ] #openmetadata  OpenMetadata Ingestion
 - [ ] #openmetadata  OMD: ricerca su colonna limitata problematica
 - [ ] #data-modelling Data Modelling — schema e relazioni tra modelli
-- [ ] #dbt dbt-workbench — gestione workspace in ambiente k8s
-- [ ] #dbt dbt-checkpoint — decidere quali test effettuare
+- [ ] #dbt dbt-checkpoint — decidere quali test effettuare (es: uso source e ref obbligatorio)
 - [ ] #dremio Dremio OPTIMIZE — compaction iceberg table
 - [ ] #varie Ingestion da sorgenti non relazionali (API, file) — kestra / dlt
 - [ ] #varie Reverse ETL (write back)

@@ -11,9 +11,9 @@ tags:
 
 [TOOLS](1%20-%20LAVORO/1%20-%20PROGETTI/DATA%20PLATFORM%20(DP)/DATA%20QUALITY/TOOLS.md)
 
-[Gemini Analysis](Gemini%20Analysis.md)
+[Suggested Models (Gemini) - OLD](Suggested%20Models%20(Gemini)%20-%20OLD.md)
 
 %% MOC START %%
-- [[Gemini Analysis]]
+- [[Suggested Models (Gemini) - OLD]]
 - [[03 WIKI/DATA QUALITY/Tools]]
 %% MOC END %%

@@ -24,12 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md",
-      "timestamp": 1773736836205
+      "filepath": "02 PROJECT/MEETING/2026-03-20 Meeting SEACOM.md",
+      "timestamp": 1773933751669
     },
     {
-      "filepath": "02 PROJECT/MEETING/2026-03-16 Meeting Interno.md",
-      "timestamp": 1773732941805
+      "filepath": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthetize.md",
+      "timestamp": 1773917203244
+    },
+    {
+      "filepath": "03 WIKI/DATA QUALITY/Suggested Models (Gemini) - OLD.md",
+      "timestamp": 1773917197208
+    },
+    {
+      "filepath": "02 PROJECT/TOOLS/DBT-OSMOSIS/Model Suggestions for llm.py.md",
+      "timestamp": 1773917154853
+    },
+    {
+      "filepath": "03 WIKI/DATA QUALITY/Tools.md",
+      "timestamp": 1773917150358
     }
   ],
   "bookmarkedFileStore": [],

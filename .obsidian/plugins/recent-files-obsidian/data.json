@@ -1,20 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "CI-CD GIT FLOW v2.1",
-      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md"
+      "basename": "2026-03-20 Meeting SEACOM",
+      "path": "02 PROJECT/MEETING/2026-03-20 Meeting SEACOM.md"
+    },
+    {
+      "basename": "dbt-osmosis synthetize",
+      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthetize.md"
+    },
+    {
+      "basename": "Suggested Models (Gemini) - OLD",
+      "path": "03 WIKI/DATA QUALITY/Suggested Models (Gemini) - OLD.md"
+    },
+    {
+      "basename": "Model Suggestions for llm.py",
+      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/Model Suggestions for llm.py.md"
+    },
+    {
+      "basename": "Tools",
+      "path": "03 WIKI/DATA QUALITY/Tools.md"
+    },
+    {
+      "basename": "2026-03-13 Meeting SEACOM",
+      "path": "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md"
+    },
+    {
+      "basename": "Journal",
+      "path": "01 INBOX/Journal/Journal.md"
     },
     {
       "basename": "2026-03-16 Meeting Interno",
       "path": "02 PROJECT/MEETING/2026-03-16 Meeting Interno.md"
     },
     {
-      "basename": "dbt-osmosis syntesis conversation",
-      "path": "00 TODO/dbt-osmosis syntesis conversation.md"
+      "basename": "Suggested Data Quality Tools",
+      "path": "03 WIKI/DATA QUALITY/Suggested Data Quality Tools.md"
+    },
+    {
+      "basename": "Sintesi Architettura (Claude)",
+      "path": "03 WIKI/Sintesi Architettura (Claude).md"
     },
     {
       "basename": "00 TODO",
       "path": "00 TODO/00 TODO.md"
+    },
+    {
+      "basename": "DBT-OSMOSIS",
+      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/DBT-OSMOSIS.md"
+    },
+    {
+      "basename": "CI-CD GIT FLOW v2.1",
+      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md"
     },
     {
       "basename": "Data Engineering After AI",
@@ -53,10 +89,6 @@
       "path": "03 WIKI/CI-CD.md"
     },
     {
-      "basename": "Sintesi Architettura (Claude)",
-      "path": "03 WIKI/Sintesi Architettura (Claude).md"
-    },
-    {
       "basename": "Analisi Architettura (Gemini)",
       "path": "03 WIKI/Analisi Architettura (Gemini).md"
     },
@@ -93,18 +125,6 @@
       "path": "03 WIKI/MAPPING/Evoluzionw IDT/Evoluzionw IDT.md"
     },
     {
-      "basename": "Tools",
-      "path": "03 WIKI/DATA QUALITY/Tools.md"
-    },
-    {
-      "basename": "Gemini Analysis",
-      "path": "03 WIKI/DATA QUALITY/Gemini Analysis.md"
-    },
-    {
-      "basename": "dbt-osmosis synthesize",
-      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthesize.md"
-    },
-    {
       "basename": "SCRIPT ESECUZIONE DBT",
       "path": "02 PROJECT/PROCESS/SCRIPT ESECUZIONE DBT.md"
     },
@@ -115,10 +135,6 @@
     {
       "basename": "OpenMetadata",
       "path": "03 WIKI/TOOLS/OpenMetadata/OpenMetadata.md"
-    },
-    {
-      "basename": "2026-03-13 Meeting SEACOM",
-      "path": "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md"
     },
     {
       "basename": "Report dettagliato su dbt software",
@@ -169,10 +185,6 @@
       "path": "03 WIKI/TOOLS/OpenMetadata/Data Catalog - A Broken Promise.md"
     },
     {
-      "basename": "DBT-OSMOSIS",
-      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/DBT-OSMOSIS.md"
-    },
-    {
       "basename": "2026-03-10 Meeting Interno",
       "path": "02 PROJECT/MEETING/2026-03-10 Meeting Interno.md"
     },
@@ -187,14 +199,6 @@
     {
       "basename": "2026-03-06 Meeting SEACOM",
       "path": "02 PROJECT/MEETING/2026-03-06 Meeting SEACOM.md"
-    },
-    {
-      "basename": "2026-03-09 Meeting Interno",
-      "path": "02 PROJECT/MEETING/2026-03-09 Meeting Interno.md"
-    },
-    {
-      "basename": "CI-CD GIT FLOW v2.0",
-      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.0.md"
     }
   ],
   "omittedPaths": [],

@@ -35,13 +35,15 @@ Gestione secrets in fase di creazione di progetto
 - utilizzo di file .env locale non pushato su git (usa dbt env_var)
 
 
-
 **LD**
 Pacchetto dbt-workflow
-Discussione su syntetize e condivisione progetti
+Discussione su synthetize e condivisione progetti
 
 
 **TODO**
-- finire omd
-- verificare push-flow singolo
-- secrets
+- Finire omd
+- Verificare push-flow singolo
+- Gestione secrets
+- Configurazione source: gestione nel dbt-creator 
+	- lista source -> scelta -> configurazione dbt
+- Repo progetto dbt esempio

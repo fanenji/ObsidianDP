@@ -1,13 +1,12 @@
 ---
-type: note
-topic: data-platform
+type: ai-conversation
+topic: data-quality
 created: 2026-01-15
 tags:
   - data-quality
   - llm
+  - gemini
 ---
-
-# GEMINI
 
 ## MODELLI
 

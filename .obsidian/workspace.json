@@ -60,41 +60,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthesize.md",
+                "file": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthetize.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "dbt-osmosis synthesize"
+              "title": "dbt-osmosis synthetize"
             }
           },
           {
-            "id": "50d8c614044277bb",
+            "id": "abcbedab0de48cfd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 TODO/00 TODO.md",
+                "file": "02 PROJECT/TOOLS/DBT-OSMOSIS/Model Suggestions for llm.py.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 TODO"
+              "title": "Model Suggestions for llm.py"
             }
           },
           {
-            "id": "4d861292ef19f8dd",
+            "id": "61c00a78c59d4890",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md",
+                "file": "02 PROJECT/MEETING/2026-03-20 Meeting SEACOM.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "CI-CD GIT FLOW v2.1"
+              "title": "2026-03-20 Meeting SEACOM"
             }
           }
         ],
@@ -195,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 298.50390243530273
   },
   "right": {
     "id": "45ad9902070877bf",
@@ -273,13 +275,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md",
+                "file": "02 PROJECT/MEETING/2026-03-20 Meeting SEACOM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CI-CD GIT FLOW v2.1"
+              "title": "Outline of 2026-03-20 Meeting SEACOM"
             }
           },
           {
@@ -325,12 +327,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4d861292ef19f8dd",
+  "active": "61c00a78c59d4890",
   "lastOpenFiles": [
+    "02 PROJECT/MEETING/2026-03-20 Meeting SEACOM.md",
+    "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthetize.md",
+    "03 WIKI/DATA QUALITY/Suggested Models (Gemini) - OLD.md",
+    "02 PROJECT/TOOLS/DBT-OSMOSIS/Model Suggestions for llm.py.md",
+    "03 WIKI/DATA QUALITY/Tools.md",
+    "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md",
+    "01 INBOX/Journal/Journal.md",
+    "01 INBOX/Journal",
     "02 PROJECT/MEETING/2026-03-16 Meeting Interno.md",
-    "01 INBOX/Clippings/Increase VRAM on Apple Silicon for Local LLMs.md",
-    "00 TODO/dbt-osmosis syntesis conversation.md",
+    "03 WIKI/DATA QUALITY/Suggested Data Quality Tools.md",
+    "03 WIKI/Sintesi Architettura (Claude).md",
     "00 TODO/00 TODO.md",
+    "00 TODO/dbt-osmosis syntesis conversation.md",
+    "02 PROJECT/TOOLS/DBT-OSMOSIS/DBT-OSMOSIS.md",
+    "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md",
+    "01 INBOX/Clippings/Increase VRAM on Apple Silicon for Local LLMs.md",
     "03 WIKI/Data Engineering After AI.md",
     "90 ARCHIVE/DataHub/NOTE DATAHUB.md",
     "90 ARCHIVE/DataHub/DataHub.md",
@@ -340,19 +354,8 @@
     "03 WIKI/Formati e Standard.md",
     "03 WIKI/DATA MESH.md",
     "03 WIKI/CI-CD.md",
-    "03 WIKI/Sintesi Architettura (Claude).md",
     "03 WIKI/Analisi Architettura (Gemini).md",
     "03 WIKI/TOOLS/OpenMetadata/OpenMetadata MCP.md",
-    "03 WIKI/TOOLS/Kestra/Kestra.md",
-    "02 PROJECT/PROCESS/CI-CD GIT FLOW v1.md",
-    "03 WIKI/TOOLS/KESTRA/Kestra.md",
-    "03 WIKI/TOOLS/DuckDb/DuckDb.md",
-    "03 WIKI/TOOLS/DUCKDB/DuckDb.md",
-    "03 WIKI/TOOLS/Dremio/Dremio.md",
-    "03 WIKI/TOOLS/DREMIO/Dremio.md",
-    "03 WIKI/TOOLS/dbt/dbt.md",
-    "03 WIKI/TOOLS/DBT/dbt.md",
-    "03 WIKI/MAPPING/Ingestion Dati Geo/Ingestion Dati Geo.md",
     "99 System/scripts/docx_to_md.sh",
     "99 System/attachments/04_09_56.jpg",
     "99 System/scripts",
@@ -365,7 +368,6 @@
     "Templates/Bases/Daily.base",
     "Templates/Bases/Clippings.base",
     "Templates/Bases",
-    "Templates",
     "99 System/attachments/Diagramma Infrastruttura.png",
     "99 System/attachments/Pasted image 20260308180034.png",
     "99 System/attachments/Pasted image 20260308175952.png",
