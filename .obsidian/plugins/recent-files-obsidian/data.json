@@ -1,36 +1,100 @@
 {
   "recentFiles": [
     {
-      "basename": "2026-03-20 Meeting SEACOM",
-      "path": "02 PROJECT/MEETING/2026-03-20 Meeting SEACOM.md"
+      "basename": "Model Suggestions for llm.py",
+      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/Model Suggestions for llm.py.md"
+    },
+    {
+      "basename": "2026-03-25 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-03-25 Meeting Interno.md"
+    },
+    {
+      "basename": "2026-03-24 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-03-24 Meeting Interno.md"
     },
     {
       "basename": "dbt-osmosis synthetize",
       "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthetize.md"
     },
     {
-      "basename": "Suggested Models (Gemini) - OLD",
-      "path": "03 WIKI/DATA QUALITY/Suggested Models (Gemini) - OLD.md"
+      "basename": "2026-03-24",
+      "path": "01 INBOX/Journal/2026-03-24.md"
     },
     {
-      "basename": "Model Suggestions for llm.py",
-      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/Model Suggestions for llm.py.md"
+      "basename": "00 TODO",
+      "path": "00 TODO/00 TODO.md"
     },
     {
-      "basename": "Tools",
-      "path": "03 WIKI/DATA QUALITY/Tools.md"
+      "basename": "2026-03-23 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-03-23 Meeting Interno.md"
+    },
+    {
+      "basename": "2026-03-20 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-03-20 Meeting Interno.md"
+    },
+    {
+      "basename": "2026-03-16 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-03-16 Meeting Interno.md"
+    },
+    {
+      "basename": "2026-03-06 Meeting SEACOM",
+      "path": "02 PROJECT/MEETING/2026-03-06 Meeting SEACOM.md"
     },
     {
       "basename": "2026-03-13 Meeting SEACOM",
       "path": "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md"
     },
     {
-      "basename": "Journal",
-      "path": "01 INBOX/Journal/Journal.md"
+      "basename": "2026-03-12 Meeting interno",
+      "path": "02 PROJECT/MEETING/2026-03-12 Meeting interno.md"
     },
     {
-      "basename": "2026-03-16 Meeting Interno",
-      "path": "02 PROJECT/MEETING/2026-03-16 Meeting Interno.md"
+      "basename": "2026-03-20 Meeting SEACOM",
+      "path": "02 PROJECT/MEETING/2026-03-20 Meeting SEACOM.md"
+    },
+    {
+      "basename": "How we built Text-to-SQL at Pinterest",
+      "path": "03 WIKI/AI/How we built Text-to-SQL at Pinterest.md"
+    },
+    {
+      "basename": "DBT CREATOR",
+      "path": "02 PROJECT/PROCESS/DBT CREATOR.md"
+    },
+    {
+      "basename": "SCRIPT ESECUZIONE DBT",
+      "path": "02 PROJECT/PROCESS/SCRIPT ESECUZIONE DBT.md"
+    },
+    {
+      "basename": "2026-03-20",
+      "path": "01 INBOX/Journal/2026-03-20.md"
+    },
+    {
+      "basename": "Semantic Layer in Big Tech",
+      "path": "03 WIKI/Semantic Layer in Big Tech.md"
+    },
+    {
+      "basename": "_GEMINI",
+      "path": "03 WIKI/_GEMINI/_GEMINI.md"
+    },
+    {
+      "basename": "dbt YAML schema for daily media calculations",
+      "path": "03 WIKI/TOOLS/dbt/dbt YAML schema for daily media calculations.md"
+    },
+    {
+      "basename": "Openmetadata Unified Knowledge Graph",
+      "path": "03 WIKI/TOOLS/OpenMetadata/Openmetadata Unified Knowledge Graph.md"
+    },
+    {
+      "basename": "Suggested Models (Gemini) - OLD",
+      "path": "03 WIKI/DATA QUALITY/Suggested Models (Gemini) - OLD.md"
+    },
+    {
+      "basename": "Tools",
+      "path": "03 WIKI/DATA QUALITY/Tools.md"
+    },
+    {
+      "basename": "Journal",
+      "path": "01 INBOX/Journal/Journal.md"
     },
     {
       "basename": "Suggested Data Quality Tools",
@@ -39,10 +103,6 @@
     {
       "basename": "Sintesi Architettura (Claude)",
       "path": "03 WIKI/Sintesi Architettura (Claude).md"
-    },
-    {
-      "basename": "00 TODO",
-      "path": "00 TODO/00 TODO.md"
     },
     {
       "basename": "DBT-OSMOSIS",
@@ -125,14 +185,6 @@
       "path": "03 WIKI/MAPPING/Evoluzionw IDT/Evoluzionw IDT.md"
     },
     {
-      "basename": "SCRIPT ESECUZIONE DBT",
-      "path": "02 PROJECT/PROCESS/SCRIPT ESECUZIONE DBT.md"
-    },
-    {
-      "basename": "2026-03-12 Meeting interno",
-      "path": "02 PROJECT/MEETING/2026-03-12 Meeting interno.md"
-    },
-    {
       "basename": "OpenMetadata",
       "path": "03 WIKI/TOOLS/OpenMetadata/OpenMetadata.md"
     },
@@ -147,58 +199,6 @@
     {
       "basename": "ArcKit — AI Toolkit for Solution & Enterprise Architects",
       "path": "03 WIKI/ArcKit — AI Toolkit for Solution & Enterprise Architects.md"
-    },
-    {
-      "basename": "Kubernetes Development on macOS Guide",
-      "path": "03 WIKI/Kubernetes Development on macOS Guide.md"
-    },
-    {
-      "basename": "Iceberg e GeoParquet - Strumenti per Integrazione",
-      "path": "03 WIKI/MAPPING/Iceberg e GeoParquet - Strumenti per Integrazione.md"
-    },
-    {
-      "basename": "Sedona e file grigliati GSB",
-      "path": "03 WIKI/MAPPING/Sedona e file grigliati GSB.md"
-    },
-    {
-      "basename": "Integrazione SDI e Data Platform",
-      "path": "03 WIKI/MAPPING/Integrazione SDI e Data Platform.md"
-    },
-    {
-      "basename": "Ingestione dati cartografici_ analisi alternative",
-      "path": "03 WIKI/MAPPING/Ingestione dati cartografici_ analisi alternative.md"
-    },
-    {
-      "basename": "Dati Geo con Dremio e Nessie",
-      "path": "03 WIKI/MAPPING/Dati Geo con Dremio e Nessie.md"
-    },
-    {
-      "basename": "_KANBAN",
-      "path": "00 TODO/_KANBAN.md"
-    },
-    {
-      "basename": "Dremio Connector",
-      "path": "03 WIKI/TOOLS/OpenMetadata/Dremio Connector.md"
-    },
-    {
-      "basename": "Data Catalog - A Broken Promise",
-      "path": "03 WIKI/TOOLS/OpenMetadata/Data Catalog - A Broken Promise.md"
-    },
-    {
-      "basename": "2026-03-10 Meeting Interno",
-      "path": "02 PROJECT/MEETING/2026-03-10 Meeting Interno.md"
-    },
-    {
-      "basename": "04_09_56",
-      "path": "99 System/attachments/04_09_56.jpg"
-    },
-    {
-      "basename": "Gestione Cataloghi Nessie",
-      "path": "02 PROJECT/Gestione Cataloghi Nessie.md"
-    },
-    {
-      "basename": "2026-03-06 Meeting SEACOM",
-      "path": "02 PROJECT/MEETING/2026-03-06 Meeting SEACOM.md"
     }
   ],
   "omittedPaths": [],

@@ -15,9 +15,9 @@ tags:
 
 # TEMPLATE PROGETTO DBT
 
+
 [https://gitlab-test.dataliguria.it/data-platform/dbt/models/cookiecutter-dbt-template](https://gitlab-test.dataliguria.it/data-platform/dbt/models/cookiecutter-dbt-template)
 
-[https://gitlab-test.dataliguria.it/data-platform/dbt/models/cookiecutter-dbt-template-test](https://gitlab-test.dataliguria.it/data-platform/dbt/models/cookiecutter-dbt-template-test)
 
 
 # TODO
