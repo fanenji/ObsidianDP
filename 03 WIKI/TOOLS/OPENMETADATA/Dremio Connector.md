@@ -5,6 +5,8 @@ created: 2026-01-10
 tags:
   - openmetadata
   - dremio
+  - tools
+
 ---
 
 Dremio Custom Connector

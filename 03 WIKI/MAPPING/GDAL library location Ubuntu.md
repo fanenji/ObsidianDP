@@ -6,6 +6,8 @@ created: 2026-02-13
 tags:
   - gdal
   - ubuntu
+  - mapping
+
 ---
 > From: https://chatgpt.com/c/68090c2f-1bd4-8008-9e47-e0c4f9051fa2
 

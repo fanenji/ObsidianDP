@@ -2,7 +2,9 @@
 type: moc
 topic: gis
 created: 2026-01-15
-tags: []
+tags:
+  - mapping
+  - ingestion-dati-geo
 ---
 
 L’ingestion dei dati cartografici riguarda l’integrazione tra un sistema esistente,  la Spatial Data Infrastructure (SDI) di Regione Liguria, e la nuova Data Platform (DP) in costruzione.

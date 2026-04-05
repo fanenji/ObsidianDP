@@ -7,6 +7,8 @@ tags:
   - cdc
   - oracle
   - postgresql
+  - mapping
+
 ---
 > From: https://chatgpt.com/c/684be82e-bd74-8008-b39e-10f78d463c99
 

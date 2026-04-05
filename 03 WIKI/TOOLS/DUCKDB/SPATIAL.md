@@ -6,6 +6,8 @@ tags:
   - duckdb
   - spatial
   - gis
+  - tools
+
 ---
 
 [A Modern Geospatial Workflow: PyEnv, Poetry, DuckDB, and JuPySQL](https://medium.com/@jake.gearon_34983/a-modern-geospatial-workflow-pyenv-poetry-duckdb-and-jupysql-7e7d355655f5)

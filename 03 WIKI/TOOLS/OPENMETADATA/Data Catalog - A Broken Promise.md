@@ -8,6 +8,8 @@ created: 2026-03-13
 description: "A critique on Data Catalog, and the future of knowledge management"
 tags:
   - "clippings"
+  - tools
+  - openmetadata
 topic:
 type: "note"
 ---

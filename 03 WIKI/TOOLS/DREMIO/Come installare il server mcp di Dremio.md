@@ -6,6 +6,8 @@ created: 2026-02-13
 tags:
   - dremio
   - mcp
+  - tools
+
 ---
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
 

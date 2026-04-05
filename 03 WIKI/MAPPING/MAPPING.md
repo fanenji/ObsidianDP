@@ -2,11 +2,7 @@
 type: moc
 topic: gis
 created: 2026-02-21
-tags: []
+tags:
+  - mapping
 ---
 
-
-%% MOC START %%
-- [[Evoluzionw IDT]]
-- [[Ingestion Dati Geo]]
-%% MOC END %%

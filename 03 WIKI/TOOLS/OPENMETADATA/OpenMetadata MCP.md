@@ -5,6 +5,8 @@ created: 2026-02-17
 tags:
   - openmetadata
   - mcp
+  - tools
+
 ---
 
 

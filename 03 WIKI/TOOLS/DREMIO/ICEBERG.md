@@ -5,6 +5,8 @@ created: 2026-01-15
 tags:
   - iceberg
   - dremio
+  - tools
+
 ---
 
 [Apache Iceberg Overview (Jan 2024 Edition) - Architecture, Ecosystem, and more!](https://www.youtube.com/watch?v=stJLaIZRcJs)

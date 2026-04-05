@@ -4,6 +4,9 @@ topic: gis
 created: 2026-01-15
 tags:
   - geoparquet
+  - mapping
+  - evoluzionw-idt
+
 ---
 
 Spatial Parquet: formato alternativo a GeoParquet

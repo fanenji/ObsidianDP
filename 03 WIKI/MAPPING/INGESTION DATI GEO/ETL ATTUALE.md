@@ -4,6 +4,9 @@ topic: gis
 created: 2026-01-15
 tags:
   - etl
+  - mapping
+  - ingestion-dati-geo
+
 ---
 
 - Preparazione dati

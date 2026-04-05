@@ -2,12 +2,18 @@
 type: moc
 topic: data-platform
 created: 2026-02-21
-tags: []
+tags:
+  - tools
+  - openmetadata
 ---
 
 ## DOCS
 
 - [https://docs.open-metadata.org/latest](https://docs.open-metadata.org/latest)
+
+## RDF
+
+- https://github.com/open-metadata/OpenMetadata/issues/22853
 
 ## DATA QUALITY
 

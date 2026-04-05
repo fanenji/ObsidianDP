@@ -6,6 +6,9 @@ created: 2026-02-13
 tags:
   - claude-code
   - mcp
+  - tools
+  - openmetadata
+
 ---
 > From: https://claude.ai/chat/838a8df9-232f-49f7-9fc2-d59158f1041c
 

@@ -1,3 +1,12 @@
+---
+type: note
+topic: data-platform
+created: 2026-03-15
+tags:
+  - tools
+  - dbt
+---
+
 # **Architettare il Modern Data Lakehouse: Una Guida Completa a dbt, dallo Sviluppo alla Produzione**
 
 [**<u>Report Web</u>**](https://gemini.google.com/share/cf98d1aaed50)

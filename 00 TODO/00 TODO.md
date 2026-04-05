@@ -1,13 +1,19 @@
 ---
 updated: 2026-02-22
 ---
+- [ ] [ADR](obsidian://open?vault=DataPlatform&file=03%20WIKI%2FARCHITETTURA%2FArcKit%20%E2%80%94%20AI%20Toolkit%20for%20Solution%20%26%20Enterprise%20Architects) per scelte architetturali
+- [ ] #obsidian wiki: folder pages sistemare
+- [ ] #ai Benchmark modelli 
+	- [[quality_summary]] /Users/S.Parodi/Scripts/llm_benchmarks
+	- [semantic_sql_testing](https://github.com/djouallah/semantic_sql_testing): Benchmark modello per text_to_sql
 - [ ] #dbt #brs [[dbt-osmosis syntesis conversation]]
-- [ ] #varie spostare conversazioni su DP da /Users/S.Parodi/Library/Mobile Documents/com~apple~CloudDocs/Obsidian/Vault/30 WIKI/AI/CONVERSATIONS
+- [ ] #varie NoteBookLM Dedicato con tutto il materiale per la data platform (anche wiki???)
+- [ ] #obsidian [LLM Knowledge base](obsidian://open?vault=Vault&file=01%20INBOX%2FClippings%2FLLM%20Knowledge%20Bases%20by%20%40karpathy) (karpathy) 
+- [ ] #obsidian [[Gestione Vault]]
 
 
 # Obsidian
-- [ ] #obsidian wiki: riorganizzare
-- [ ] #obsidian wiki: controllare link e clip link interessanti
+- [ ] #obsidian Revisione wiki
 - [ ] #obsidian wiki: clip da raindrop
 
 
@@ -29,7 +35,7 @@ updated: 2026-02-22
 - [ ] #dbt Semantic Layer Tool: MetricFlow / LightDash
 
 
-# dbt packages
+# dbt Packages
 - [ ] #dbt dbt_expectations
 - [ ] #dbt dbt_project_evaluator
 - [ ] #dbt dbt_artifacts

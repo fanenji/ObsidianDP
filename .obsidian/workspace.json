@@ -38,83 +38,38 @@
             }
           },
           {
-            "id": "b88c3d4de60313c0",
+            "id": "317f8b9ccd184afe",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 PROJECT/PROCESS/SCRIPT ESECUZIONE DBT.md",
+                "file": "01 INBOX/ideas_2026-04-02.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "SCRIPT ESECUZIONE DBT"
+              "title": "ideas_2026-04-02"
             }
           },
           {
-            "id": "5934f79431fdf9e9",
+            "id": "0d333e3fd1c85938",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthetize.md",
+                "file": "03 WIKI/TOOLS/dbt/dbt.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "dbt-osmosis synthetize"
-            }
-          },
-          {
-            "id": "61c00a78c59d4890",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 PROJECT/MEETING/2026-03-20 Meeting SEACOM.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "2026-03-20 Meeting SEACOM"
-            }
-          },
-          {
-            "id": "d9b5bd0a4446c44e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 PROJECT/TOOLS/DBT-OSMOSIS/Model Suggestions for llm.py.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Model Suggestions for llm.py"
-            }
-          },
-          {
-            "id": "d785564301b0ae6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 INBOX/Journal/2026-03-24.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-03-24"
+              "title": "dbt"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:infrastruttura",
+                "query": "tag:clippings; mapping;",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.50390243530273
+    "width": 432.5
   },
   "right": {
     "id": "45ad9902070877bf",
@@ -289,13 +244,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 PROJECT/TOOLS/DBT-OSMOSIS/Model Suggestions for llm.py.md",
+                "file": "00 TODO/00 TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Model Suggestions for llm.py"
+              "title": "Outline of 00 TODO"
             }
           },
           {
@@ -323,7 +278,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -341,46 +297,46 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d9b5bd0a4446c44e",
+  "active": "3a996773f720f8dc",
   "lastOpenFiles": [
-    "02 PROJECT/MEETING/2026-03-25 Meeting Interno.md",
-    "02 PROJECT/MEETING/2026-03-24 Meeting Interno.md",
-    "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthetize.md",
-    "01 INBOX/Journal/2026-03-24.md",
+    "dbt-osmosis syntesis conversation.md",
+    "01-Introduction.md",
     "00 TODO/00 TODO.md",
-    "02 PROJECT/MEETING/2026-03-23 Meeting Interno.md",
-    "02 PROJECT/MEETING/2026-03-20 Meeting Interno.md",
-    "02 PROJECT/MEETING/2026-03-16 Meeting Interno.md",
-    "02 PROJECT/MEETING/2026-03-06 Meeting SEACOM.md",
-    "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md",
-    "02 PROJECT/MEETING/2026-03-12 Meeting interno.md",
-    "02 PROJECT/MEETING/2026-03-20 Meeting SEACOM.md",
-    "03 WIKI/AI/How we built Text-to-SQL at Pinterest.md",
-    "02 PROJECT/PROCESS/DBT CREATOR.md",
-    "02 PROJECT/PROCESS/SCRIPT ESECUZIONE DBT.md",
-    "02 PROJECT/TOOLS/DBT-OSMOSIS/Model Suggestions for llm.py.md",
-    "01 INBOX/Journal/2026-03-20.md",
-    "03 WIKI/Semantic Layer in Big Tech.md",
-    "Templates/Daily Note Template.md",
-    "03 WIKI/_GEMINI/_GEMINI.md",
-    "03 WIKI/TOOLS/dbt/dbt YAML schema for daily media calculations.md",
-    "03 WIKI/TOOLS/OpenMetadata/Openmetadata Unified Knowledge Graph.md",
-    "03 WIKI/CONVERSATIONS/CHATGPT/CHATGPT.md",
-    "03 WIKI/CONVERSATIONS/CONVERSATIONS.md",
-    "03 WIKI/CONVERSATIONS/CHATGPT/Copy Spatial Table DB.md",
-    "03 WIKI/CONVERSATIONS/CHATGPT/Load GeoTIFF COG Leaflet.md",
-    "03 WIKI/CONVERSATIONS/CHATGPT",
-    "03 WIKI/CONVERSATIONS/PERPLEXITY",
-    "03 WIKI/CONVERSATIONS/CLAUDE/Vscode quick action ISTRUZIONI INSTALLAZIONE.txt",
-    "03 WIKI/CONVERSATIONS/CLAUDE",
-    "03 WIKI/_GEMINI/Kestra API to S3 Parquet.txt",
-    "03 WIKI/_GEMINI",
-    "03 WIKI/CONVERSATIONS",
-    "01 INBOX/Journal",
-    "99 System/scripts/docx_to_md.sh",
-    "99 System/attachments/04_09_56.jpg",
-    "99 System/scripts",
+    "03 WIKI/TOOLS/dbt/dbt.md",
+    "03 WIKI/TOOLS/dbt/One Thousands and One dbt Models How BlaBlaCar Moved to dbt in 12 months - Summary.md",
+    "03 WIKI/MAPPING/Geospatial Tables in the Open Lakehouse A New Era for Iceberg & Parquet - Summary.md",
+    "03 WIKI/MAPPING/FOSS4GE 2024  Towards better data platforms with semantic metadata - Summary.md",
+    "03 WIKI/TOOLS/OpenMetadata/Embedding an MCP Server into OpenMetadata - Summary.md",
+    "03 WIKI/TOOLS/dbt/One Thousands and One dbt Models How BlaBlaCar Moved to dbt in 12 months.md",
+    "03 WIKI/MAPPING/Geospatial Tables in the Open Lakehouse A New Era for Iceberg & Parquet.md",
+    "03 WIKI/MAPPING/FOSS4GE 2024  Towards better data platforms with semantic metadata.md",
+    "03 WIKI/TOOLS/OpenMetadata/Embedding an MCP Server into OpenMetadata.md",
+    "03 WIKI/TOOLS/DuckDb/DuckDB Spatial Supercharged Geospatial SQL - Summary.md",
+    "03 WIKI/TOOLS/DuckDb/DuckDB Spatial Supercharged Geospatial SQL.md",
+    "03 WIKI/MAPPING/Complex geospatial analytics with dbt - Summary.md",
+    "03 WIKI/MAPPING/Complex geospatial analytics with dbt - Video Transcript.md",
+    "03 WIKI/TOOLS/Kestra/Kestra vs Airflow (Video).md",
+    "01 INBOX/Clippings/Airflow alternatives online meetup (part 1) — Mage and Kestra.md",
+    "03 WIKI/TOOLS/Kestra/Airflow vs Kestra.md",
+    "03 WIKI/TOOLS/Kestra/Airflow vs Dagster vs Kestra.md",
+    "03 WIKI/Patterns of Data Engineering.md",
+    "03 WIKI/MAPPING/MAPPING.md",
+    "03 WIKI/AI/Reframing LLM 'Chat with Data' Introducing LLM-Assisted Data Recipes.md",
+    "03 WIKI/MAPPING/Geocomputation with Python.md",
+    "03 WIKI/TOOLS/Dremio/Dremio.md",
+    "03 WIKI/TOOLS/TOOLS.md",
+    "1 - LAVORO/1 - PROGETTI/DATA PLATFORM (DP)/DATA QUALITY",
+    "1 - LAVORO/1 - PROGETTI/DATA PLATFORM (DP)/AI",
+    "1 - LAVORO/1 - PROGETTI/DATA PLATFORM (DP)",
+    "1 - LAVORO/1 - PROGETTI",
+    "1 - LAVORO",
+    "99 System/attachments/Knowledge Graphs, LLM, SQL Databases.pdf",
+    "99 System/attachments/Semantic-Layer-CI_CD-with-Dremio-and-dbt.pdf",
+    "03 WIKI/OPENDATA",
+    "99 System/scripts/add_folder_tags.py",
+    "02 PROJECT/DATA QUALITY",
     "02 PROJECT/02 PROJECT.canvas",
+    "99 System/attachments/04_09_56.jpg",
     "99 System/attachments/Pasted image 20260309115452.png",
     "99 System/attachments/Diagramma Infrastruttura.png",
     "99 System/attachments/Pasted image 20260308180034.png",

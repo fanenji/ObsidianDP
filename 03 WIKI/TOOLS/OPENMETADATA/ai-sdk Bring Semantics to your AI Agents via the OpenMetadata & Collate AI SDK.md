@@ -9,6 +9,9 @@ description:
 tags:
   - clippings
   - dp
+  - tools
+  - openmetadata
+
 ---
 **[ai-sdk](https://github.com/open-metadata/ai-sdk)** Public
 

@@ -4,6 +4,9 @@ topic: gis
 created: 2026-01-15
 tags:
   - idt
+  - mapping
+  - evoluzionw-idt
+
 ---
 
 - Convergenza tecnologica DP/IDT: utilizzo strumenti DP nella IDT (es. airflow)

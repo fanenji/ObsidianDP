@@ -1,3 +1,12 @@
+---
+type: note
+topic: gis
+created: 2026-03-18
+tags:
+  - mapping
+  - sdi
+---
+
 # **Integrazione dell'Infrastruttura di Dati Territoriali (SDI) con la Piattaforma Dati (DP): Un Framework Strategico e Tecnico**
 
 ## **Sommario Esecutivo**

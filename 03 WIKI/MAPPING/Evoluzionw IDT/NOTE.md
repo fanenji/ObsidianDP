@@ -2,7 +2,9 @@
 type: note
 topic: gis
 created: 2026-01-15
-tags: []
+tags:
+  - mapping
+  - evoluzionw-idt
 ---
 
 # DATI

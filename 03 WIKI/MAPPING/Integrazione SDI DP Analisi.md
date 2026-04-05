@@ -6,6 +6,8 @@ created: 2026-02-13
 tags:
   - sdi
   - integrazione
+  - mapping
+
 ---
 > From: https://chatgpt.com/c/680cb833-cc3c-8008-b285-7e2a73730718
 

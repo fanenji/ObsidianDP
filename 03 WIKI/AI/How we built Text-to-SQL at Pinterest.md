@@ -8,6 +8,7 @@ created: 2026-03-20
 description: "How we built Text-to-SQL at Pinterest Adam Obeng | Data Scientist, Data Platform Science; J.C. Zhong | Tech Lead, Analytics Platform; Charlie Gu | Sr. Manager, Engineering Writing queries to solve …"
 tags:
   - "clippings"
+  - ai
 topic:
 type: "note"
 ---

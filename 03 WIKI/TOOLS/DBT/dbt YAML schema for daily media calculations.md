@@ -6,6 +6,8 @@ created: 2026-02-13
 tags:
   - dbt
   - yaml
+  - tools
+
 ---
 > From: https://claude.ai/chat/77158dd1-92a8-4a75-88cf-22bc539cf30e
 

@@ -6,6 +6,8 @@ tags:
   - dremio
   - spatial
   - gis
+  - tools
+
 ---
 
 [https://docs.dremio.com/current/reference/sql/sql-functions/GEOSPATIAL/](https://docs.dremio.com/current/reference/sql/sql-functions/GEOSPATIAL/)

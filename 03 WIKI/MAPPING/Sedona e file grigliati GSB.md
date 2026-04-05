@@ -1,3 +1,11 @@
+---
+type: note
+topic: gis
+created: 2026-03-18
+tags:
+  - mapping
+  - sedona
+---
 
 # **Analisi del Supporto per File di Grigliati di Spostamento (GSB) nella Funzione ST\_Transform di Apache Sedona**
 

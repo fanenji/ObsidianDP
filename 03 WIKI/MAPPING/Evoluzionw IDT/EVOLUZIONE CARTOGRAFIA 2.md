@@ -5,5 +5,8 @@ created: 2026-02-21
 tags:
   - cartografia
   - evoluzione
+  - mapping
+  - evoluzionw-idt
+
 ---
 

@@ -2,7 +2,9 @@
 type: moc
 topic: gis
 created: 2026-01-15
-tags: []
+tags:
+  - mapping
+  - evoluzionw-idt
 ---
 
 # INTRODUZIONE
@@ -93,7 +95,7 @@ I vantaggi della integrazione della componente cartografica possono essere sinte
 - [[NOTE]]
 - [[ETL ATTUALE]]
 - [[MODERN GIS STACK]]
-- [[ARCHITETTURA]]
+- [[03 WIKI/MAPPING/Evoluzionw IDT/ARCHITETTURA]]
 - [[SOFTWARE]]
 - [[GEOPARQUET]]
 - [ARCHITETTURA](1%20-%20LAVORO/1%20-%20PROGETTI/DATA%20PLATFORM%20(DP)/CARTOGRAFIA/ARCHITETTURA.md)
@@ -104,7 +106,7 @@ I vantaggi della integrazione della componente cartografica possono essere sinte
 - [[Ingestion Dati Geo]]
 
 %% MOC START %%
-- [[ARCHITETTURA]]
+- [[03 WIKI/MAPPING/Evoluzionw IDT/ARCHITETTURA]]
 - [[EVOLUZIONE CARTOGRAFIA 2]]
 - [[GEOPARQUET]]
 - [[INTEGRAZIONE SDI DP]]

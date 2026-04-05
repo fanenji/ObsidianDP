@@ -1,3 +1,13 @@
+---
+type: note
+topic: gis
+created: 2026-03-18
+tags:
+  - mapping
+  - iceberg
+  - geoparquet
+---
+
 # **Strumenti per l'integrazione di Apache Iceberg e dati GeoParquet per la gestione di informazioni cartografiche**
 
 **1. Introduzione**

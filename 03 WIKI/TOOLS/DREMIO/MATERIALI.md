@@ -5,6 +5,8 @@ created: 2026-01-15
 tags:
   - dremio
   - risorse
+  - tools
+
 ---
 
 [wp-dremio-definitive-guide-to-the-data-lakehouse.pdf](assets/wp-dremio-definitive-guide-to-the-data-lakehouse.pdf)

@@ -2,7 +2,10 @@
 type: moc
 topic: gis
 created: 2026-01-15
-tags: []
+tags:
+  - mapping
+  - ingestion-dati-geo
+  - etl-vettoriali
 ---
 
 # **IPOTESI 1: Oracle → Postgis (`viscarto`) → DP**

@@ -5,6 +5,8 @@ created: 2026-01-15
 tags:
   - dremio
   - reflections
+  - tools
+
 ---
 
 [How to Quickly and Easily Create Data Reflections for Improved Data Use](https://www.youtube.com/watch?v=AUH-bDOuLzw&list=PL-gIUf9e9CCsyNtnAd0_HmphOgVuzqd9n&index=20)

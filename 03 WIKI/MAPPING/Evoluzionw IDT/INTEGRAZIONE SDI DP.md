@@ -5,6 +5,9 @@ created: 2026-01-15
 tags:
   - sdi
   - integrazione
+  - mapping
+  - evoluzionw-idt
+
 ---
 
 # INTEGRAZIONE SDI/DP

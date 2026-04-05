@@ -7,6 +7,8 @@ tags:
   - duckdb
   - postgis
   - geoparquet
+  - mapping
+
 ---
 > From: https://chatgpt.com/c/680f87a2-0a2c-8008-89df-57a618317058
 

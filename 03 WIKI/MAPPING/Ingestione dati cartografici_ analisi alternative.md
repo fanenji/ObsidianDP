@@ -1,3 +1,13 @@
+---
+type: note
+topic: gis
+created: 2026-03-18
+tags:
+  - mapping
+  - iceberg
+  - geoparquet
+---
+
 # **Valutazione Tecnica della Pipeline di Ingestione Geospaziale e Integrazione con Apache Iceberg**
 
 **Sommario Esecutivo**

@@ -1,3 +1,14 @@
+---
+type: note
+topic: gis
+created: 2026-03-18
+tags:
+  - mapping
+  - dremio
+  - nessie
+  - iceberg
+---
+
 L'utilizzo combinato di Apache Iceberg, Nessie e Dremio per la gestione
 e l'analisi di dati geospaziali presenta diverse sfide e problematiche
 potenziali, derivanti sia dalla relativa novità del supporto geospaziale

@@ -1,5 +1,8 @@
 ---
-tags: ["slide"]
+tags:
+  - slide
+  - mapping
+  - evoluzionw-idt
 ---
 
 # PMTILES

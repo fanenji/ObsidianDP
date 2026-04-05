@@ -5,6 +5,8 @@ created: 2026-01-15
 tags:
   - nessie
   - dremio
+  - tools
+
 ---
 
 [Dremio Open Source: Explore Nessie](https://www.dremio.com/open-source/nessie/)

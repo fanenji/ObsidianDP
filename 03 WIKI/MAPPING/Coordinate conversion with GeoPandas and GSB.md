@@ -6,6 +6,8 @@ created: 2026-02-13
 tags:
   - geopandas
   - coordinate
+  - mapping
+
 ---
 > From: https://chatgpt.com/c/680ccc42-ee54-8008-aa9a-accf155b899a
 

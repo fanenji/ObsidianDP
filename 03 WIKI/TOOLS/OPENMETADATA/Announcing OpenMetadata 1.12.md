@@ -8,6 +8,9 @@ created: 2026-02-26
 description: "Announcing OpenMetadata 1.12 Standardize Quality Rules, Simplify Deployment, and Support Open Standards We’re excited to announce OpenMetadata 1.12, the latest release of our open-source metadata …"
 tags:
   - "clippings"
+  - tools
+  - openmetadata
+
 ---
 [Sitemap](https://blog.open-metadata.org/sitemap/sitemap.xml)## [OpenMetadata](https://blog.open-metadata.org/?source=post_page---publication_nav-3ebf5788f069-9e15b66e7748---------------------------------------)
 

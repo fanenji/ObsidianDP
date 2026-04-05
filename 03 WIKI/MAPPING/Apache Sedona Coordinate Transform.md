@@ -6,6 +6,8 @@ created: 2026-02-13
 tags:
   - sedona
   - coordinate
+  - mapping
+
 ---
 > From: https://chatgpt.com/c/6808d8b6-ed20-8008-bf31-154247508cc4
 

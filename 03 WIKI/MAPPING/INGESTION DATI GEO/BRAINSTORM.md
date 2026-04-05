@@ -5,6 +5,9 @@ created: 2026-01-15
 tags:
   - brainstorming
   - ingestion
+  - mapping
+  - ingestion-dati-geo
+
 ---
 
 # Prompt

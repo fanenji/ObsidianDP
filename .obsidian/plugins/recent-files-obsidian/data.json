@@ -1,204 +1,196 @@
 {
   "recentFiles": [
     {
-      "basename": "Model Suggestions for llm.py",
-      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/Model Suggestions for llm.py.md"
-    },
-    {
-      "basename": "2026-03-25 Meeting Interno",
-      "path": "02 PROJECT/MEETING/2026-03-25 Meeting Interno.md"
-    },
-    {
-      "basename": "2026-03-24 Meeting Interno",
-      "path": "02 PROJECT/MEETING/2026-03-24 Meeting Interno.md"
-    },
-    {
-      "basename": "dbt-osmosis synthetize",
-      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthetize.md"
-    },
-    {
-      "basename": "2026-03-24",
-      "path": "01 INBOX/Journal/2026-03-24.md"
-    },
-    {
       "basename": "00 TODO",
       "path": "00 TODO/00 TODO.md"
-    },
-    {
-      "basename": "2026-03-23 Meeting Interno",
-      "path": "02 PROJECT/MEETING/2026-03-23 Meeting Interno.md"
-    },
-    {
-      "basename": "2026-03-20 Meeting Interno",
-      "path": "02 PROJECT/MEETING/2026-03-20 Meeting Interno.md"
-    },
-    {
-      "basename": "2026-03-16 Meeting Interno",
-      "path": "02 PROJECT/MEETING/2026-03-16 Meeting Interno.md"
-    },
-    {
-      "basename": "2026-03-06 Meeting SEACOM",
-      "path": "02 PROJECT/MEETING/2026-03-06 Meeting SEACOM.md"
-    },
-    {
-      "basename": "2026-03-13 Meeting SEACOM",
-      "path": "02 PROJECT/MEETING/2026-03-13 Meeting SEACOM.md"
-    },
-    {
-      "basename": "2026-03-12 Meeting interno",
-      "path": "02 PROJECT/MEETING/2026-03-12 Meeting interno.md"
-    },
-    {
-      "basename": "2026-03-20 Meeting SEACOM",
-      "path": "02 PROJECT/MEETING/2026-03-20 Meeting SEACOM.md"
-    },
-    {
-      "basename": "How we built Text-to-SQL at Pinterest",
-      "path": "03 WIKI/AI/How we built Text-to-SQL at Pinterest.md"
-    },
-    {
-      "basename": "DBT CREATOR",
-      "path": "02 PROJECT/PROCESS/DBT CREATOR.md"
-    },
-    {
-      "basename": "SCRIPT ESECUZIONE DBT",
-      "path": "02 PROJECT/PROCESS/SCRIPT ESECUZIONE DBT.md"
-    },
-    {
-      "basename": "2026-03-20",
-      "path": "01 INBOX/Journal/2026-03-20.md"
-    },
-    {
-      "basename": "Semantic Layer in Big Tech",
-      "path": "03 WIKI/Semantic Layer in Big Tech.md"
-    },
-    {
-      "basename": "_GEMINI",
-      "path": "03 WIKI/_GEMINI/_GEMINI.md"
-    },
-    {
-      "basename": "dbt YAML schema for daily media calculations",
-      "path": "03 WIKI/TOOLS/dbt/dbt YAML schema for daily media calculations.md"
-    },
-    {
-      "basename": "Openmetadata Unified Knowledge Graph",
-      "path": "03 WIKI/TOOLS/OpenMetadata/Openmetadata Unified Knowledge Graph.md"
-    },
-    {
-      "basename": "Suggested Models (Gemini) - OLD",
-      "path": "03 WIKI/DATA QUALITY/Suggested Models (Gemini) - OLD.md"
-    },
-    {
-      "basename": "Tools",
-      "path": "03 WIKI/DATA QUALITY/Tools.md"
-    },
-    {
-      "basename": "Journal",
-      "path": "01 INBOX/Journal/Journal.md"
-    },
-    {
-      "basename": "Suggested Data Quality Tools",
-      "path": "03 WIKI/DATA QUALITY/Suggested Data Quality Tools.md"
-    },
-    {
-      "basename": "Sintesi Architettura (Claude)",
-      "path": "03 WIKI/Sintesi Architettura (Claude).md"
-    },
-    {
-      "basename": "DBT-OSMOSIS",
-      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/DBT-OSMOSIS.md"
-    },
-    {
-      "basename": "CI-CD GIT FLOW v2.1",
-      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md"
-    },
-    {
-      "basename": "Data Engineering After AI",
-      "path": "03 WIKI/Data Engineering After AI.md"
-    },
-    {
-      "basename": "NOTE DATAHUB",
-      "path": "90 ARCHIVE/DataHub/NOTE DATAHUB.md"
-    },
-    {
-      "basename": "DataHub",
-      "path": "90 ARCHIVE/DataHub/DataHub.md"
-    },
-    {
-      "basename": "Gestione Secrets",
-      "path": "02 PROJECT/Gestione Secrets.md"
-    },
-    {
-      "basename": "WAP Pattern",
-      "path": "03 WIKI/WAP Pattern.md"
-    },
-    {
-      "basename": "Modern Data Stack",
-      "path": "03 WIKI/Modern Data Stack.md"
-    },
-    {
-      "basename": "Formati e Standard",
-      "path": "03 WIKI/Formati e Standard.md"
-    },
-    {
-      "basename": "DATA MESH",
-      "path": "03 WIKI/DATA MESH.md"
-    },
-    {
-      "basename": "CI-CD",
-      "path": "03 WIKI/CI-CD.md"
-    },
-    {
-      "basename": "Analisi Architettura (Gemini)",
-      "path": "03 WIKI/Analisi Architettura (Gemini).md"
-    },
-    {
-      "basename": "OpenMetadata MCP",
-      "path": "03 WIKI/TOOLS/OpenMetadata/OpenMetadata MCP.md"
-    },
-    {
-      "basename": "Kestra",
-      "path": "03 WIKI/TOOLS/Kestra/Kestra.md"
-    },
-    {
-      "basename": "CI-CD GIT FLOW v1",
-      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v1.md"
-    },
-    {
-      "basename": "DuckDb",
-      "path": "03 WIKI/TOOLS/DuckDb/DuckDb.md"
-    },
-    {
-      "basename": "Dremio",
-      "path": "03 WIKI/TOOLS/Dremio/Dremio.md"
     },
     {
       "basename": "dbt",
       "path": "03 WIKI/TOOLS/dbt/dbt.md"
     },
     {
-      "basename": "Ingestion Dati Geo",
-      "path": "03 WIKI/MAPPING/Ingestion Dati Geo/Ingestion Dati Geo.md"
+      "basename": "One Thousands and One dbt Models How BlaBlaCar Moved to dbt in 12 months",
+      "path": "03 WIKI/TOOLS/dbt/One Thousands and One dbt Models How BlaBlaCar Moved to dbt in 12 months.md"
     },
     {
-      "basename": "Evoluzionw IDT",
-      "path": "03 WIKI/MAPPING/Evoluzionw IDT/Evoluzionw IDT.md"
+      "basename": "Geospatial Tables in the Open Lakehouse A New Era for Iceberg & Parquet",
+      "path": "03 WIKI/MAPPING/Geospatial Tables in the Open Lakehouse A New Era for Iceberg & Parquet.md"
+    },
+    {
+      "basename": "FOSS4GE 2024  Towards better data platforms with semantic metadata",
+      "path": "03 WIKI/MAPPING/FOSS4GE 2024  Towards better data platforms with semantic metadata.md"
+    },
+    {
+      "basename": "Embedding an MCP Server into OpenMetadata",
+      "path": "03 WIKI/TOOLS/OpenMetadata/Embedding an MCP Server into OpenMetadata.md"
+    },
+    {
+      "basename": "DuckDB Spatial Supercharged Geospatial SQL",
+      "path": "03 WIKI/TOOLS/DuckDb/DuckDB Spatial Supercharged Geospatial SQL.md"
+    },
+    {
+      "basename": "Complex geospatial analytics with dbt - Summary",
+      "path": "03 WIKI/MAPPING/Complex geospatial analytics with dbt - Summary.md"
+    },
+    {
+      "basename": "Complex geospatial analytics with dbt - Video Transcript",
+      "path": "03 WIKI/MAPPING/Complex geospatial analytics with dbt - Video Transcript.md"
+    },
+    {
+      "basename": "Kestra vs Airflow (Video)",
+      "path": "03 WIKI/TOOLS/Kestra/Kestra vs Airflow (Video).md"
+    },
+    {
+      "basename": "Airflow vs Kestra",
+      "path": "03 WIKI/TOOLS/Kestra/Airflow vs Kestra.md"
+    },
+    {
+      "basename": "Airflow vs Dagster vs Kestra",
+      "path": "03 WIKI/TOOLS/Kestra/Airflow vs Dagster vs Kestra.md"
+    },
+    {
+      "basename": "Patterns of Data Engineering",
+      "path": "03 WIKI/Patterns of Data Engineering.md"
+    },
+    {
+      "basename": "MAPPING",
+      "path": "03 WIKI/MAPPING/MAPPING.md"
+    },
+    {
+      "basename": "Reframing LLM 'Chat with Data' Introducing LLM-Assisted Data Recipes",
+      "path": "03 WIKI/AI/Reframing LLM 'Chat with Data' Introducing LLM-Assisted Data Recipes.md"
+    },
+    {
+      "basename": "Geocomputation with Python",
+      "path": "03 WIKI/MAPPING/Geocomputation with Python.md"
+    },
+    {
+      "basename": "Dremio",
+      "path": "03 WIKI/TOOLS/Dremio/Dremio.md"
+    },
+    {
+      "basename": "TOOLS",
+      "path": "03 WIKI/TOOLS/TOOLS.md"
+    },
+    {
+      "basename": "VulcanSQL",
+      "path": "03 WIKI/OPENDATA/VulcanSQL.md"
+    },
+    {
+      "basename": "K8S",
+      "path": "03 WIKI/K8S/K8S.md"
+    },
+    {
+      "basename": "DATA QUALITY",
+      "path": "03 WIKI/DATA QUALITY/DATA QUALITY.md"
+    },
+    {
+      "basename": "Tools",
+      "path": "03 WIKI/DATA QUALITY/Tools.md"
+    },
+    {
+      "basename": "DATA QUALITY",
+      "path": "1 - LAVORO/1 - PROGETTI/DATA PLATFORM (DP)/DATA QUALITY/DATA QUALITY.md"
+    },
+    {
+      "basename": "ARCHITETTURA",
+      "path": "03 WIKI/ARCHITETTURA/ARCHITETTURA.md"
+    },
+    {
+      "basename": "AI",
+      "path": "03 WIKI/AI/AI.md"
+    },
+    {
+      "basename": "Analisi Architettura",
+      "path": "03 WIKI/ARCHITETTURA/Analisi Architettura.md"
+    },
+    {
+      "basename": "GeoAI",
+      "path": "03 WIKI/MAPPING/GeoAI.md"
+    },
+    {
+      "basename": "1 - LAVORO",
+      "path": "1 - LAVORO/1 - LAVORO.md"
+    },
+    {
+      "basename": "Benchmark to Understand the Role of Knowledge Graphs on Large Language Model's Accuracy for Question Answering on Enterprise SQL Databases",
+      "path": "03 WIKI/AI/Benchmark to Understand the Role of Knowledge Graphs on Large Language Model's Accuracy for Question Answering on Enterprise SQL Databases.md"
+    },
+    {
+      "basename": "Data Engineering Cookbook",
+      "path": "03 WIKI/Data Engineering Cookbook.md"
+    },
+    {
+      "basename": "RDF Ontology",
+      "path": "03 WIKI/TOOLS/OpenMetadata/RDF Ontology.md"
     },
     {
       "basename": "OpenMetadata",
       "path": "03 WIKI/TOOLS/OpenMetadata/OpenMetadata.md"
     },
     {
-      "basename": "Report dettagliato su dbt software",
-      "path": "03 WIKI/TOOLS/dbt/Report dettagliato su dbt software.md"
+      "basename": "Iceberg, The Right Idea - The Wrong Spec - Part 1 of 2 History",
+      "path": "03 WIKI/TOOLS/Nessie/Iceberg, The Right Idea - The Wrong Spec - Part 1 of 2 History.md"
     },
     {
-      "basename": "Orchestrazione Data Platform - Analisi Comparativa",
-      "path": "03 WIKI/Orchestrazione Data Platform - Analisi Comparativa.md"
+      "basename": "DuckDB — What’s the Hype About?",
+      "path": "03 WIKI/TOOLS/DuckDb/DuckDB — What’s the Hype About?.md"
     },
     {
-      "basename": "ArcKit — AI Toolkit for Solution & Enterprise Architects",
-      "path": "03 WIKI/ArcKit — AI Toolkit for Solution & Enterprise Architects.md"
+      "basename": "Elementary on dbt — An Overview",
+      "path": "03 WIKI/TOOLS/dbt/Elementary on dbt — An Overview.md"
+    },
+    {
+      "basename": "Data Observability is Key A Hands-on Comparison of Open Source Data Catalog Tools",
+      "path": "03 WIKI/ARCHITETTURA/Data Observability is Key A Hands-on Comparison of Open Source Data Catalog Tools.md"
+    },
+    {
+      "basename": "Analyzing Real Estate Data With Apache Sedona",
+      "path": "03 WIKI/MAPPING/Analyzing Real Estate Data With Apache Sedona.md"
+    },
+    {
+      "basename": "I Replaced a Production Data Pipeline with AI Agents — Here’s What Actually Happened",
+      "path": "03 WIKI/AI/I Replaced a Production Data Pipeline with AI Agents — Here’s What Actually Happened.md"
+    },
+    {
+      "basename": "Why Every Data Lake Needs a Control Plane Lessons from Apache Iceberg",
+      "path": "03 WIKI/ARCHITETTURA/Why Every Data Lake Needs a Control Plane Lessons from Apache Iceberg.md"
+    },
+    {
+      "basename": "Introducing the dbt MCP Server – Bringing Structured Data to AI Workflows and Agents  dbt Developer Blog",
+      "path": "03 WIKI/TOOLS/dbt/Introducing the dbt MCP Server – Bringing Structured Data to AI Workflows and Agents  dbt Developer Blog.md"
+    },
+    {
+      "basename": "dbt-labsdbt-mcp A MCP (Model Context Protocol) server for interacting with dbt.",
+      "path": "03 WIKI/TOOLS/dbt/dbt-labsdbt-mcp A MCP (Model Context Protocol) server for interacting with dbt..md"
+    },
+    {
+      "basename": "OpenMetadata MCP 1",
+      "path": "03 WIKI/TOOLS/OpenMetadata/OpenMetadata MCP 1.md"
+    },
+    {
+      "basename": "Introducing the Model Context Protocol (MCP) in OpenMetadata",
+      "path": "03 WIKI/TOOLS/OpenMetadata/Introducing the Model Context Protocol (MCP) in OpenMetadata.md"
+    },
+    {
+      "basename": "DuckDB Geospatial Vector Tiles, Rasters, and Fast Maps on Parquet",
+      "path": "03 WIKI/TOOLS/DuckDb/DuckDB Geospatial Vector Tiles, Rasters, and Fast Maps on Parquet.md"
+    },
+    {
+      "basename": "Building a dbt-UI I Wish Existed",
+      "path": "03 WIKI/TOOLS/dbt/Building a dbt-UI I Wish Existed.md"
+    },
+    {
+      "basename": "Data Engineering Architectures & Strategies for Handling Sensitive Data",
+      "path": "03 WIKI/Data Engineering Architectures & Strategies for Handling Sensitive Data.md"
+    },
+    {
+      "basename": "Automate Data Quality Checks with AI Agents",
+      "path": "03 WIKI/DATA QUALITY/Automate Data Quality Checks with AI Agents.md"
+    },
+    {
+      "basename": "DremioFrame & iceberg Pythonic interfaces for Dremio and Apache Iceberg",
+      "path": "03 WIKI/TOOLS/Dremio/DremioFrame & iceberg Pythonic interfaces for Dremio and Apache Iceberg.md"
     }
   ],
   "omittedPaths": [],

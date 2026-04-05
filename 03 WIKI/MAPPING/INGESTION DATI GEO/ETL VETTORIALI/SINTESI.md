@@ -5,6 +5,10 @@ created: 2026-01-15
 tags:
   - etl
   - vettoriali
+  - mapping
+  - ingestion-dati-geo
+  - etl-vettoriali
+
 ---
 
 In questo scenario tutte le ipotesi prevedono la scrittura dei file geoparquet su S3.

@@ -4,6 +4,8 @@ topic: data-platform
 created: 2026-01-15
 tags:
   - duckdb
+  - tools
+
 ---
 
 - [https://motherduck.com/blog](https://motherduck.com/blog)

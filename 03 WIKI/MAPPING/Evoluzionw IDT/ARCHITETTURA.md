@@ -5,6 +5,9 @@ created: 2026-01-15
 tags:
   - architettura
   - idt
+  - mapping
+  - evoluzionw-idt
+
 ---
 
 ![[dp-geo-arch.png]]

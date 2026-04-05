@@ -24,24 +24,16 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "02 PROJECT/TOOLS/DBT-OSMOSIS/Model Suggestions for llm.py.md",
-      "timestamp": 1774508709711
+      "filepath": "00 TODO/00 TODO.md",
+      "timestamp": 1775320615502
     },
     {
-      "filepath": "02 PROJECT/MEETING/2026-03-25 Meeting Interno.md",
-      "timestamp": 1774438051681
+      "filepath": "03 WIKI/TOOLS/dbt/dbt.md",
+      "timestamp": 1775320547659
     },
     {
-      "filepath": "02 PROJECT/MEETING/2026-03-24 Meeting Interno.md",
-      "timestamp": 1774438020595
-    },
-    {
-      "filepath": "02 PROJECT/TOOLS/DBT-OSMOSIS/dbt-osmosis synthetize.md",
-      "timestamp": 1774382336580
-    },
-    {
-      "filepath": "01 INBOX/Journal/2026-03-24.md",
-      "timestamp": 1774369124821
+      "filepath": "03 WIKI/TOOLS/dbt/One Thousands and One dbt Models How BlaBlaCar Moved to dbt in 12 months.md",
+      "timestamp": 1775319761933
     }
   ],
   "bookmarkedFileStore": [],

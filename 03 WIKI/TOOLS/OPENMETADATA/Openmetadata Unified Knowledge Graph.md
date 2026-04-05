@@ -5,6 +5,8 @@ topic: data-platform
 created: 2026-02-13
 tags:
   - openmetadata
+  - tools
+
 ---
 
 # Cosa è Openmetadata Unified Knowledge Graph?

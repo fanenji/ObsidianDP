@@ -8,6 +8,7 @@ created: 2026-03-09
 description: "Integrating LLMs and AI Agents into Data Engineering Workflows Non-members can access the full article through this Link. A couple of weeks ago, I was helping a team debug a stubborn Spark job. The …"
 tags:
   - "clippings"
+  - ai
 topic:
 type: "note"
 ---
