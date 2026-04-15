@@ -12,6 +12,13 @@ tags:
 ## KESTRA KOSTA
 (GULLIT)
 
+
+----
+
+## Store Procedures are EVIL and Quaglia is the Antichrist!
+
+(Fanenji / RDD)
+
 ---
 
 **Deploying a data lakehouse with open source is free — until you count the debugging hours, coffee, and sanity lost.**

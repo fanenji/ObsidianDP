@@ -22,20 +22,7 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": false,
-  "recentFilesStore": [
-    {
-      "filepath": "00 TODO/00 TODO.md",
-      "timestamp": 1775320615502
-    },
-    {
-      "filepath": "03 WIKI/TOOLS/dbt/dbt.md",
-      "timestamp": 1775320547659
-    },
-    {
-      "filepath": "03 WIKI/TOOLS/dbt/One Thousands and One dbt Models How BlaBlaCar Moved to dbt in 12 months.md",
-      "timestamp": 1775319761933
-    }
-  ],
+  "recentFilesStore": [],
   "bookmarkedFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,

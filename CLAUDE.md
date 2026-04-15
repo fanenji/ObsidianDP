@@ -27,6 +27,7 @@ The **obsidian-git** plugin commit and sync on demand with the message format `v
 
 The vault uses a numbered prefix hierarchy:
 
+- `00 IDEAS/` — Ideas worth investigation
 - `00 TODO/` — Active task and to-do tracking with Kanban view
 - `01 INBOX/` — Inbox for new, unsorted items
   - 'Clippings' - Clipping from web pages via Obsidian Web Clipper
@@ -42,6 +43,7 @@ The vault uses a numbered prefix hierarchy:
   - `DATA QUALITY/` — Documentazione su Data Quality (strumenti e pratiche) 
   - `MAPPING/` — Documentazione relativa all'integrazione della DP con l'infrastruttura di gestione dei dati cartografici 
   - `TOOLS/` — Documentazione relativa a vari strumenti software utilizzati (dbt, Dremio, ecc.)
+- `04 KNOWLEDGE/` — Distilled Knowledge
 - `90 ARCHIVE/` — Archived notes no longer actively used
 - `99 System/` — System config, attachments, canvas files
   - `attachments/` — All binary attachments (images, PDFs, Postman collections, etc.)

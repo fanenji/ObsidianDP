@@ -1,196 +1,156 @@
 {
   "recentFiles": [
     {
-      "basename": "00 TODO",
-      "path": "00 TODO/00 TODO.md"
+      "basename": "01 TODO",
+      "path": "01 TODO/01 TODO.md"
     },
     {
-      "basename": "dbt",
-      "path": "03 WIKI/TOOLS/dbt/dbt.md"
+      "basename": "2026-04-15 Meeting Interno",
+      "path": "inbox/2026-04-15 Meeting Interno.md"
     },
     {
-      "basename": "One Thousands and One dbt Models How BlaBlaCar Moved to dbt in 12 months",
-      "path": "03 WIKI/TOOLS/dbt/One Thousands and One dbt Models How BlaBlaCar Moved to dbt in 12 months.md"
+      "basename": "Regole definizione fonti dati",
+      "path": "01 TODO/Regole definizione fonti dati.md"
     },
     {
-      "basename": "Geospatial Tables in the Open Lakehouse A New Era for Iceberg & Parquet",
-      "path": "03 WIKI/MAPPING/Geospatial Tables in the Open Lakehouse A New Era for Iceberg & Parquet.md"
+      "basename": "CI-CD GIT FLOW v2.1",
+      "path": "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md"
     },
     {
-      "basename": "FOSS4GE 2024  Towards better data platforms with semantic metadata",
-      "path": "03 WIKI/MAPPING/FOSS4GE 2024  Towards better data platforms with semantic metadata.md"
+      "basename": "URL GitLab",
+      "path": "02 PROJECT/URL GitLab.md"
     },
     {
-      "basename": "Embedding an MCP Server into OpenMetadata",
-      "path": "03 WIKI/TOOLS/OpenMetadata/Embedding an MCP Server into OpenMetadata.md"
+      "basename": "DP-WIKI",
+      "path": "02 PROJECT/DP-WIKI/DP-WIKI.md"
     },
     {
-      "basename": "DuckDB Spatial Supercharged Geospatial SQL",
-      "path": "03 WIKI/TOOLS/DuckDb/DuckDB Spatial Supercharged Geospatial SQL.md"
+      "basename": "2026-04-14 Meeting interno",
+      "path": "inbox/2026-04-14 Meeting interno.md"
     },
     {
-      "basename": "Complex geospatial analytics with dbt - Summary",
-      "path": "03 WIKI/MAPPING/Complex geospatial analytics with dbt - Summary.md"
+      "basename": "Citazioni",
+      "path": "02 PROJECT/Citazioni.md"
     },
     {
-      "basename": "Complex geospatial analytics with dbt - Video Transcript",
-      "path": "03 WIKI/MAPPING/Complex geospatial analytics with dbt - Video Transcript.md"
+      "basename": "LLM Benhmark - quality summary",
+      "path": "inbox/LLM Benhmark - quality summary.md"
     },
     {
-      "basename": "Kestra vs Airflow (Video)",
-      "path": "03 WIKI/TOOLS/Kestra/Kestra vs Airflow (Video).md"
+      "basename": "templates",
+      "path": "templates/templates.md"
     },
     {
-      "basename": "Airflow vs Kestra",
-      "path": "03 WIKI/TOOLS/Kestra/Airflow vs Kestra.md"
+      "basename": "clippings",
+      "path": "inbox/clippings/clippings.md"
     },
     {
-      "basename": "Airflow vs Dagster vs Kestra",
-      "path": "03 WIKI/TOOLS/Kestra/Airflow vs Dagster vs Kestra.md"
+      "basename": "inbox",
+      "path": "inbox/inbox.md"
     },
     {
-      "basename": "Patterns of Data Engineering",
-      "path": "03 WIKI/Patterns of Data Engineering.md"
+      "basename": "DATA QUALITY",
+      "path": "02 PROJECT/DATA QUALITY/DATA QUALITY.md"
+    },
+    {
+      "basename": "2026-04-13 Meeting Interno",
+      "path": "02 PROJECT/MEETING/2026-04-13 Meeting Interno.md"
+    },
+    {
+      "basename": "Karpathy llm-wiki Gist",
+      "path": "02 PROJECT/DP-WIKI/Karpathy llm-wiki Gist.md"
+    },
+    {
+      "basename": "LLM Knowledge Bases Thread by @karpathy",
+      "path": "02 PROJECT/DP-WIKI/LLM Knowledge Bases Thread by @karpathy.md"
+    },
+    {
+      "basename": "I used Karpathy’s LLM Wiki to build a knowledge base that maintains itself with AI",
+      "path": "02 PROJECT/DP-WIKI/I used Karpathy’s LLM Wiki to build a knowledge base that maintains itself with AI.md"
+    },
+    {
+      "basename": "Building My Own KMS Video Summary",
+      "path": "02 PROJECT/DP-WIKI/Building My Own KMS Video Summary.md"
+    },
+    {
+      "basename": "Building My Own KMS for Claude Code with Obsidian",
+      "path": "02 PROJECT/DP-WIKI/Building My Own KMS for Claude Code with Obsidian.md"
+    },
+    {
+      "basename": "Andrej Karpathy Just 10x’d - Summary",
+      "path": "02 PROJECT/DP-WIKI/Andrej Karpathy Just 10x’d - Summary.md"
+    },
+    {
+      "basename": "Andrej Karpathy Just 10x’d",
+      "path": "02 PROJECT/DP-WIKI/Andrej Karpathy Just 10x’d.md"
+    },
+    {
+      "basename": "SISTEMA API - CONFIGURATORE API",
+      "path": "02 PROJECT/OPENDATA/SISTEMA API/SISTEMA API - CONFIGURATORE API.md"
+    },
+    {
+      "basename": "DREMIO",
+      "path": "02 PROJECT/TOOLS/DREMIO/DREMIO.md"
+    },
+    {
+      "basename": "DBT",
+      "path": "02 PROJECT/TOOLS/DBT/DBT.md"
+    },
+    {
+      "basename": "DBT-OSMOSIS",
+      "path": "02 PROJECT/TOOLS/DBT-OSMOSIS/DBT-OSMOSIS.md"
+    },
+    {
+      "basename": "SISTEMA API",
+      "path": "02 PROJECT/OPENDATA/SISTEMA API/SISTEMA API.md"
+    },
+    {
+      "basename": "SISTEMA API - SCRIPT GROOVY",
+      "path": "02 PROJECT/OPENDATA/SISTEMA API/SISTEMA API - SCRIPT GROOVY.md"
+    },
+    {
+      "basename": "Piano Generale Attività",
+      "path": "02 PROJECT/Piano Generale Attività.md"
+    },
+    {
+      "basename": "Dimensionamento",
+      "path": "02 PROJECT/Dimensionamento.md"
     },
     {
       "basename": "MAPPING",
-      "path": "03 WIKI/MAPPING/MAPPING.md"
+      "path": "02 PROJECT/MAPPING/MAPPING.md"
     },
     {
-      "basename": "Reframing LLM 'Chat with Data' Introducing LLM-Assisted Data Recipes",
-      "path": "03 WIKI/AI/Reframing LLM 'Chat with Data' Introducing LLM-Assisted Data Recipes.md"
+      "basename": "_KANBAN",
+      "path": "01 TODO/_KANBAN.md"
     },
     {
-      "basename": "Geocomputation with Python",
-      "path": "03 WIKI/MAPPING/Geocomputation with Python.md"
+      "basename": "2026-04-09 Meeting SEACOM",
+      "path": "02 PROJECT/MEETING/2026-04-09 Meeting SEACOM.md"
     },
     {
-      "basename": "Dremio",
-      "path": "03 WIKI/TOOLS/Dremio/Dremio.md"
+      "basename": "Self Service BI",
+      "path": "00 IDEAS/Self Service BI.md"
     },
     {
-      "basename": "TOOLS",
-      "path": "03 WIKI/TOOLS/TOOLS.md"
+      "basename": "Gestione Secrets",
+      "path": "02 PROJECT/Gestione Secrets.md"
     },
     {
-      "basename": "VulcanSQL",
-      "path": "03 WIKI/OPENDATA/VulcanSQL.md"
+      "basename": "Gestione Cataloghi Nessie",
+      "path": "02 PROJECT/Gestione Cataloghi Nessie.md"
     },
     {
-      "basename": "K8S",
-      "path": "03 WIKI/K8S/K8S.md"
+      "basename": "ai-generated-ideas_2026-04-02",
+      "path": "00 IDEAS/ai-generated-ideas_2026-04-02.md"
     },
     {
-      "basename": "DATA QUALITY",
-      "path": "03 WIKI/DATA QUALITY/DATA QUALITY.md"
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
     },
     {
-      "basename": "Tools",
-      "path": "03 WIKI/DATA QUALITY/Tools.md"
-    },
-    {
-      "basename": "DATA QUALITY",
-      "path": "1 - LAVORO/1 - PROGETTI/DATA PLATFORM (DP)/DATA QUALITY/DATA QUALITY.md"
-    },
-    {
-      "basename": "ARCHITETTURA",
-      "path": "03 WIKI/ARCHITETTURA/ARCHITETTURA.md"
-    },
-    {
-      "basename": "AI",
-      "path": "03 WIKI/AI/AI.md"
-    },
-    {
-      "basename": "Analisi Architettura",
-      "path": "03 WIKI/ARCHITETTURA/Analisi Architettura.md"
-    },
-    {
-      "basename": "GeoAI",
-      "path": "03 WIKI/MAPPING/GeoAI.md"
-    },
-    {
-      "basename": "1 - LAVORO",
-      "path": "1 - LAVORO/1 - LAVORO.md"
-    },
-    {
-      "basename": "Benchmark to Understand the Role of Knowledge Graphs on Large Language Model's Accuracy for Question Answering on Enterprise SQL Databases",
-      "path": "03 WIKI/AI/Benchmark to Understand the Role of Knowledge Graphs on Large Language Model's Accuracy for Question Answering on Enterprise SQL Databases.md"
-    },
-    {
-      "basename": "Data Engineering Cookbook",
-      "path": "03 WIKI/Data Engineering Cookbook.md"
-    },
-    {
-      "basename": "RDF Ontology",
-      "path": "03 WIKI/TOOLS/OpenMetadata/RDF Ontology.md"
-    },
-    {
-      "basename": "OpenMetadata",
-      "path": "03 WIKI/TOOLS/OpenMetadata/OpenMetadata.md"
-    },
-    {
-      "basename": "Iceberg, The Right Idea - The Wrong Spec - Part 1 of 2 History",
-      "path": "03 WIKI/TOOLS/Nessie/Iceberg, The Right Idea - The Wrong Spec - Part 1 of 2 History.md"
-    },
-    {
-      "basename": "DuckDB — What’s the Hype About?",
-      "path": "03 WIKI/TOOLS/DuckDb/DuckDB — What’s the Hype About?.md"
-    },
-    {
-      "basename": "Elementary on dbt — An Overview",
-      "path": "03 WIKI/TOOLS/dbt/Elementary on dbt — An Overview.md"
-    },
-    {
-      "basename": "Data Observability is Key A Hands-on Comparison of Open Source Data Catalog Tools",
-      "path": "03 WIKI/ARCHITETTURA/Data Observability is Key A Hands-on Comparison of Open Source Data Catalog Tools.md"
-    },
-    {
-      "basename": "Analyzing Real Estate Data With Apache Sedona",
-      "path": "03 WIKI/MAPPING/Analyzing Real Estate Data With Apache Sedona.md"
-    },
-    {
-      "basename": "I Replaced a Production Data Pipeline with AI Agents — Here’s What Actually Happened",
-      "path": "03 WIKI/AI/I Replaced a Production Data Pipeline with AI Agents — Here’s What Actually Happened.md"
-    },
-    {
-      "basename": "Why Every Data Lake Needs a Control Plane Lessons from Apache Iceberg",
-      "path": "03 WIKI/ARCHITETTURA/Why Every Data Lake Needs a Control Plane Lessons from Apache Iceberg.md"
-    },
-    {
-      "basename": "Introducing the dbt MCP Server – Bringing Structured Data to AI Workflows and Agents  dbt Developer Blog",
-      "path": "03 WIKI/TOOLS/dbt/Introducing the dbt MCP Server – Bringing Structured Data to AI Workflows and Agents  dbt Developer Blog.md"
-    },
-    {
-      "basename": "dbt-labsdbt-mcp A MCP (Model Context Protocol) server for interacting with dbt.",
-      "path": "03 WIKI/TOOLS/dbt/dbt-labsdbt-mcp A MCP (Model Context Protocol) server for interacting with dbt..md"
-    },
-    {
-      "basename": "OpenMetadata MCP 1",
-      "path": "03 WIKI/TOOLS/OpenMetadata/OpenMetadata MCP 1.md"
-    },
-    {
-      "basename": "Introducing the Model Context Protocol (MCP) in OpenMetadata",
-      "path": "03 WIKI/TOOLS/OpenMetadata/Introducing the Model Context Protocol (MCP) in OpenMetadata.md"
-    },
-    {
-      "basename": "DuckDB Geospatial Vector Tiles, Rasters, and Fast Maps on Parquet",
-      "path": "03 WIKI/TOOLS/DuckDb/DuckDB Geospatial Vector Tiles, Rasters, and Fast Maps on Parquet.md"
-    },
-    {
-      "basename": "Building a dbt-UI I Wish Existed",
-      "path": "03 WIKI/TOOLS/dbt/Building a dbt-UI I Wish Existed.md"
-    },
-    {
-      "basename": "Data Engineering Architectures & Strategies for Handling Sensitive Data",
-      "path": "03 WIKI/Data Engineering Architectures & Strategies for Handling Sensitive Data.md"
-    },
-    {
-      "basename": "Automate Data Quality Checks with AI Agents",
-      "path": "03 WIKI/DATA QUALITY/Automate Data Quality Checks with AI Agents.md"
-    },
-    {
-      "basename": "DremioFrame & iceberg Pythonic interfaces for Dremio and Apache Iceberg",
-      "path": "03 WIKI/TOOLS/Dremio/DremioFrame & iceberg Pythonic interfaces for Dremio and Apache Iceberg.md"
+      "basename": "SCRIPT ESECUZIONE DBT",
+      "path": "02 PROJECT/PROCESS/SCRIPT ESECUZIONE DBT.md"
     }
   ],
   "omittedPaths": [],

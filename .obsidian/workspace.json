@@ -14,59 +14,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 TODO/00 TODO.md",
+                "file": "01 TODO/01 TODO.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "00 TODO"
+              "title": "01 TODO"
             }
           },
           {
-            "id": "3055f57b6b2452ce",
+            "id": "da0544baa8def153",
             "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "kanban-view",
-              "state": {
-                "file": "00 TODO/_KANBAN.md"
-              },
-              "pinned": true,
-              "icon": "kanban-square",
-              "title": "_KANBAN"
-            }
-          },
-          {
-            "id": "317f8b9ccd184afe",
-            "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 INBOX/ideas_2026-04-02.md",
+                "file": "inbox/2026-04-15 Meeting Interno.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "ideas_2026-04-02"
-            }
-          },
-          {
-            "id": "0d333e3fd1c85938",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 WIKI/TOOLS/dbt/dbt.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "dbt"
+              "title": "2026-04-15 Meeting Interno"
             }
           }
         ]
@@ -101,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:clippings; mapping;",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,26 +101,6 @@
             }
           },
           {
-            "id": "bf1e32ca39b5da46",
-            "type": "leaf",
-            "state": {
-              "type": "msg-handler-search-view",
-              "state": {},
-              "icon": "MSG_HANDLER_ENVELOPE_ICON",
-              "title": "MSG Handler Search"
-            }
-          },
-          {
-            "id": "bdd25fe06dd86646",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
-            }
-          },
-          {
             "id": "f45a7d53a05ddcd5",
             "type": "leaf",
             "state": {
@@ -166,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 432.5
+    "width": 304.50271224975586
   },
   "right": {
     "id": "45ad9902070877bf",
@@ -244,13 +192,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 TODO/00 TODO.md",
+                "file": "03 WIKI/3 Reasons Data Engineers Are the Unsung Heroes of GenAI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 00 TODO"
+              "title": "Outline of 3 Reasons Data Engineers Are the Unsung Heroes of GenAI"
             }
           },
           {
@@ -299,53 +247,53 @@
   },
   "active": "3a996773f720f8dc",
   "lastOpenFiles": [
-    "dbt-osmosis syntesis conversation.md",
-    "01-Introduction.md",
-    "00 TODO/00 TODO.md",
-    "03 WIKI/TOOLS/dbt/dbt.md",
-    "03 WIKI/TOOLS/dbt/One Thousands and One dbt Models How BlaBlaCar Moved to dbt in 12 months - Summary.md",
-    "03 WIKI/MAPPING/Geospatial Tables in the Open Lakehouse A New Era for Iceberg & Parquet - Summary.md",
-    "03 WIKI/MAPPING/FOSS4GE 2024  Towards better data platforms with semantic metadata - Summary.md",
-    "03 WIKI/TOOLS/OpenMetadata/Embedding an MCP Server into OpenMetadata - Summary.md",
-    "03 WIKI/TOOLS/dbt/One Thousands and One dbt Models How BlaBlaCar Moved to dbt in 12 months.md",
-    "03 WIKI/MAPPING/Geospatial Tables in the Open Lakehouse A New Era for Iceberg & Parquet.md",
-    "03 WIKI/MAPPING/FOSS4GE 2024  Towards better data platforms with semantic metadata.md",
-    "03 WIKI/TOOLS/OpenMetadata/Embedding an MCP Server into OpenMetadata.md",
-    "03 WIKI/TOOLS/DuckDb/DuckDB Spatial Supercharged Geospatial SQL - Summary.md",
-    "03 WIKI/TOOLS/DuckDb/DuckDB Spatial Supercharged Geospatial SQL.md",
-    "03 WIKI/MAPPING/Complex geospatial analytics with dbt - Summary.md",
-    "03 WIKI/MAPPING/Complex geospatial analytics with dbt - Video Transcript.md",
-    "03 WIKI/TOOLS/Kestra/Kestra vs Airflow (Video).md",
-    "01 INBOX/Clippings/Airflow alternatives online meetup (part 1) — Mage and Kestra.md",
-    "03 WIKI/TOOLS/Kestra/Airflow vs Kestra.md",
-    "03 WIKI/TOOLS/Kestra/Airflow vs Dagster vs Kestra.md",
-    "03 WIKI/Patterns of Data Engineering.md",
-    "03 WIKI/MAPPING/MAPPING.md",
-    "03 WIKI/AI/Reframing LLM 'Chat with Data' Introducing LLM-Assisted Data Recipes.md",
-    "03 WIKI/MAPPING/Geocomputation with Python.md",
-    "03 WIKI/TOOLS/Dremio/Dremio.md",
-    "03 WIKI/TOOLS/TOOLS.md",
-    "1 - LAVORO/1 - PROGETTI/DATA PLATFORM (DP)/DATA QUALITY",
-    "1 - LAVORO/1 - PROGETTI/DATA PLATFORM (DP)/AI",
+    "inbox/2026-04-15 Meeting Interno.md",
+    "01 TODO/01 TODO.md",
+    "01 TODO/Regole definizione fonti dati.md",
+    "99 System/attachments/postgres_dremio.png",
+    "99 System/attachments/Pasted image 20260415103303.png",
+    "99 System/attachments/postgres_om_test.png",
+    "99 System/attachments/postgres_om_details.png",
+    "99 System/attachments/Postgres_om_details.png",
+    "99 System/attachments/ostgres_om_details.png",
+    "99 System/attachments/Postgres_om_test.png",
+    "99 System/attachments/ostgres_om_test.png",
+    "99 System/attachments/postgres_om_input.png",
+    "99 System/attachments/Pasted image 20260415093950.png",
+    "02 PROJECT/PROCESS/CI-CD GIT FLOW v2.1.md",
+    "02 PROJECT/URL GitLab.md",
+    "02 PROJECT/DP-WIKI/DP-WIKI.md",
+    "inbox/2026-04-14 Meeting interno.md",
+    "02 PROJECT/Citazioni.md",
+    "03 WIKI/ARCHITETTURA/Sintesi Architettura (Claude).md",
+    "inbox/2026-04-13 2205.md",
+    "inbox/2026-04-13 2207.md",
+    "inbox/2026-04-13 2206.md",
+    "inbox/LLM Benhmark - quality summary.md",
+    "templates/templates.md",
+    "01 INBOX/Journal/2026-04-13 1611.md",
+    "01 INBOX/Journal/2026-04-10 0950.md",
+    "inbox/clippings/clippings.md",
+    "inbox/inbox.md",
+    "inbox/clippings",
+    "inbox",
+    "02 PROJECT/DATA QUALITY/DATA QUALITY.md",
+    "02 PROJECT/MEETING/2026-04-13 Meeting Interno.md",
+    "03 WIKI/ARCHITETTURA/Sintesi Architettura Dati e Criticità.md",
+    "03 WIKI/ARCHITETTURA/Building Data Platforms — The ETL bias.md",
+    "03 WIKI/ARCHITETTURA/Analisi Architettura.md",
+    "02 PROJECT/DP-WIKI/Karpathy llm-wiki Gist.md",
+    "02 PROJECT/DP-WIKI/LLM Knowledge Bases Thread by @karpathy.md",
+    "02 PROJECT/DP-WIKI/I used Karpathy’s LLM Wiki to build a knowledge base that maintains itself with AI.md",
+    "02 PROJECT/DP-WIKI",
+    "04 KNOWLEDGE",
+    "1 - LAVORO/1 - PROGETTI/DATA PLATFORM (DP)/MATERIALI/DBT",
+    "1 - LAVORO/1 - PROGETTI/DATA PLATFORM (DP)/MATERIALI",
     "1 - LAVORO/1 - PROGETTI/DATA PLATFORM (DP)",
     "1 - LAVORO/1 - PROGETTI",
     "1 - LAVORO",
-    "99 System/attachments/Knowledge Graphs, LLM, SQL Databases.pdf",
-    "99 System/attachments/Semantic-Layer-CI_CD-with-Dremio-and-dbt.pdf",
-    "03 WIKI/OPENDATA",
-    "99 System/scripts/add_folder_tags.py",
-    "02 PROJECT/DATA QUALITY",
+    "00 IDEAS",
     "02 PROJECT/02 PROJECT.canvas",
-    "99 System/attachments/04_09_56.jpg",
-    "99 System/attachments/Pasted image 20260309115452.png",
-    "99 System/attachments/Diagramma Infrastruttura.png",
-    "99 System/attachments/Pasted image 20260308180034.png",
-    "99 System/attachments/Pasted image 20260308175952.png",
-    "99 System/attachments/Pasted image 20260308174557.png",
-    "99 System/attachments/DATA PLATFORM (DP)/LD23GPS-PA7665-001-DataPlatform_v01_03_pdf_preview.png",
-    "99 System/attachments/Pasted image 20260304125846.png",
-    "99 System/attachments/Pasted image 20260206112552.png",
-    "99 System/attachments/kepano-publish-workflow.webp",
     "30 WIKI/DATA PLATFORM/KESTRA/GitFlow.canvas"
   ]
 }

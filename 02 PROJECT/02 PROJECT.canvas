@@ -4,7 +4,7 @@
 		{"id":"8222651e3914565f","type":"file","file":"99 System/attachments/Diagramma Infrastruttura.png","x":-1000,"y":474,"width":509,"height":237},
 		{"id":"dd2eeeed5a5bb66a","type":"file","file":"02 PROJECT/Board Miro.md","x":120,"y":-994,"width":580,"height":385},
 		{"id":"ba42365f38526c01","type":"text","text":"![[LD23GPS-PA7665-002_Documento_Architettura_DataPlatform_v01_03.pdf]]","x":-40,"y":-489,"width":580,"height":763},
-		{"id":"6ae07e036e94ce85","type":"file","file":"02 PROJECT/Piano Generale Attibità.md","x":600,"y":-489,"width":580,"height":763},
+		{"id":"6ae07e036e94ce85","type":"file","file":"02 PROJECT/Piano Generale Attività.md","x":600,"y":-489,"width":580,"height":763},
 		{"id":"23e88c6560cf6cb6","type":"text","text":"![[LD23GPS-PA7665-001-DataPlatform_v01_03 1.pdf]]","x":-700,"y":-489,"width":620,"height":763}
 	],
 	"edges":[]
